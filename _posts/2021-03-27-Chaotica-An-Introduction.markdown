@@ -4,6 +4,7 @@ title:  "Chaotica: An Introduction"
 date:   2021-03-27 13:26:00 +0000
 categories: fractal chaotica
 ---
+
 What is it?
 Welcome Friends!  I'd like to introduce you to Chaotica.  
 This is a software that's still being developed.  It's similar to [Apophysis](https://sourceforge.net/projects/apophysis/) (or more recently [Apophysis 7x](https://sourceforge.net/projects/apophysis7x/)) but more geared at this time towards rendering.
@@ -29,8 +30,7 @@ using that version.
 
 What does it look like?
 
-[//]: # (![Chaotica](/assets/images/chaotica_2021-03-27_13-47-00.png) )
-<img src="/assets/images/chaotica_2021-03-27_13-47-00.png" alt="Chaotica" width="1700"></img>
+![Chaotica](/assets/images/chaotica_2021-03-27_13-47-00.png | https://blog.pugnacious.site/assets/images/chaotica_2021-03-27_13-47-00.png)
 
 When you first boot up the software, you'll be presented with a screen like so.
 
@@ -197,8 +197,6 @@ view looks good to you and the lines are smooth enough for you and go to the
 File menu.  Then hit save image. (it's a truly good idea to save the world
 while you're here.  And save often).
 
-
-
 What Now?
 Now you play until you have something you like, and enjoy.  If you like the
 software, kick some cash towards the dev so they can keep working on the
@@ -208,12 +206,12 @@ Next time, we'll cover more advanced editing, how to use the other menus and
 editors and creating a basic fractal.  I'll leave you with a few things that
 Chaotica can render for your viewing pleasure.
 
-https://www.deviantart.com/monkeyshack/art/Golden-Rings-847960629
-https://www.deviantart.com/monkeyshack/art/Origin-of-Life-845458767
-https://www.deviantart.com/monkeyshack/art/Stuck-In-A-Chessboard-847813508In
+<https://www.deviantart.com/monkeyshack/art/Golden-Rings-847960629>
+<https://www.deviantart.com/monkeyshack/art/Origin-of-Life-845458767>
+<https://www.deviantart.com/monkeyshack/art/Stuck-In-A-Chessboard-847813508In>
 part 2, we will cover the world and palette editors and the basics of using
 them.
 
- 1. This Tutorial
- #2. Chaotica: Edit the World [/chaotica-edit-the-world/]
- #3. Chaotica: Linear Latitude [/chaotica-linear-latitude/]
+1.  This Tutorial
+    \#2. Chaotica: Edit the World [/chaotica-edit-the-world/]
+    \#3. Chaotica: Linear Latitude [/chaotica-linear-latitude/]
