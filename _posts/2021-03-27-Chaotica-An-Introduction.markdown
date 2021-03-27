@@ -206,9 +206,12 @@ Next time, we'll cover more advanced editing, how to use the other menus and
 editors and creating a basic fractal.  I'll leave you with a few things that
 Chaotica can render for your viewing pleasure.
 
-<https://www.deviantart.com/monkeyshack/art/Golden-Rings-847960629>
+[![Golden Rings - By Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de0uqlx-27ff5d03-c93c-48cc-9e96-06518ddacdf5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZTB1cWx4LTI3ZmY1ZDAzLWM5M2MtNDhjYy05ZTk2LTA2NTE4ZGRhY2RmNS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.aDcP7AxelTqO8UB70Xa0fJPqN_fumxDTEV0GTv3jpQc)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de0uqlx-27ff5d03-c93c-48cc-9e96-06518ddacdf5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZTB1cWx4LTI3ZmY1ZDAzLWM5M2MtNDhjYy05ZTk2LTA2NTE4ZGRhY2RmNS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.aDcP7AxelTqO8UB70Xa0fJPqN_fumxDTEV0GTv3jpQc)
+
 <https://www.deviantart.com/monkeyshack/art/Origin-of-Life-845458767>
+
 <https://www.deviantart.com/monkeyshack/art/Stuck-In-A-Chessboard-847813508In>
+
 part 2, we will cover the world and palette editors and the basics of using
 them.
 
