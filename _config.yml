@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   namely the administrator, though other individuals may occasionally
   author information here.  It should be taken as opinion of the author.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.pugnacious.site" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: ThePugnacious
 #github_username:  jekyll
 
