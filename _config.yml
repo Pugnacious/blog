@@ -55,3 +55,4 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 port: 8080
+host: pugblog
