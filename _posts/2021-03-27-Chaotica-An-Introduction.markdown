@@ -30,7 +30,7 @@ using that version.
 What does it look like?
 
 [//]: # (![Chaotica](/assets/images/chaotica_2021-03-27_13-47-00.png) )
-<img src="/assets/images/chaotica_2021-03-27_13-47-00.png" alt="Chaotica" width=75%></img>
+<img src="/assets/images/chaotica_2021-03-27_13-47-00.png" alt="Chaotica" width="1700"></img>
 
 When you first boot up the software, you'll be presented with a screen like so.
 
