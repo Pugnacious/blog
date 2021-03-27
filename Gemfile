@@ -12,7 +12,7 @@ gem "jekyll", "~> 4.2.0"
 gem "minima", "~> 2.5"
 gem "minimal-mistakes-jekyll"
 gem 'jekyll-theme-hacker', '~> 0.1.2'
-gem "jekyll-theme-slate"
+gem 'jekyll-theme-slate', '~> 0.1.1'
 gem "jekyll-image-size"
 gem "jekyll-responsive-image"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
