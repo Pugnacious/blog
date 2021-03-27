@@ -8,7 +8,7 @@ What is it?
 Welcome Friends!  I'd like to introduce you to Chaotica.  
 This is a software that's still being developed.  It's similar to [Apophysis](https://sourceforge.net/projects/apophysis/) (or more recently [Apophysis 7x](https://sourceforge.net/projects/apophysis7x/)) but more geared at this time towards rendering.
 
-[Chaotica:](https://chaoticafractals.com/)
+[Chaotica: https://chaoticafractals.com/](https://chaoticafractals.com/)
 
 Chaotica has a free version, but if one wants to render in high resolution or
 for monetary gain, one must buy a license.  I'm going to go out on a limb and
@@ -29,6 +29,7 @@ using that version.
 
 What does it look like?
 
+![Chaotica](/allets/images/chaotica_2021-03-27_13-47-00.png)
 
 When you first boot up the software, you'll be presented with a screen like so.
 
