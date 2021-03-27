@@ -30,7 +30,7 @@ using that version.
 
 What does it look like?
 
-{% imagesize /assets/images/chaotica_2021-03-27_13-47-00.png alt="Chaotica" %}
+{% imagesize /assets/images/chaotica_2021-03-27_13-47-00.png:props alt="Chaotica" %}
 
 When you first boot up the software, you'll be presented with a screen like so.
 
