@@ -5,10 +5,10 @@ date:   2021-03-27 13:26:00 +0000
 categories: fractal chaotica
 ---
 What is it?
-Welcome Friends!  I'd like to introduce you to Chaotica.  This is a software that's still being developed.  
-It's similar to [Apophysis](https://sourceforge.net/projects/apophysis/) (or more recently [Apophysis 7x](https://sourceforge.net/projects/apophysis7x/)) but more geared at this time towards rendering.
+Welcome Friends!  I'd like to introduce you to Chaotica.  
+This is a software that's still being developed.  It's similar to [Apophysis](https://sourceforge.net/projects/apophysis/) (or more recently [Apophysis 7x](https://sourceforge.net/projects/apophysis7x/)) but more geared at this time towards rendering.
 
-Chaotica: https://chaoticafractals.com/
+[Chaotica:](https://chaoticafractals.com/)
 
 Chaotica has a free version, but if one wants to render in high resolution or
 for monetary gain, one must buy a license.  I'm going to go out on a limb and
@@ -137,7 +137,7 @@ as an alpha.  The alpha controls the transparencies.  Definitely play with this
 to get a feel for how it changes the image.  Don't be afraid to hit the reset
 button.
 
-Background Color - This one is kinda obvious.  This is the RGB value of your
+Background Color - This one is kind of obvious.  This is the RGB value of your
 background.  The difference is that the scale is not 0 - 255 it's 0 - 1.
  Chaotica uses floating points instead of the standard scale so it can render in
 HDR.  It allows for some rather crazy settings and even negative brightness and
@@ -156,7 +156,7 @@ want more.  Here it comes.
 One option is to import a fractal from Apophysis.  In that software hit Edit -->
 Copy to copy your flame.  Then go to Chaotica, and hit Edit --> Paste XML from
 Clipboard.  That will pull the flame from apophysis and convert it to Chaotica.
- The formats are not interchangable at this time.  Currently there is no
+ The formats are not interchangeable at this time.  Currently there is no
 official way to go from Chaotica back to Apophysis.  If you want to get advanced
 and do xaos editing, it's suggested to start in Apophysis and render in
 Chaotica.
@@ -181,7 +181,7 @@ to things.  Again, keep in mind, you can undo  or even start over.
 
 Next hit the selectors button and repeat.
 
-Once you're at a happy place, tweak your image settings.  On mine, i'm going to
+Once you're at a happy place, tweak your image settings.  On mine, I'm going to
 tweak the gamma threshold, and color curves.
 
 Once you're happy with the result comes time to render.  Oh wait, with
@@ -192,7 +192,7 @@ you're playing with it.  If you look down at the bottom there's a status bar.
 that.  The quick and simple is, this thing has been rendering the image for you
 the whole time.  All you have to do is wait around a bit until the image in the
 view looks good to you and the lines are smooth enough for you and go to the
-File menu.  Then hit save image. (it's a truely good idea to save the world
+File menu.  Then hit save image. (it's a truly good idea to save the world
 while you're here.  And save often).
 
 
@@ -213,5 +213,5 @@ part 2, we will cover the world and palette editors and the basics of using
 them.
 
  1. This Tutorial
- 2. Chaotica: Edit the World [/chaotica-edit-the-world/]
- 3. Chaotica: Linear Latitude [/chaotica-linear-latitude/]
+ #2. Chaotica: Edit the World [/chaotica-edit-the-world/]
+ #3. Chaotica: Linear Latitude [/chaotica-linear-latitude/]
