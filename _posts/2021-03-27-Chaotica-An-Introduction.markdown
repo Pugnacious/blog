@@ -5,10 +5,8 @@ date:   2021-03-27 13:26:00 +0000
 categories: fractal chaotica
 ---
 What is it?
-Welcome Friends!  I'd like to introduce you to Chaotica.  This is a software
-that's still being developed.  It's similar to [Apophysis](https://sourceforge.net/projects/apophysis/) (or more recently Apophysis 7x
-[https://sourceforge.net/projects/apophysis7x/]) but more geared at this time
-towards rendering.
+Welcome Friends!  I'd like to introduce you to Chaotica.  This is a software that's still being developed.  
+It's similar to [Apophysis](https://sourceforge.net/projects/apophysis/) (or more recently [Apophysis 7x](https://sourceforge.net/projects/apophysis7x/)) but more geared at this time towards rendering.
 
 Chaotica: https://chaoticafractals.com/
 
