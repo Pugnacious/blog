@@ -94,8 +94,8 @@ You'll notice something if you look.  The sphere (blur) gets darker as it goes
 along.  This is due to the weights and how they interact.  When you add weights
 into the picture, the software combines the transforms in a pseudo-random way
 and the weights control how likely the transforms are to "trigger".  For more
-details about the math involved check the video here.  If you'd rather skip this
-and come back to it later, that's also fine.
+details about the math involved check the video [here][chaos-video].
+If you'd rather skip this and come back to it later, that's also fine.
 
 [Chaos Video][chaos-video]
 
