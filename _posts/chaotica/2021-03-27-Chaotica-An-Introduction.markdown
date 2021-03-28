@@ -197,23 +197,35 @@ started.  First, I should mention.  Save often.  You'll eventually thank me.
 
 Now, Generate a random world.  This will get you a starting point.
 
+[![Generated World](/assets/images/chaotica-introduction/chaotica_2021-03-28_11-42-16.jpg)](/assets/images/chaotica-introduction/chaotica_2021-03-28_11-42-16.jpg)
+
 Once you have something you like, click on it.  Feel free to adjust the min and
 max iterators values if you want more or less iterators to work with.  This will
 move it from the browser to the world.  Next, hit Palette under the random world
 generator to find a color you like.
+
+[![Adjusted Colors](/assets/images/chaotica-introduction/chaotica_2021-03-28_11-45-48.jpg)](/assets/images/chaotica-introduction/chaotica_2021-03-28_11-45-48.jpg)
 
 Click on it to get it into the window.  Next hit the transform button a few
 times until you see something you like. If you can't find anything that looks
 good, that's fine.  You can always go back or start over.  (Hint: CTRL + Z =
 undo when you hit it while the main window is in focus)
 
+[![Randomized Transforms](/assets/images/chaotica-introduction/chaotica_2021-03-28_11-49-23.jpg)](/assets/images/chaotica-introduction/chaotica_2021-03-28_11-49-23.jpg)
+
 Once you're happy with that part, Hit the shaders button and get some more depth
 to things.  Again, keep in mind, you can undo  or even start over.
 
+[![Randomized Shaders](/assets/images/chaotica-introduction/chaotica_2021-03-28_11-51-12.jpg)](/assets/images/chaotica-introduction/chaotica_2021-03-28_11-51-12.jpg)
+
 Next hit the selectors button and repeat.
+
+[![Randomized Selectors](/assets/images/chaotica-introduction/chaotica_2021-03-28_11-52-41.jpg)](/assets/images/chaotica-introduction/chaotica_2021-03-28_11-52-41.jpg)
 
 Once you're at a happy place, tweak your image settings.  On mine, I'm going to
 tweak the gamma threshold, and color curves.
+
+[![Image Tweaks](/assets/images/chaotica-introduction/chaotica_2021-03-28_11-53-52.png)](/assets/images/chaotica-introduction/chaotica_2021-03-28_11-53-52.png)
 
 Once you're happy with the result comes time to render.  Oh wait, with
 Apophysis, you have to wait a while for it to render to disk.  Well, with
@@ -225,6 +237,8 @@ the whole time.  All you have to do is wait around a bit until the image in the
 view looks good to you and the lines are smooth enough for you and go to the
 File menu.  Then hit save image. (it's a truly good idea to save the world
 while you're here.  And save often).
+
+[![Final Image](/assets/images/chaotica-introduction/tutorial1.png)](/assets/images/chaotica-introduction/tutorial1.png)
 
 ### What Now? ###
 Now you play until you have something you like, and enjoy.  If you like the
