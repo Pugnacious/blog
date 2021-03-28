@@ -6,9 +6,9 @@ categories: fractal chaotica
 
 What is it?
 Welcome Friends!  I'd like to introduce you to Chaotica.  
-This is a software that's still being developed.  It's similar to [Apophysis](https://sourceforge.net/projects/apophysis/) (or more recently [Apophysis 7x](https://sourceforge.net/projects/apophysis7x/)) but more geared at this time towards rendering.
+This is a software that's still being developed.  It's similar to [Apophysis][apophysis-link] (or more recently [Apophysis 7x][apophysis-7x-link]) but more geared at this time towards rendering.
 
-[Chaotica: https://chaoticafractals.com/](https://chaoticafractals.com/)
+[Chaotica: https://chaoticafractals.com/][chaotica-link]
 
 Chaotica has a free version, but if one wants to render in high resolution or
 for monetary gain, one must buy a license.  I'm going to go out on a limb and
@@ -217,3 +217,7 @@ them.
 1.  This Tutorial
 2. Chaotica: Edit the World
 3. Chaotica: Linear Latitude
+
+[apophysis-link]: https://sourceforge.net/projects/apophysis/
+[apophysis-7x-link]: https://sourceforge.net/projects/apophysis7x/
+[chaotica-link]: https://chaoticafractals.com/
