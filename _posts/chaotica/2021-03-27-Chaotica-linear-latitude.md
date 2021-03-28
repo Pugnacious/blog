@@ -9,8 +9,8 @@ author: "Pugnacious"
 Welcome to another guide on Chaotica.  If you haven't seen the other tutorials
 yet, here they are.
 
- 1. Chaotica: An Introduction [/chaotica-an-introduction/]
- 2. Chaotica: Edit the World [/chaotica-edit-the-world/]
+ 1. [Chaotica: An Introduction][tutorial1]
+ 2. [Chaotica: Edit the World][tutorial2]
  3. This tutorial.
 
 In the previous tutorials you've learned how to use the basics of Chaotica.  In
@@ -108,3 +108,7 @@ with a few examples of what I have created with this method.
 https://www.deviantart.com/monkeyshack/art/Cyberpunk-Chaos-846059471
 https://www.deviantart.com/monkeyshack/art/Hall-of-Infinite-Creation-847270653
 https://www.deviantart.com/monkeyshack/art/Hex-World-849231513
+
+[tutorial1]: https://blog.pugnacious.site/chaotica/introduction
+[tutorial2]: https://blog.pugnacious.site/chaotica/editor
+[tutorial3]: https://blog.pugnacious.site/chaotica/linear-tiles

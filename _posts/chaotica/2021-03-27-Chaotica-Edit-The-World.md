@@ -8,9 +8,9 @@ author: "Pugnacious"
 
 This is part two of a three part series.
 
- 1. ![Chaotica: An Introduction](2021-03-27-Chaotica-An-Introduction.markdown)
+ 1. [Chaotica: An Introduction][tutorial1]
  2. This tutorial.
- 3. Chaotica: Linear Latitude
+ 3. [Chaotica: Linear Latitude][tutorial2]
 
 In this tutorial, we're going to go over the special windows in Chaotica and
 what everything does.
@@ -172,3 +172,7 @@ inspiration for where to move the fractal next.
 
 For the next tutorial, I'll cover how to design a linear tile in Chaotica using
 the world editor.
+
+[tutorial1]: https://blog.pugnacious.site/chaotica/introduction
+[tutorial2]: https://blog.pugnacious.site/chaotica/editor
+[tutorial3]: https://blog.pugnacious.site/chaotica/linear-tiles
