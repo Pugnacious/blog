@@ -161,9 +161,13 @@ as an alpha.  The alpha controls the transparencies.  Definitely play with this
 to get a feel for how it changes the image.  Don't be afraid to hit the reset
 button.
 
-Background Color - This one is kind of obvious.  This is the RGB value of your
+#### Background Color ####
+
+[![Background Color](/assets/images/chaotica-introduction/chaotica_wLAVNAkTn3.png)](/assets/images/chaotica-introduction/chaotica_wLAVNAkTn3.png)
+
+This one is kind of obvious.  This is the RGB value of your
 background.  The difference is that the scale is not 0 - 255 it's 0 - 1.
- Chaotica uses floating points instead of the standard scale so it can render in
+Chaotica uses floating points instead of the standard scale so it can render in
 HDR.  It allows for some rather crazy settings and even negative brightness and
 negative saturation. That being said it's handy to remember 0 = black, 1 = full
 color.  You can select the background to be applied before the curves if you
