@@ -105,7 +105,7 @@ wonders.
 At this point though, where you take the fractal is up to you.  I'll leave you
 with a few examples of what I have created with this method.
 
-https://www.deviantart.com/monkeyshack/art/Cyberpunk-Chaos-846059471
+[![Cyberpunk-Chaos - by Monkeyshack (me)](https://www.deviantart.com/monkeyshack/art/Cyberpunk-Chaos-846059471)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/ddzpznz-7d8b956f-7c49-4b68-9b99-f2211ddf2b28.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZHpwem56LTdkOGI5NTZmLTdjNDktNGI2OC05Yjk5LWYyMjExZGRmMmIyOC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.XJI3XGLZxommfWciOxB_suJOqTWsokCHlGAQszIXNF0)
 https://www.deviantart.com/monkeyshack/art/Hall-of-Infinite-Creation-847270653
 https://www.deviantart.com/monkeyshack/art/Hex-World-849231513
 
