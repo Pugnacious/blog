@@ -2,6 +2,7 @@
 layout: post
 title:  "Chaotica: Edit the World"
 categories: fractal chaotica
+permalink: "/chaotica/editor"
 ---
 
 This is part two of a three part series.
@@ -65,10 +66,10 @@ will add a transform in and allow you to select what variation you pick.
 For this example, I'm going to create a simple blur.  Don't worry if yours is a
 different color.  It's random when you start and you can change it later.
 
-Next, i'm going to add another iterator and add a transform to it.  This one,
-i'm going to leave as linear.
+Next, I'm going to add another iterator and add a transform to it.  This one,
+I'm going to leave as linear.
 
-Next, i'm going to go to the pre affine for this iterator and use the Y offset
+Next, I'm going to go to the pre affine for this iterator and use the Y offset
 to move the transform by 2.  This will take the blur from iterator 1 and "move"
 it.  This isn't a true move though.  What's happening is, it's triggering two
 iterators and they sort of combine.
@@ -93,10 +94,10 @@ details about the math involved check the video here.  If you'd rather skip this
 and come back to it later, that's also fine.
 
 The simplest explanation is, raising the weight on the linear transform will
-make the "line" brighter.  In this example, i'm going to set the base weight to
+make the "line" brighter.  In this example, I'm going to set the base weight to
 6 on the linear iterator.
 
-Next, I want the spheres to get smaller as they "move" so i'm going to change
+Next, I want the spheres to get smaller as they "move" so I'm going to change
 the length of the x and y axis on the linear transform This will make it get
 smaller as it goes.  Every time the iterator triggers, it performs the same
 action, so each iteration is smaller.  I'm going to go into the Pre Affine for
@@ -130,7 +131,7 @@ Linear - Palette Location 0.5, Blend speed 0.2, Opacity 1
 
 That displays as the following.
 
-Next, i'm going to hit Window and open the Palette Editor or you can use the
+Next, I'm going to hit Window and open the Palette Editor or you can use the
 hotkey of Ctrl + P.
 
 At the bottom is a preview.  The other curves are Hue, Saturation and Value.
@@ -145,7 +146,7 @@ Now, I want my top orb to be the original color and the rest to follow the
 curve, so I'm going to go back to my Blur iterator, and change the blend speed
 to 1.  That will prevent the other transform from blending with it.
 
-Next, i'm going to add in a camera transform.  So, i'll go to the world editor,
+Next, I'm going to add in a camera transform.  So, I'll go to the world editor,
 and hit the Toggle camera transform button.  This will unlock the camera
 transform.  By default, this already has a transform added to it.  It will be
 linear.
@@ -157,7 +158,7 @@ others.  Having multiples available enables you to have a chain of transforms
 that execute after all the others process and the ability to have multiples
 allows you to go a bit crazy with how they look at the end.  I'm not getting
 into this during this tutorial, but I'll keep it open for a future one.
-Now, i'm going to change the linear to swirl3.  This transform has variables.
+Now, I'm going to change the linear to swirl3.  This transform has variables.
  I'm going to set the first one to 0.25.  This is how much of the transform to
 apply.  The variable(s) will show up under the value.  This one has a
 swirl3_shift variable and I'm going to set mine to 1.35 to get a nice twist on

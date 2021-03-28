@@ -2,6 +2,7 @@
 layout: post
 title:  "Chaotica: Linear Latitude"
 categories: fractal chaotica
+permalink: "/chaotica/linear-tiles"
 ---
 
 Welcome to another guide on Chaotica.  If you haven't seen the other tutorials
@@ -29,7 +30,7 @@ This is what the main window will look like now.
 Now we're going to setup a basic linear tile.  A linear transform "moves" the
 whole in a direction from the origin.  That's not exactly what happens but it's
 a simple enough explanation to get an idea of how it interacts.  I'm going to
-create another iterator and add a linear transform to it.  Then i'm going to go
+create another iterator and add a linear transform to it.  Then I'm going to go
 to the pre affine and offset it by 1.0 in the x axis.
 
 This is the editor window now, and the main window so you can see the change.
@@ -56,7 +57,7 @@ iterator back up one, and create a fourth for the other cardinal direction.
 
 Now, notice how the center is bright and the rest are dark.  That's normal and
 can be adjusted a bit using weights.  You can raise the base weight of the
-linear iterators to increase the brightness.  However, there's a lot of emtpy
+linear iterators to increase the brightness.  However, there's a lot of empty
 space in there.  Lets add some cylinders.
 
 Before you start though, I'm going to recommend you go back through and name
@@ -76,7 +77,7 @@ thing.  Then I'll offset the post-affine -0.5 so that it falls into the space
 between the squares.  I find that doing this gives a better look to the
 cylinders.
 
-Next, i'm going to offset the post-affine for this cylinder in the y axis by 0.5
+Next, I'm going to offset the post-affine for this cylinder in the y axis by 0.5
  This moves the bright spot to a diagonal away from the square.
 
 That's looking better.  Now we need a horizontal cylinder.  Notice though that
@@ -85,7 +86,7 @@ cool to me.  As you build this structure, notice how the cylinders change to
 reflect the overall image as a whole.
 
 Next I'm going to create a new cylinder the exact same way with the value set to
-0.25 like before.  This time however, i'm going to rotate it 90 degrees on the
+0.25 like before.  This time however, I'm going to rotate it 90 degrees on the
 post-affine and offset the y-axis on the post-affine by 0.5.
 
 This gives a bit of a crosshatch look, which I tend to enjoy.  At this point, I
