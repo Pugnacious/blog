@@ -16,7 +16,7 @@ for monetary gain, one must buy a license.  I'm going to go out on a limb and
 guess that if you're here, reading this, than you likely know at least something
 about what it is and does.
 
-Since I started trying to learn chaotica, I've found the biggest hurdle is
+Since I started trying to learn Chaotica, I've found the biggest hurdle is
 figuring out what feature does what, and how it's similar or different to
 Apophysis.  I got my start learning Apophysis and I'll be the first to admit
 that I'm still learning.  There's a lot to learn when it comes to this subject
@@ -216,5 +216,5 @@ part 2, we will cover the world and palette editors and the basics of using
 them.
 
 1.  This Tutorial
-    \#2. Chaotica: Edit the World [/chaotica-edit-the-world/]
-    \#3. Chaotica: Linear Latitude [/chaotica-linear-latitude/]
+2. Chaotica: Edit the World
+3. Chaotica: Linear Latitude
