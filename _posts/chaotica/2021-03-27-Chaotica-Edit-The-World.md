@@ -187,8 +187,8 @@ to 1.  That will prevent the other transform from blending with it.
 Next, I'm going to add in a camera transform.  So, I'll go to the world editor,
 and hit the Toggle camera transform button.  This will unlock the camera
 transform.  By default, this already has a transform added to it.  It will be
-linear.  In this instance I'm also going to rotate the linear pre-affine so that
-the line of blurs rotates.  Don't be afraid to experiment.
+linear.  In this instance I'm going to change it to e-julia and I'm also going 
+to rotate the linear pre-affine so that the line of blurs rotates.  Don't be afraid to experiment.
 
 [![Camera Transform](/assets/images/chaotica-editor/chaotica_2021-03-28_18-05-03.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_18-05-03.png)
 
@@ -199,12 +199,6 @@ others.  Having multiples available enables you to have a chain of transforms
 that execute after all the others process and the ability to have multiples
 allows you to go a bit crazy with how they look at the end.  I'm not getting
 into this during this tutorial, but I'll keep it open for a future one.
-Now, I'm going to change the linear to swirl3.  This transform has variables.
-I'm going to set the first one to 0.25.  This is how much of the transform to
-apply.  The variable(s) will show up under the value.  This one has a
-swirl3_shift variable and I'm going to set mine to 1.35 to get a nice twist on
-everything.  Next, I'll play with the zoom controls to center the view.  This is
-how it ends up looking.
 
 You can do anything you like really.  Play around, have some fun, and don't
 forget that the randomization options are there.  Sometimes they can give you
