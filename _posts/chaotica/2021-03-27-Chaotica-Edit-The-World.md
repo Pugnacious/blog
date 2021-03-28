@@ -168,6 +168,8 @@ That displays as the following.
 Next, I'm going to hit Window and open the Palette Editor or you can use the
 hotkey of Ctrl + P.
 
+[![Palette Editor](/assets/images/chaotica-editor/chaotica_2021-03-28_18-00-32.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_18-00-32.png)
+
 At the bottom is a preview.  The other curves are Hue, Saturation and Value.
 
  * The Hue controls the "color" or "shade" at that point on the curve.
@@ -180,10 +182,15 @@ Now, I want my top orb to be the original color and the rest to follow the
 curve, so I'm going to go back to my Blur iterator, and change the blend speed
 to 1.  That will prevent the other transform from blending with it.
 
+[![Blending Tweak](/assets/images/chaotica-editor/chaotica_2021-03-28_18-01-48.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_18-01-48.png)
+
 Next, I'm going to add in a camera transform.  So, I'll go to the world editor,
 and hit the Toggle camera transform button.  This will unlock the camera
 transform.  By default, this already has a transform added to it.  It will be
-linear.
+linear.  In this instance I'm also going to rotate the linear pre-affine so that
+the line of blurs rotates.  Don't be afraid to experiment.
+
+[![Camera Transform](/assets/images/chaotica-editor/chaotica_2021-03-28_18-05-03.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_18-05-03.png)
 
 > Note:  You can have multiple post transforms on your camera transform in
 Chaotica.  A post transform, is a transform that's executed after the main one.
