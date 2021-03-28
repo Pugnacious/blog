@@ -173,6 +173,10 @@ inspiration for where to move the fractal next.
 For the next tutorial, I'll cover how to design a linear tile in Chaotica using
 the world editor.
 
+1. [Chaotica: An Introduction][tutorial1]
+2. This tutorial.
+3. [Chaotica: Linear Latitude][tutorial2]
+
 [tutorial1]: https://blog.pugnacious.site/chaotica/introduction
 [tutorial2]: https://blog.pugnacious.site/chaotica/editor
 [tutorial3]: https://blog.pugnacious.site/chaotica/linear-tiles
