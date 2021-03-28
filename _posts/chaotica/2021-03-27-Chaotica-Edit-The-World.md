@@ -41,7 +41,10 @@ it's handy to be able to filter things.
 Next, let me go into what iterators actually do.  When Chaotica renders a
 fractal, it takes the iterators into consideration.  Iterators are containers.
  They contain nodes of transforms, shaders and weights.  Each iterator has an
-equal chance to "trigger" by default.
+equal chance to "trigger" by default. You can change the weights of the
+iterators to make them "trigger" more or less often.  When the fractal renders,
+it travels through the iterators and jumps from iterator to iterator based on
+the weights creating a unique pattern.
 
 Next, let me cover the node list.  At the top is the camera.  If you use the
 button that says Toggle camera transform, it will open a new iterator.  This one
@@ -93,6 +96,8 @@ into the picture, the software combines the transforms in a pseudo-random way
 and the weights control how likely the transforms are to "trigger".  For more
 details about the math involved check the video here.  If you'd rather skip this
 and come back to it later, that's also fine.
+
+[Chaos Video][chaos-video]
 
 The simplest explanation is, raising the weight on the linear transform will
 make the "line" brighter.  In this example, I'm going to set the base weight to
@@ -180,3 +185,4 @@ the world editor.
 [tutorial1]: https://blog.pugnacious.site/chaotica/introduction
 [tutorial2]: https://blog.pugnacious.site/chaotica/editor
 [tutorial3]: https://blog.pugnacious.site/chaotica/linear-tiles
+[chaos-video]: https://youtu.be/kbKtFN71Lfs
