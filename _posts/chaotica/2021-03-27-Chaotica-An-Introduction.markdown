@@ -33,7 +33,7 @@ using that version.
 
 When you first boot up the software, you'll be presented with a screen like so.
 
-[![Chaotica](/assets/images/chaotica_2021-03-27_13-47-00.png)](/assets/images/chaotica_2021-03-27_13-47-00.png)
+[![Chaotica](/assets/images/chaotica-introduction/chaotica_pvDaDlYUGc.png)](/assets/images/chaotica-introduction/chaotica_pvDaDlYUGc.png)
 
 At first glance, this can seem a bit overwhelming.  Let me start by
 explaining what you're seeing.
@@ -48,6 +48,9 @@ The main window in the back is where your world will take shape.  You can safely
 close the parameter browser now and we can focus on the rest of the window.
 
 #### Random World Generator ####
+
+[![Random World Generator](/assets/images/chaotica-introduction/chaotica_JacS8a4kw1.png)](/assets/images/chaotica-introduction/chaotica_JacS8a4kw1.png)
+
 Since we're on that subject, let me explain that first.  The button, will
 generate a new set of random for you to play with.  The number next to it,
 conveniently labelled "number," will tell the software how many to give you.
@@ -83,6 +86,9 @@ Apophysis. It controls how the iterators interact with each other and how much
 they blend (this is an over-simplification, but we'll leave it for now).
 
 #### World Browser ####
+
+[![World Browser](/assets/images/chaotica-introduction/chaotica_ayRLwUdUnE.png)](/assets/images/chaotica-introduction/chaotica_ayRLwUdUnE.png)
+
 Next, we can look at the top left.  This is the world browser.  If you're used
 to Apophysis it's like the flame list on the left.  You can right click the box
 to rename your world, or add another world to the list for quick switching.  It
@@ -91,6 +97,9 @@ start, but this software is still being worked on, and we'll all just have to
 wait and see.
 
 #### Render Settings ####
+
+[![Render Settings](/assets/images/chaotica-introduction/chaotica_1ZGEBZitcR.png)](/assets/images/chaotica-introduction/chaotica_1ZGEBZitcR.png)
+
 This section will be likely covered in a future tutorial as it needs it's own to
 fully appreciate this.  This is your width and height settings for how big you
 want your render to be.  I suggest leaving these at default until you know more
@@ -100,17 +109,26 @@ For the record, it's almost pointless to go above AA level 4 (Anti-Aliasing).
  Doing so would increase the ram requirements astronomically.
 
 #### OpenCL Settings ####
+
+[![OpenCL Settings](/assets/images/chaotica-introduction/chaotica_MmbsOzS8r0.png)](/assets/images/chaotica-introduction/chaotica_MmbsOzS8r0.png)
+
 This selects the device used and has a few more options for rendering.  In order
 to use your device for rendering, you must check the "Use OpenCL" option.
 
 #### Imaging Settings ####
+
+[![Imaging Settings](/assets/images/chaotica-introduction/chaotica_R3DhFSKxvG.png)](/assets/images/chaotica-introduction/chaotica_R3DhFSKxvG.png)
+
 These settings control the various features of the active render.  These
 settings can be changed on the fly without needing to restart the render
 process.  They get saved when you save your world (I still love saying that...).
  Now, if you're familiar with Apophysis, some of these will be the same, others
 different or new altogether.
 
-#### Tone Mapping ####
+##### Tone Mapping #####
+
+[![Tone Mapping](/assets/images/chaotica-introduction/chaotica_QhU7dkRiJs.png)](/assets/images/chaotica-introduction/chaotica_QhU7dkRiJs.png)
+
 This controls the main settings.
 
 Brightness - How bright the image is.  It's a multiplier on density (how much
@@ -132,7 +150,10 @@ Gamma Threshold - Raising this value hides the less dense parts of your fractal.
 This can help to reduce noise or grainy areas.  This will have an example in a
 future tutorial.
 
-#### Response Curves ####
+##### Response Curves #####
+
+[![Response Curves](/assets/images/chaotica-introduction/chaotica_7EEFJZa1Fl.png)](/assets/images/chaotica-introduction/chaotica_7EEFJZa1Fl.png)
+
 These are nifty and resemble things you find in Photoshop or other image editing
 software.  There are five of them in Chaotica.  The overall curve controls the
 low, mid and high lights in the image.  There are three color channels, as well
