@@ -217,9 +217,11 @@ part 2, we will cover the world and palette editors and the basics of using
 them.
 
 1.  This Tutorial
-2. Chaotica: Edit the World
-3. Chaotica: Linear Latitude
+2. [Chaotica: Edit the World][tutorial2]
+3. [Chaotica: Linear Latitude][tutorial3]
 
 [apophysis-link]: https://sourceforge.net/projects/apophysis/
 [apophysis-7x-link]: https://sourceforge.net/projects/apophysis7x/
 [chaotica-link]: https://chaoticafractals.com/
+[tutorial2]: https://blog.pugnacious.site/chaotica/editor
+[tutorial3]: https://blog.pugnacious.site/chaotica/linear-tiles
