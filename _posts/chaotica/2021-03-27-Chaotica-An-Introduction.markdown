@@ -173,6 +173,8 @@ negative saturation. That being said it's handy to remember 0 = black, 1 = full
 color.  You can select the background to be applied before the curves if you
 wish.
 
+### Onwards! ###
+
 All that is awesome, but how do I make a fractal?
 OK, in this guide I'm going to cover the basics.  I'll have another guide
 shortly that explains how to deal with the more advanced techniques and use the
@@ -187,7 +189,8 @@ Clipboard.  That will pull the flame from apophysis and convert it to Chaotica.
  The formats are not interchangeable at this time.  Currently there is no
 official way to go from Chaotica back to Apophysis.  If you want to get advanced
 and do xaos editing, it's suggested to start in Apophysis and render in
-Chaotica.
+Chaotica of you're familiar with that method.  If you've never used apophysis
+before, well it's a learning curve either way so start wherever makes you happy.
 
 If however you want to create something purely in Chaotica, here's a way to get
 started.  First, I should mention.  Save often.  You'll eventually thank me.
