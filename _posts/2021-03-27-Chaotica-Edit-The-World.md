@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Chaotica: An Introduction"
-date:   2021-03-27 13:26:00 +0000
+title:  "Chaotica: Edit the World"
+date:   2021-03-27 13:27:00 +0000
 categories: fractal chaotica
 ---
 
