@@ -18,6 +18,8 @@ this tutorial, I'm going to show you how to create a basic linear tile.
 
 Start off with creating a new empty world.
 
+[IMAGEHERE]
+
 Next, open up your world editor.  A linear tile starts with a linear transforms.
  It doesn't really matter which order you put them in, but for the sake of the
 tutorial, I'll start with a square so you can see what happens as we go along.
@@ -28,6 +30,8 @@ create a new transform.  Make this a square transform and set the value on it to
 
 This is what the main window will look like now.
 
+[IMAGEHERE]
+
 Now we're going to setup a basic linear tile.  A linear transform "moves" the
 whole in a direction from the origin.  That's not exactly what happens but it's
 a simple enough explanation to get an idea of how it interacts.  I'm going to
@@ -36,12 +40,16 @@ to the pre affine and offset it by 1.0 in the x axis.
 
 This is the editor window now, and the main window so you can see the change.
 
+[IMAGEHERE]
+
 As you can see the initial square is now copied to the right.  I'm going to
 create another linear transform, and copy it up by 1, or 1.0 offset in the y
 axis.
 
 Note: in the current version of chaotica 2, a 1.0 offset actually moves it down
 instead of up.  The values are inverted.
+
+[IMAGEHERE]
 
 Now the whole thing has been tiled both right and down.  You could add another
 two linears in the other two cardinal directions, but because of the way it
@@ -53,8 +61,12 @@ Now, we have a nice field of squares.  Yay!  this is a basic linear tile.
  However, I'm sure you came to this tutorial for more than just that.  Lets make
 it look a lot more fun.
 
+[IMAGEHERE]
+
 For the sake of simplicity, I'm going to go ahead and move the third linear
 iterator back up one, and create a fourth for the other cardinal direction.
+
+[IMAGEHERE]
 
 Now, notice how the center is bright and the rest are dark.  That's normal and
 can be adjusted a bit using weights.  You can raise the base weight of the
@@ -69,7 +81,9 @@ a series of basic tiles and transforms that I can go back to later and tweak
 from that point.
 
 To start off with, I'm going to create a cylinder2 transform in a new iterator.
- I'll set the value to 0.25.
+I'll set the value to 0.25.
+
+[IMAGEHERE]
 
 Now, notice how the cylinder overlaps with the squares.  We're going to fix
 that.  First, I'm going to change the x and y axes in the pre-affine to 0.5
@@ -78,17 +92,25 @@ thing.  Then I'll offset the post-affine -0.5 so that it falls into the space
 between the squares.  I find that doing this gives a better look to the
 cylinders.
 
+[IMAGEHERE]
+
 Next, I'm going to offset the post-affine for this cylinder in the y axis by 0.5
  This moves the bright spot to a diagonal away from the square.
+
+[IMAGEHERE]
 
 That's looking better.  Now we need a horizontal cylinder.  Notice though that
 the cylinder is made up of smaller copies of the entire image.  It's so freaking
 cool to me.  As you build this structure, notice how the cylinders change to
 reflect the overall image as a whole.
 
+[IMAGEHERE]
+
 Next I'm going to create a new cylinder the exact same way with the value set to
 0.25 like before.  This time however, I'm going to rotate it 90 degrees on the
 post-affine and offset the y-axis on the post-affine by 0.5.
+
+[IMAGEHERE]
 
 This gives a bit of a crosshatch look, which I tend to enjoy.  At this point, I
 suggest saving the world so you can come back here later on.  Now, from here
@@ -98,6 +120,8 @@ available.  You can also play with the base weights of the linear transforms to
 get a brighter pattern.  Finally, you could play with the camera transform.
  Unpolar, tanh, and foci work well with a linear tile though foci and unpolar
 take a bit of tweaking to make it work.
+
+[IMAGEHERE]
 
 Hint: For foci or unpolar resizing the affine by variations of pi/3 tend to work
 wonders.
