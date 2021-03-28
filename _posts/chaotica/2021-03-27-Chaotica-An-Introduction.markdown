@@ -10,7 +10,7 @@ author: "Pugnacious"
 Welcome Friends!  I'd like to introduce you to Chaotica.  
 This is a software that's still being developed.  It's similar to [Apophysis][apophysis-link] (or more recently [Apophysis 7x][apophysis-7x-link]) but more geared at this time towards rendering.
 
-[Chaotica: https://chaoticafractals.com/][chaotica-link]
+Chaotica: [https://chaoticafractals.com/][chaotica-link]
 
 Chaotica has a free version, but if one wants to render in high resolution or
 for monetary gain, one must buy a license.  I'm going to go out on a limb and
@@ -25,7 +25,7 @@ and we're all taking our own path to our own goal.  There is no one path and no
 one goal.
 
 ### Where to get it? ###
-First and foremost, snag a copy off the site. I suggest snagging the beta of
+First and foremost, snag a copy off the [site][chaotica-link]. I suggest snagging the beta of
 Chaotica 2 off the forum.  It's a bit more feature filled and this guide will be
 using that version.
 
