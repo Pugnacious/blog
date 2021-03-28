@@ -10,7 +10,7 @@ This is part two of a three part series.
 
  1. [Chaotica: An Introduction][tutorial1]
  2. This tutorial.
- 3. [Chaotica: Linear Latitude][tutorial2]
+ 3. [Chaotica: Linear Latitude][tutorial3]
 
 In this tutorial, we're going to go over the special windows in Chaotica and
 what everything does.
@@ -187,7 +187,7 @@ to 1.  That will prevent the other transform from blending with it.
 Next, I'm going to add in a camera transform.  So, I'll go to the world editor,
 and hit the Toggle camera transform button.  This will unlock the camera
 transform.  By default, this already has a transform added to it.  It will be
-linear.  In this instance I'm going to change it to e-julia and I'm also going 
+linear.  In this instance I'm going to change it to e-julia and I'm also going
 to rotate the linear pre-affine so that the line of blurs rotates.  Don't be afraid to experiment.
 
 [![Camera Transform](/assets/images/chaotica-editor/chaotica_2021-03-28_18-05-03.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_18-05-03.png)
