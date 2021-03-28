@@ -3,6 +3,7 @@ layout: post
 title:  "Chaotica: An Introduction"
 categories: fractal chaotica
 permalink: "/chaotica/introduction"
+author: "Pugnacious"
 ---
 
 What is it?

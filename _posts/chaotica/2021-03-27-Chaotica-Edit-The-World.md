@@ -3,6 +3,7 @@ layout: post
 title:  "Chaotica: Edit the World"
 categories: fractal chaotica
 permalink: "/chaotica/editor"
+author: "Pugnacious"
 ---
 
 This is part two of a three part series.

@@ -3,6 +3,7 @@ layout: post
 title:  "Chaotica: Linear Latitude"
 categories: fractal chaotica
 permalink: "/chaotica/linear-tiles"
+author: "Pugnacious"
 ---
 
 Welcome to another guide on Chaotica.  If you haven't seen the other tutorials
