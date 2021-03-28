@@ -7,7 +7,7 @@ categories: fractal chaotica
 
 This is part two of a three part series.
 
- 1. ![Chaotica: An Introduction](_posts/2021-03-27-Chaotica-An-Introduction.markdown)
+ 1. ![Chaotica: An Introduction](2021-03-27-Chaotica-An-Introduction.markdown)
  2. This tutorial.
  3. Chaotica: Linear Latitude
 
