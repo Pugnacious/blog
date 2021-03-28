@@ -6,7 +6,7 @@ permalink: "/chaotica/introduction"
 author: "Pugnacious"
 ---
 
-What is it?
+### What is it? ###
 Welcome Friends!  I'd like to introduce you to Chaotica.  
 This is a software that's still being developed.  It's similar to [Apophysis][apophysis-link] (or more recently [Apophysis 7x][apophysis-7x-link]) but more geared at this time towards rendering.
 
@@ -24,12 +24,12 @@ that I'm still learning.  There's a lot to learn when it comes to this subject
 and we're all taking our own path to our own goal.  There is no one path and no
 one goal.
 
-Where to get it?
+### Where to get it? ###
 First and foremost, snag a copy off the site. I suggest snagging the beta of
 Chaotica 2 off the forum.  It's a bit more feature filled and this guide will be
 using that version.
 
-What does it look like?
+### What does it look like? ###
 
 When you first boot up the software, you'll be presented with a screen like so.
 
@@ -47,7 +47,7 @@ or click that button on the left that says "New random worlds".
 The main window in the back is where your world will take shape.  You can safely
 close the parameter browser now and we can focus on the rest of the window.
 
-Random World Generator
+#### Random World Generator ####
 Since we're on that subject, let me explain that first.  The button, will
 generate a new set of random for you to play with.  The number next to it,
 conveniently labelled "number," will tell the software how many to give you.
@@ -82,7 +82,7 @@ Selectors will randomize the weights of the iterators.  Think Xaos from
 Apophysis. It controls how the iterators interact with each other and how much
 they blend (this is an over-simplification, but we'll leave it for now).
 
-World Browser
+#### World Browser ####
 Next, we can look at the top left.  This is the world browser.  If you're used
 to Apophysis it's like the flame list on the left.  You can right click the box
 to rename your world, or add another world to the list for quick switching.  It
@@ -90,7 +90,7 @@ would be amazing, if this list could remember it's settings on application
 start, but this software is still being worked on, and we'll all just have to
 wait and see.
 
-Render Settings
+#### Render Settings ####
 This section will be likely covered in a future tutorial as it needs it's own to
 fully appreciate this.  This is your width and height settings for how big you
 want your render to be.  I suggest leaving these at default until you know more
@@ -99,18 +99,18 @@ about how they function.  Though if you're brave, go nuts.
 For the record, it's almost pointless to go above AA level 4 (Anti-Aliasing).
  Doing so would increase the ram requirements astronomically.
 
-OpenCL Settings
+#### OpenCL Settings ####
 This selects the device used and has a few more options for rendering.  In order
 to use your device for rendering, you must check the "Use OpenCL" option.
 
-Imaging Settings
+#### Imaging Settings ####
 These settings control the various features of the active render.  These
 settings can be changed on the fly without needing to restart the render
 process.  They get saved when you save your world (I still love saying that...).
  Now, if you're familiar with Apophysis, some of these will be the same, others
 different or new altogether.
 
-Tone Mapping
+#### Tone Mapping ####
 This controls the main settings.
 
 Brightness - How bright the image is.  It's a multiplier on density (how much
@@ -132,7 +132,7 @@ Gamma Threshold - Raising this value hides the less dense parts of your fractal.
 This can help to reduce noise or grainy areas.  This will have an example in a
 future tutorial.
 
-Response Curves
+#### Response Curves ####
 These are nifty and resemble things you find in Photoshop or other image editing
 software.  There are five of them in Chaotica.  The overall curve controls the
 low, mid and high lights in the image.  There are three color channels, as well
@@ -198,7 +198,7 @@ view looks good to you and the lines are smooth enough for you and go to the
 File menu.  Then hit save image. (it's a truly good idea to save the world
 while you're here.  And save often).
 
-What Now?
+### What Now? ###
 Now you play until you have something you like, and enjoy.  If you like the
 software, kick some cash towards the dev so they can keep working on the
 software.
