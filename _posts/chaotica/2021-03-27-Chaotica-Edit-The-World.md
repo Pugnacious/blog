@@ -18,8 +18,12 @@ what everything does.
 First, let's setup the basics.  Open up the software and create a new empty
 world from the file menu or by using the hotkey of Ctrl + N.
 
+[![Chaotica Window](/assets/images/chaotica-editor/chaotica_2021-03-28_14-03-17.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_14-03-17.png)
+
 Now, the first thing we're going to cover is the world editor.  Open up the
 world editor from the Window menu or use the hotkey Ctrl + E.
+
+[![Chaotica Window](/assets/images/chaotica-editor/chaotica_2021-03-28_14-05-42.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_14-05-42.png)
 
 This editor is the screen that will help you change how the iterators interact,
 and it looks like this.
@@ -31,8 +35,10 @@ is the world nodes and node editor.
 First, create a new iterator from the top menu or by using the hotkey of Ctrl +
 I.  It will look like this.
 
+[![Chaotica Window](/assets/images/chaotica-editor/screen_1402.png)](/assets/images/chaotica-editor/screen_1402.png)
+
 Now, you will see several things.  First, let's focus on the node types buttons.
- These are the three buttons just above the name and type list.  The first,
+These are the three buttons just above the name and type list.  The first,
 shows/hides the transform nodes.  The second shows/hides the shader nodes.  The
 last shows/hides the weight nodes.  These buttons merely filter what you're
 seeing in the node list below them.  Sometimes you will get many iterators and
@@ -40,7 +46,7 @@ it's handy to be able to filter things.
 
 Next, let me go into what iterators actually do.  When Chaotica renders a
 fractal, it takes the iterators into consideration.  Iterators are containers.
- They contain nodes of transforms, shaders and weights.  Each iterator has an
+They contain nodes of transforms, shaders and weights.  Each iterator has an
 equal chance to "trigger" by default. You can change the weights of the
 iterators to make them "trigger" more or less often.  When the fractal renders,
 it travels through the iterators and jumps from iterator to iterator based on
@@ -50,7 +56,7 @@ Next, let me cover the node list.  At the top is the camera.  If you use the
 button that says Toggle camera transform, it will open a new iterator.  This one
 is unique.  It is outside the normal order and will be applied after all the
 other iterators.  It is unaffected by the randomize transform button as well.
- This allows you to create a fractal, and then perform final tweaks to it that
+This allows you to create a fractal, and then perform final tweaks to it that
 don't get changed by the rest of the iterators.  This will appear under the
 camera node.
 
@@ -61,7 +67,7 @@ pre/post transforms.
 
 Let me start with the pre affine.  This is the angle you see on the left hand
 pane.  This defines the x and y axis, as well as the origin of the transform.
- The x and y axis length will also define the "size" of the transform.
+The x and y axis length will also define the "size" of the transform.
 
 Next click on the transforms node.  Nothing is there except a name.  You have to
 add a transform to it, so hit New Transform or the hotkey of Ctrl + T.  This
@@ -165,7 +171,7 @@ that execute after all the others process and the ability to have multiples
 allows you to go a bit crazy with how they look at the end.  I'm not getting
 into this during this tutorial, but I'll keep it open for a future one.
 Now, I'm going to change the linear to swirl3.  This transform has variables.
- I'm going to set the first one to 0.25.  This is how much of the transform to
+I'm going to set the first one to 0.25.  This is how much of the transform to
 apply.  The variable(s) will show up under the value.  This one has a
 swirl3_shift variable and I'm going to set mine to 1.35 to get a nice twist on
 everything.  Next, I'll play with the zoom controls to center the view.  This is
