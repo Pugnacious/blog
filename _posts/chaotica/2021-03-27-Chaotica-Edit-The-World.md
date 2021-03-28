@@ -75,16 +75,25 @@ Next click on the transforms node.  Nothing is there except a name.  You have to
 add a transform to it, so hit New Transform or the hotkey of Ctrl + T.  This
 will add a transform in and allow you to select what variation you pick.
 
+[![Transform Node](/assets/images/chaotica-editor/screen_1404.png)](/assets/images/chaotica-editor/screen_1404.png)
+
 For this example, I'm going to create a simple blur.  Don't worry if yours is a
-different color.  It's random when you start and you can change it later.
+different color.  It's random when you start and you can change it later.  If
+your blur is blank, just click the palette button to give it a color.
+
+[![Blur Creation](/assets/images/chaotica-editor/chaotica_2021-03-28_17-31-33.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_17-31-33.png)
 
 Next, I'm going to add another iterator and add a transform to it.  This one,
 I'm going to leave as linear.
+
+[![Linear Creation](/assets/images/chaotica-editor/chaotica_2021-03-28_17-32-57.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_17-32-57.png)
 
 Next, I'm going to go to the pre affine for this iterator and use the Y offset
 to move the transform by 2.  This will take the blur from iterator 1 and "move"
 it.  This isn't a true move though.  What's happening is, it's triggering two
 iterators and they sort of combine.
+
+[![Tile Creation](/assets/images/chaotica-editor/chaotica_2021-03-28_17-41-00.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_17-41-00.png)
 
 In order to see this a bit better, lets zoom out a bit. I'm going to use the
 camera controls on the main window's preview pane.
@@ -96,7 +105,7 @@ Alt + right click and drag is zoom.  Drag up to zoom in, and down to zoom out.
 Alt + left click + right click and drag is rotate. Drag right to rotate
 counter-clockwise and left to rotate clockwise.
 
-
+[![Zoomed Tile](/assets/images/chaotica-editor/screen_1406.png)](/assets/images/chaotica-editor/screen_1406.png)
 
 You'll notice something if you look.  The sphere (blur) gets darker as it goes
 along.  This is due to the weights and how they interact.  When you add weights
@@ -111,19 +120,28 @@ The simplest explanation is, raising the weight on the linear transform will
 make the "line" brighter.  In this example, I'm going to set the base weight to
 6 on the linear iterator.
 
+[![Weight Edit](/assets/images/chaotica-editor/screen_1407.png)](/assets/images/chaotica-editor/screen_1407.png)
+
 Next, I want the spheres to get smaller as they "move" so I'm going to change
 the length of the x and y axis on the linear transform This will make it get
 smaller as it goes.  Every time the iterator triggers, it performs the same
 action, so each iteration is smaller.  I'm going to go into the Pre Affine for
-iterator 2 and change the x and y axis length to 0.9.
+iterator 2 and change the x and y axis length to 0.9.  I'm also going to rotate
+it so you can see more of the line, as well as zoom out a bit more.
+
+[![Edit linear](/assets/images/chaotica-editor/screen_1408.png)](/assets/images/chaotica-editor/screen_1408.png)
 
 Next, I'm going to name my iterators.  This will keep me from having to hunt for
 what transform I'm working with in the future.   It's a super handy practice and
 I probably should do this more often.  I'm going to name iterator 1 to Blur and
 iterator 2 to Linear.  I just click on the node, change the name and it's done.
 
+[![Named Iterators](/assets/images/chaotica-editor/screen_1409.png)](/assets/images/chaotica-editor/screen_1409.png)
+
 Now it's time to play with the shaders.  If you click on the shader node for
 Blur, you'll see this.
+
+[![Shader Node](/assets/images/chaotica-editor/screen_1410.png)](/assets/images/chaotica-editor/screen_1410.png)
 
 I'll start with opacity.  It's the easiest to explain.  This determines how
 visible a transform is.  You can set it to 0 to turn the transform shader to
@@ -144,6 +162,8 @@ Blur - Palette Location 0, Blend speed 0.2, Opacity 1
 Linear - Palette Location 0.5, Blend speed 0.2, Opacity 1
 
 That displays as the following.
+
+[![Shader Edit](/assets/images/chaotica-editor/chaotica_2021-03-28_17-50-18.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_17-50-18.png)
 
 Next, I'm going to hit Window and open the Palette Editor or you can use the
 hotkey of Ctrl + P.
