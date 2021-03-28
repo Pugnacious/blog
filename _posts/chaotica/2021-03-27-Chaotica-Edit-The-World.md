@@ -35,7 +35,7 @@ is the world nodes and node editor.
 First, create a new iterator from the top menu or by using the hotkey of Ctrl +
 I.  It will look like this.
 
-[![Chaotica Window](/assets/images/chaotica-editor/screen_1402.png)](/assets/images/chaotica-editor/screen_1402.png)
+[![World Nodes](/assets/images/chaotica-editor/screen_1402.png)](/assets/images/chaotica-editor/screen_1402.png)
 
 Now, you will see several things.  First, let's focus on the node types buttons.
 These are the three buttons just above the name and type list.  The first,
@@ -59,6 +59,8 @@ other iterators.  It is unaffected by the randomize transform button as well.
 This allows you to create a fractal, and then perform final tweaks to it that
 don't get changed by the rest of the iterators.  This will appear under the
 camera node.
+
+[![Node View](/assets/images/chaotica-editor/chaotica_2021-03-28_17-15-45)](/assets/images/chaotica-editor/chaotica_2021-03-28_17-15-45)
 
 Each node has various stats in the node editor.  You can configure lots of
 properties this way.  If you click on the transform node for an iterator, it
