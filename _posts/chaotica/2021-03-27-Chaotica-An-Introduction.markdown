@@ -125,7 +125,7 @@ process.  They get saved when you save your world (I still love saying that...).
  Now, if you're familiar with Apophysis, some of these will be the same, others
 different or new altogether.
 
-##### Tone Mapping #####
+#### Tone Mapping ####
 
 [![Tone Mapping](/assets/images/chaotica-introduction/chaotica_QhU7dkRiJs.png)](/assets/images/chaotica-introduction/chaotica_QhU7dkRiJs.png)
 
@@ -150,7 +150,7 @@ Gamma Threshold - Raising this value hides the less dense parts of your fractal.
 This can help to reduce noise or grainy areas.  This will have an example in a
 future tutorial.
 
-##### Response Curves #####
+#### Response Curves ####
 
 [![Response Curves](/assets/images/chaotica-introduction/chaotica_7EEFJZa1Fl.png)](/assets/images/chaotica-introduction/chaotica_7EEFJZa1Fl.png)
 
