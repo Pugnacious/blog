@@ -60,7 +60,7 @@ This allows you to create a fractal, and then perform final tweaks to it that
 don't get changed by the rest of the iterators.  This will appear under the
 camera node.
 
-[![Node View](/assets/images/chaotica-editor/chaotica_2021-03-28_17-15-45)](/assets/images/chaotica-editor/chaotica_2021-03-28_17-15-45)
+[![Node View](/assets/images/chaotica-editor/chaotica_2021-03-28_17-15-45.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_17-15-45.png)
 
 Each node has various stats in the node editor.  You can configure lots of
 properties this way.  If you click on the transform node for an iterator, it
