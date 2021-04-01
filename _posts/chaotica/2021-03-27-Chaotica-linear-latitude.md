@@ -30,7 +30,7 @@ create a new transform.  Make this a square transform and set the value on it to
 
 This is what the main window will look like now.
 
-/assets/images/chaotica-linear-tiles/chaotica_lWbJUCwxFJ.png
+[![New Square](/assets/images/chaotica-linear-tiles/chaotica_lWbJUCwxFJ.png)](/assets/images/chaotica-linear-tiles/chaotica_lWbJUCwxFJ.png)
 
 Now we're going to setup a basic linear tile.  A linear transform "moves" the
 whole in a direction from the origin.  That's not exactly what happens but it's
@@ -40,8 +40,8 @@ to the pre affine and offset it by 1.0 in the x axis.
 
 This is the editor window now, and the main window so you can see the change.
 
-/assets/images/chaotica-linear-tiles/chaotica_9vuUcwh89U.png
-/assets/images/chaotica-linear-tiles/chaotica_Xq2Ljk0bn2.png
+[![Main 1](/assets/images/chaotica-linear-tiles/chaotica_9vuUcwh89U.png)](/assets/images/chaotica-linear-tiles/chaotica_9vuUcwh89U.png)
+[![Editor 1](/assets/images/chaotica-linear-tiles/chaotica_Xq2Ljk0bn2.png)](/assets/images/chaotica-linear-tiles/chaotica_Xq2Ljk0bn2.png)
 
 As you can see the initial square is now copied to the right.  I'm going to
 create another linear iterator, and copy it up by 1, or 1.0 offset in the y
@@ -50,8 +50,8 @@ axis.
 Note: in the current version of chaotica 2, a 1.0 offset actually moves it down
 instead of up.  The values are inverted.
 
-/assets/images/chaotica-linear-tiles/chaotica_cV1kA4qPqa.png
-/assets/images/chaotica-linear-tiles/chaotica_3Kz4m3KUn6.png
+[![Main 2](/assets/images/chaotica-linear-tiles/chaotica_cV1kA4qPqa.png)](/assets/images/chaotica-linear-tiles/chaotica_cV1kA4qPqa.png)
+[![Editor 2](/assets/images/chaotica-linear-tiles/chaotica_3Kz4m3KUn6.png)](/assets/images/chaotica-linear-tiles/chaotica_3Kz4m3KUn6.png)
 
 Now the whole thing has been tiled both right and down.  You could add another
 two linears in the other two cardinal directions, but because of the way it
@@ -63,14 +63,14 @@ Now, we have a nice field of squares.  Yay!  this is a basic linear tile.
  However, I'm sure you came to this tutorial for more than just that.  Lets make
 it look a lot more fun.
 
-/assets/images/chaotica-linear-tiles/chaotica_p6ya7oOICW.png
-/assets/images/chaotica-linear-tiles/chaotica_2FKtDy6Az9.png
+[![Main 3](/assets/images/chaotica-linear-tiles/chaotica_p6ya7oOICW.png)](/assets/images/chaotica-linear-tiles/chaotica_p6ya7oOICW.png)
+[![Editor 3](/assets/images/chaotica-linear-tiles/chaotica_2FKtDy6Az9.png)](/assets/images/chaotica-linear-tiles/chaotica_2FKtDy6Az9.png)
 
 For the sake of simplicity, I'm going to go ahead and move the third linear
 iterator back up one, and create a fourth for the other cardinal direction.
 
-/assets/images/chaotica-linear-tiles/chaotica_tc4w2POwpl.png
-/assets/images/chaotica-linear-tiles/chaotica_sFsj0GDn0a.png
+[![Main 4](/assets/images/chaotica-linear-tiles/chaotica_tc4w2POwpl.png)](/assets/images/chaotica-linear-tiles/chaotica_tc4w2POwpl.png)
+[![Editor 4](/assets/images/chaotica-linear-tiles/chaotica_sFsj0GDn0a.png)](/assets/images/chaotica-linear-tiles/chaotica_sFsj0GDn0a.png)
 
 Now, notice how the center is bright and the rest are dark.  That's normal and
 can be adjusted a bit using weights.  You can raise the base weight of the
@@ -87,8 +87,8 @@ from that point.
 To start off with, I'm going to create a cylinder2 transform in a new iterator.
 I'll set the value to 0.25.
 
-/assets/images/chaotica-linear-tiles/chaotica_l628Fuhrii.png
-/assets/images/chaotica-linear-tiles/chaotica_863lh2eJUq.png
+[![Main 5](/assets/images/chaotica-linear-tiles/chaotica_l628Fuhrii.png)](/assets/images/chaotica-linear-tiles/chaotica_l628Fuhrii.png)
+[![Editor 5](/assets/images/chaotica-linear-tiles/chaotica_863lh2eJUq.png)](/assets/images/chaotica-linear-tiles/chaotica_863lh2eJUq.png)
 
 Now, notice how the cylinder overlaps with the squares.  We're going to fix
 that.  First, I'm going to change the x and y axes in the pre-affine to 0.5
@@ -97,14 +97,14 @@ thing.  Then I'll offset the post-affine -0.5 on the x axis so that it falls int
 between the squares.  I find that doing this gives a better look to the
 cylinders.
 
-/assets/images/chaotica-linear-tiles/chaotica_TMry7L9B2q.png
-/assets/images/chaotica-linear-tiles/chaotica_6aT0N1hCV9.png
+[![Main 6](/assets/images/chaotica-linear-tiles/chaotica_TMry7L9B2q.png)](/assets/images/chaotica-linear-tiles/chaotica_TMry7L9B2q.png)
+[![Editor 6](/assets/images/chaotica-linear-tiles/chaotica_6aT0N1hCV9.png)](/assets/images/chaotica-linear-tiles/chaotica_6aT0N1hCV9.png)
 
 Next, I'm going to offset the post-affine for this cylinder in the y axis by 0.5
  This moves the bright spot to a diagonal away from the square.
 
-/assets/images/chaotica-linear-tiles/chaotica_I1O036R1qM.png
-/assets/images/chaotica-linear-tiles/chaotica_25qS61IXhz.png
+[![Main 7](/assets/images/chaotica-linear-tiles/chaotica_I1O036R1qM.png)](/assets/images/chaotica-linear-tiles/chaotica_I1O036R1qM.png)
+[![Editor 7](/assets/images/chaotica-linear-tiles/chaotica_25qS61IXhz.png)](/assets/images/chaotica-linear-tiles/chaotica_25qS61IXhz.png)
 
 That's looking better.  Now we need a horizontal cylinder.  Notice though that
 the cylinder is made up of smaller copies of the entire image.  It's so freaking
@@ -115,8 +115,8 @@ Next I'm going to create a new cylinder the exact same way with the value set to
 0.25 like before.  This time however, I'm going to rotate it 90 degrees on the
 post-affine and offset the y-axis on the post-affine by 0.5.
 
-/assets/images/chaotica-linear-tiles/chaotica_dZnwUpDVFd.png
-/assets/images/chaotica-linear-tiles/chaotica_bOsNsc8vmM.png
+[![Main 8](/assets/images/chaotica-linear-tiles/chaotica_dZnwUpDVFd.png)](/assets/images/chaotica-linear-tiles/chaotica_dZnwUpDVFd.png)
+[![Editor 8](/assets/images/chaotica-linear-tiles/chaotica_bOsNsc8vmM.png)](/assets/images/chaotica-linear-tiles/chaotica_bOsNsc8vmM.png)
 
 This gives a bit of a crosshatch look, which I tend to enjoy.  At this point, I
 suggest saving the world so you can come back here later on.  Now, from here
@@ -130,7 +130,7 @@ take a bit of tweaking to make it work.
 I'll leave you with a final image with a random shader applied and a random pallete applied.
 
 
-/assets/images/chaotica-linear-tiles/linear-tile.png
+[![Final Tile](/assets/images/chaotica-linear-tiles/linear-tile.png)](/assets/images/chaotica-linear-tiles/linear-tile.png)
 
 Hint: For foci or unpolar resizing the affine by variations of pi/3 tend to work
 wonders.
