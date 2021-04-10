@@ -6,11 +6,32 @@ permalink: "/chaotica/editor"
 author: "Pugnacious"
 ---
 
+<!-- TOC -->
+
+- [Tutorial Jump List ###](#tutorial-jump-list-)
+- [Editor Basics ###](#editor-basics-)
+  - [Iterators ####](#iterators-)
+  - [Nodes ####](#nodes-)
+  - [Pre Affine ####](#pre-affine-)
+  - [Transforms ####](#transforms-)
+  - [Camera Controls ####](#camera-controls-)
+  - [Naming Iterators ####](#naming-iterators-)
+  - [Shading ####](#shading-)
+  - [Palette Editor ####](#palette-editor-)
+  - [Camera Transform ####](#camera-transform-)
+- [Where to go Next? ###](#where-to-go-next-)
+
+<!-- /TOC -->
+
+### Tutorial Jump List ###
+
 This is part two of a three part series.
 
  1. [Chaotica: An Introduction][tutorial1]
  2. This tutorial.
  3. [Chaotica: Linear Latitude][tutorial3]
+
+### Editor Basics ###
 
 In this tutorial, we're going to go over the special windows in Chaotica and
 what everything does.
@@ -24,6 +45,8 @@ Now, the first thing we're going to cover is the world editor.  Open up the
 world editor from the Window menu or use the hotkey Ctrl + E.
 
 [![Chaotica Window](/assets/images/chaotica-editor/chaotica_2021-03-28_14-05-42.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_14-05-42.png)
+
+#### Iterators ####
 
 This editor is the screen that will help you change how the iterators interact,
 and it looks like this.
@@ -52,6 +75,8 @@ iterators to make them "trigger" more or less often.  When the fractal renders,
 it travels through the iterators and jumps from iterator to iterator based on
 the weights creating a unique pattern.
 
+#### Nodes ####
+
 Next, let me cover the node list.  At the top is the camera.  If you use the
 button that says Toggle camera transform, it will open a new iterator.  This one
 is unique.  It is outside the normal order and will be applied after all the
@@ -67,9 +92,13 @@ properties this way.  If you click on the transform node for an iterator, it
 will have some buttons you can use to add/remove a post affine or add/remove
 pre/post transforms.
 
+#### Pre Affine ####
+
 Let me start with the pre affine.  This is the angle you see on the left hand
 pane.  This defines the x and y axis, as well as the origin of the transform.
 The x and y axis length will also define the "size" of the transform.
+
+#### Transforms ####
 
 Next click on the transforms node.  Nothing is there except a name.  You have to
 add a transform to it, so hit New Transform or the hotkey of Ctrl + T.  This
@@ -94,6 +123,8 @@ it.  This isn't a true move though.  What's happening is, it's triggering two
 iterators and they sort of combine.
 
 [![Tile Creation](/assets/images/chaotica-editor/chaotica_2021-03-28_17-41-00.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_17-41-00.png)
+
+#### Camera Controls ####
 
 In order to see this a bit better, lets zoom out a bit. I'm going to use the
 camera controls on the main window's preview pane.
@@ -131,12 +162,16 @@ it so you can see more of the line, as well as zoom out a bit more.
 
 [![Edit linear](/assets/images/chaotica-editor/screen_1408.png)](/assets/images/chaotica-editor/screen_1408.png)
 
+#### Naming Iterators ####
+
 Next, I'm going to name my iterators.  This will keep me from having to hunt for
 what transform I'm working with in the future.   It's a super handy practice and
 I probably should do this more often.  I'm going to name iterator 1 to Blur and
 iterator 2 to Linear.  I just click on the node, change the name and it's done.
 
 [![Named Iterators](/assets/images/chaotica-editor/screen_1409.png)](/assets/images/chaotica-editor/screen_1409.png)
+
+#### Shading ####
 
 Now it's time to play with the shaders.  If you click on the shader node for
 Blur, you'll see this.
@@ -165,6 +200,8 @@ That displays as the following.
 
 [![Shader Edit](/assets/images/chaotica-editor/chaotica_2021-03-28_17-50-18.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_17-50-18.png)
 
+#### Palette Editor ####
+
 Next, I'm going to hit Window and open the Palette Editor or you can use the
 hotkey of Ctrl + P.
 
@@ -183,6 +220,8 @@ curve, so I'm going to go back to my Blur iterator, and change the blend speed
 to 1.  That will prevent the other transform from blending with it.
 
 [![Blending Tweak](/assets/images/chaotica-editor/chaotica_2021-03-28_18-01-48.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_18-01-48.png)
+
+#### Camera Transform ####
 
 Next, I'm going to add in a camera transform.  So, I'll go to the world editor,
 and hit the Toggle camera transform button.  This will unlock the camera
@@ -203,6 +242,8 @@ into this during this tutorial, but I'll keep it open for a future one.
 You can do anything you like really.  Play around, have some fun, and don't
 forget that the randomization options are there.  Sometimes they can give you
 inspiration for where to move the fractal next.
+
+### Where to go Next? ###
 
 For the next tutorial, I'll cover how to design a linear tile in Chaotica using
 the world editor.
