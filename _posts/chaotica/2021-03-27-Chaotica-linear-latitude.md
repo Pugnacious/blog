@@ -6,16 +6,18 @@ permalink: "/chaotica/linear-tiles"
 author: "Pugnacious"
 ---
 
+## Table of Contents
+
 <!-- TOC -->
 
-- [Tutorial Jump List ###](#tutorial-jump-list-)
-- [Introduction ###](#introduction-)
-- [Creating the Thing to Tile ###](#creating-the-thing-to-tile-)
-- [Setting up a tiled plane ###](#setting-up-a-tiled-plane-)
-- [Weights ###](#weights-)
-- [Filling in the blank spots ###](#filling-in-the-blank-spots-)
-- [Finishing up ###](#finishing-up-)
-- [Examples ###](#examples-)
+- [Tutorial Jump List](#tutorial-jump-list-)
+- [Introduction](#introduction-)
+- [Creating the Thing to Tile](#creating-the-thing-to-tile-)
+- [Setting up a tiled plane](#setting-up-a-tiled-plane-)
+- [Weights](#weights-)
+- [Filling in the blank spots](#filling-in-the-blank-spots-)
+- [Finishing up](#finishing-up-)
+- [Examples](#examples-)
 
 <!-- /TOC -->
 

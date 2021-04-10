@@ -6,20 +6,22 @@ permalink: "/chaotica/editor"
 author: "Pugnacious"
 ---
 
+## Table of Contents
+
 <!-- TOC -->
 
-- [Tutorial Jump List ###](#tutorial-jump-list-)
-- [Editor Basics ###](#editor-basics-)
-  - [Iterators ####](#iterators-)
-  - [Nodes ####](#nodes-)
-  - [Pre Affine ####](#pre-affine-)
-  - [Transforms ####](#transforms-)
-  - [Camera Controls ####](#camera-controls-)
-  - [Naming Iterators ####](#naming-iterators-)
-  - [Shading ####](#shading-)
-  - [Palette Editor ####](#palette-editor-)
-  - [Camera Transform ####](#camera-transform-)
-- [Where to go Next? ###](#where-to-go-next-)
+- [Tutorial Jump List](#tutorial-jump-list-)
+- [Editor Basics](#editor-basics-)
+  - [Iterators](#iterators-)
+  - [Nodes](#nodes-)
+  - [Pre Affine](#pre-affine-)
+  - [Transforms](#transforms-)
+  - [Camera Controls](#camera-controls-)
+  - [Naming Iterators](#naming-iterators-)
+  - [Shading](#shading-)
+  - [Palette Editor](#palette-editor-)
+  - [Camera Transform](#camera-transform-)
+- [Where to go Next?](#where-to-go-next-)
 
 <!-- /TOC -->
 
