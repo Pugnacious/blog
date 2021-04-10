@@ -11,18 +11,18 @@ author: "Pugnacious"
 <!-- TOC -->
 
 - [What is it?](#what-is-it-)
-- [Where to get it? ###](#where-to-get-it-)
-- [What does it look like? ###](#what-does-it-look-like-)
-  - [Random World Generator ####](#random-world-generator-)
-  - [World Browser ####](#world-browser-)
-  - [Render Settings ####](#render-settings-)
-  - [OpenCL Settings ####](#opencl-settings-)
-  - [Imaging Settings ####](#imaging-settings-)
-  - [Tone Mapping ####](#tone-mapping-)
-  - [Response Curves ####](#response-curves-)
-  - [Background Color ####](#background-color-)
-- [Onwards! ####](#onwards-)
-- [What Now? ####](#what-now-)
+- [Where to get it?](#where-to-get-it-)
+- [What does it look like?](#what-does-it-look-like-)
+  - [Random World Generator](#random-world-generator-)
+  - [World Browser](#world-browser-)
+  - [Render Settings](#render-settings-)
+  - [OpenCL Settings](#opencl-settings-)
+  - [Imaging Settings](#imaging-settings-)
+  - [Tone Mapping](#tone-mapping-)
+  - [Response Curves](#response-curves-)
+  - [Background Color](#background-color-)
+- [Onwards!](#onwards-)
+- [What Now?](#what-now-)
 
 <!-- /TOC -->
 ### <a name="what-is-it-"></a>What is it? ###
@@ -43,12 +43,12 @@ that I'm still learning.  There's a lot to learn when it comes to this subject
 and we're all taking our own path to our own goal.  There is no one path and no
 one goal.
 
-### Where to get it? ###
+### <a name="where-to-get-it-"></a>Where to get it? ###
 First and foremost, snag a copy off the [site][chaotica-link]. I suggest snagging the beta of
 Chaotica 2 off the forum.  It's a bit more feature filled and this guide will be
 using that version.
 
-### What does it look like? ###
+### <a name="what-does-it-look-like-"></a>What does it look like? ###
 
 When you first boot up the software, you'll be presented with a screen like so.
 
@@ -66,7 +66,7 @@ or click that button on the left that says "New random worlds".
 The main window in the back is where your world will take shape.  You can safely
 close the parameter browser now and we can focus on the rest of the window.
 
-#### Random World Generator ####
+#### <a name="random-world-generator-"></a>Random World Generator ####
 
 [![Random World Generator](/assets/images/chaotica-introduction/chaotica_JacS8a4kw1.png)](/assets/images/chaotica-introduction/chaotica_JacS8a4kw1.png)
 
@@ -104,7 +104,7 @@ Selectors will randomize the weights of the iterators.  Think Xaos from
 Apophysis. It controls how the iterators interact with each other and how much
 they blend (this is an over-simplification, but we'll leave it for now).
 
-#### World Browser ####
+#### <a name="world-browser-"></a>World Browser ####
 
 [![World Browser](/assets/images/chaotica-introduction/chaotica_ayRLwUdUnE.png)](/assets/images/chaotica-introduction/chaotica_ayRLwUdUnE.png)
 
@@ -115,7 +115,7 @@ would be amazing, if this list could remember it's settings on application
 start, but this software is still being worked on, and we'll all just have to
 wait and see.
 
-#### Render Settings ####
+#### <a name="render-settings-"></a>Render Settings ####
 
 [![Render Settings](/assets/images/chaotica-introduction/chaotica_1ZGEBZitcR.png)](/assets/images/chaotica-introduction/chaotica_1ZGEBZitcR.png)
 
@@ -127,14 +127,14 @@ about how they function.  Though if you're brave, go nuts.
 For the record, it's almost pointless to go above AA level 4 (Anti-Aliasing).
  Doing so would increase the ram requirements astronomically.
 
-#### OpenCL Settings ####
+#### <a name="opencl-settings-"></a>OpenCL Settings ####
 
 [![OpenCL Settings](/assets/images/chaotica-introduction/chaotica_MmbsOzS8r0.png)](/assets/images/chaotica-introduction/chaotica_MmbsOzS8r0.png)
 
 This selects the device used and has a few more options for rendering.  In order
 to use your device for rendering, you must check the "Use OpenCL" option.
 
-#### Imaging Settings ####
+#### <a name="imaging-settings-"></a>Imaging Settings ####
 
 [![Imaging Settings](/assets/images/chaotica-introduction/chaotica_R3DhFSKxvG.png)](/assets/images/chaotica-introduction/chaotica_R3DhFSKxvG.png)
 
@@ -144,7 +144,7 @@ process.  They get saved when you save your world (I still love saying that...).
  Now, if you're familiar with Apophysis, some of these will be the same, others
 different or new altogether.
 
-#### Tone Mapping ####
+#### <a name="tone-mapping-"></a>Tone Mapping ####
 
 [![Tone Mapping](/assets/images/chaotica-introduction/chaotica_QhU7dkRiJs.png)](/assets/images/chaotica-introduction/chaotica_QhU7dkRiJs.png)
 
@@ -169,7 +169,7 @@ Gamma Threshold - Raising this value hides the less dense parts of your fractal.
 This can help to reduce noise or grainy areas.  This will have an example in a
 future tutorial.
 
-#### Response Curves ####
+#### <a name="response-curves-"></a>Response Curves ####
 
 [![Response Curves](/assets/images/chaotica-introduction/chaotica_7EEFJZa1Fl.png)](/assets/images/chaotica-introduction/chaotica_7EEFJZa1Fl.png)
 
@@ -180,7 +180,7 @@ as an alpha.  The alpha controls the transparencies.  Definitely play with this
 to get a feel for how it changes the image.  Don't be afraid to hit the reset
 button.
 
-#### Background Color ####
+#### <a name="background-color-"></a>Background Color ####
 
 [![Background Color](/assets/images/chaotica-introduction/chaotica_wLAVNAkTn3.png)](/assets/images/chaotica-introduction/chaotica_wLAVNAkTn3.png)
 
@@ -192,7 +192,7 @@ negative saturation. That being said it's handy to remember 0 = black, 1 = full
 color.  You can select the background to be applied before the curves if you
 wish.
 
-### Onwards! ###
+### <a name="onwards-"></a>Onwards! ###
 
 All that is awesome, but how do I make a fractal?
 OK, in this guide I'm going to cover the basics.  I'll have another guide
@@ -259,7 +259,7 @@ while you're here.  And save often).
 
 [![Final Image](/assets/images/chaotica-introduction/tutorial1.png)](/assets/images/chaotica-introduction/tutorial1.png)
 
-### What Now? ###
+### <a name="what-now-"></a>What Now? ###
 Now you play until you have something you like, and enjoy.  If you like the
 software, kick some cash towards the dev so they can keep working on the
 software.
