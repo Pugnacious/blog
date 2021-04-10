@@ -5,7 +5,23 @@ categories: fractal chaotica
 permalink: "/chaotica/introduction"
 author: "Pugnacious"
 ---
+<!-- TOC -->
 
+- [What is it? ###](#what-is-it-)
+- [Where to get it? ###](#where-to-get-it-)
+- [What does it look like? ###](#what-does-it-look-like-)
+  - [Random World Generator ####](#random-world-generator-)
+  - [World Browser ####](#world-browser-)
+  - [Render Settings ####](#render-settings-)
+  - [OpenCL Settings ####](#opencl-settings-)
+  - [Imaging Settings ####](#imaging-settings-)
+  - [Tone Mapping ####](#tone-mapping-)
+  - [Response Curves ####](#response-curves-)
+  - [Background Color ####](#background-color-)
+- [Onwards! ###](#onwards-)
+- [What Now? ###](#what-now-)
+
+<!-- /TOC -->
 ### What is it? ###
 Welcome Friends!  I'd like to introduce you to Chaotica.  
 This is a software that's still being developed.  It's similar to [Apophysis][apophysis-link] (or more recently [Apophysis 7x][apophysis-7x-link]) but more geared at this time towards rendering.
