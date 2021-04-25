@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   author information here.  It should be taken as opinion of the author.
 layout: single
 toc: true
-toc_label: Table of Contents
+toc_label: "Table of Contents"
 
 #Server settings
 baseurl: "" # the subpath of your site, e.g. /blog
