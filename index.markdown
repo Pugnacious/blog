@@ -6,6 +6,11 @@ layout: home
 header:
   image: /assets/images/splash_header.png
   image_description: "Djinn's Respite by Monkeyshack (myself)"
+  author_profile: true
+  author:
+    name: "Pugnacious"
+    bio: "I'm a Computer Network Expert and artist on the side"
+    Location: "Somewhere out in the great beyond"
 ---
 Welcome to my blog.  I will be posting content related to my interests.  Expect to see the following categories: Computers, Fractals, Art, and Music.  Glad you're here, and feel free to ask questions.  Below are links to some community discord servers that I'm either a member of or an admin on.  If you need help with those topics, feel free to join us.
 
