@@ -20,6 +20,7 @@ This is a tutorial on installing the custom transforms created by Crystalize
   - [User transforms](#user-transforms)
   - [Flat File Copy](#flat-file-copy)
   - [Git Clone](#git-clone)
+  - [Git Update](#git-update)
 
 <!-- /TOC -->
 
@@ -72,9 +73,9 @@ Then we change to that directory and clone the github repo
     cd user_transforms
     git clone https://git.pugnacious.site/Crystalize/crystalize_xforms.git
 
- That will copy all the files into their correct locations.
+That will copy all the files into their correct locations.
 
- #### Git update
+#### <a name="git-update"></a>Git update
 
  If you used git to install this, you can use it to update the pack.  To run an update simply open your command prompt and use the following commands
 
