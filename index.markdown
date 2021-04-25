@@ -7,3 +7,10 @@ header:
   image: /assets/images/splash_header.png
   image_description: "Djinn's Respite by Monkeyshack (myself)"
 ---
+Welcome to my blog.  I will be posting content related to my interests.  Expect to see the following categories: Computers, Fractals, Art, and Music.  Glad you're here, and feel free to ask questions.  Below are links to some community discord servers that I'm either a member of or an admin on.  If you need help with those topics, feel free to join us.
+
+## Discord Servers
+
+Fractals: https://discord.gg/8XnPuWZHFv
+
+Computers and Home Lab: https://discord.gg/k72sJMFn7H
