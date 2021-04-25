@@ -4,8 +4,6 @@ title: Tutorials
 permalink: /tutorials/
 ---
 
-# Tutorials
-
 ## Chaotica
 
 1. [Chaotica: An Introduction][tutorial1]
