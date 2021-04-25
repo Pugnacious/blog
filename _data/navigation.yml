@@ -2,11 +2,7 @@
 main:
   - title: "Home"
     url: https://blog.pugnacious.site/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "About"
+    url: https://blog.pugnacious.site/about/
+  - title: "Tutorials"
+    url: https://blog.pugnacious.site/tutorials/
