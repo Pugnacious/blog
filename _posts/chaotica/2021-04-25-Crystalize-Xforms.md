@@ -1,28 +1,16 @@
 ---
-layout: posts
+layout: single
 title:  "Chaotica: Crystalize Xforms"
 categories: fractal chaotica
 permalink: "/chaotica/crystalize/xforms"
 author: "Pugnacious"
+toc: true
+excerpt: This is a tutorial on installing the Crystalize Xforms Pack of transforms for Chaotica.
 ---
 
 ## <a name="chaotica-crystalize-xforms"></a>Chaotica: Crystalize Xforms
 
 This is a tutorial on installing the custom transforms created by Crystalize
-
-## Table of Contents
-
-<!-- TOC -->
-
-- [Chaotica: Crystalize Xforms](#chaotica-crystalize-xforms)
-- [Credits](#credits)
-- [Installation](#installation)
-  - [User transforms](#user-transforms)
-  - [Flat File Copy](#flat-file-copy)
-  - [Git Clone](#git-clone)
-  - [Git Update](#git-update)
-
-<!-- /TOC -->
 
 ## <a name="credits"></a>Credits
 

@@ -5,6 +5,7 @@ categories: fractal chaotica
 permalink: "/chaotica/introduction"
 author: "Pugnacious"
 toc: true
+excerpt: "This is a tutorial on Chaotica Basics"
 ---
 
 ## <a name="what-is-it-"></a>What is it?
