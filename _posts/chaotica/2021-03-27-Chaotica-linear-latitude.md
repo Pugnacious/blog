@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Chaotica: Linear Latitude"
 categories: fractal chaotica
 permalink: "/chaotica/linear-tiles"

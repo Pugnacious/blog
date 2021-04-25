@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Chaotica: Edit the World"
 categories: fractal chaotica
 permalink: "/chaotica/editor"

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Chaotica: Crystalize Xforms"
 categories: fractal chaotica
 permalink: "/chaotica/crystalize/xforms"

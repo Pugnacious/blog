@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Chaotica: An Introduction"
 categories: fractal chaotica
 permalink: "/chaotica/introduction"
