@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title:  "Chaotica: Hypertiled Kleinians"
 categories: fractal chaotica
 permalink: "/chaotica/hypertiled/kleinians"

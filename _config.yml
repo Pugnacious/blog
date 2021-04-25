@@ -24,6 +24,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   This blog expresses the thoughts and sentiments of an individual
   namely the administrator, though other individuals may occasionally
   author information here.  It should be taken as opinion of the author.
+layout: single
+toc: true
+toc_label: Table of Contents
+
+#Server settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.pugnacious.site" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: ThePugnacious
