@@ -34,6 +34,8 @@ url: "https://blog.pugnacious.site" # the base hostname & protocol for your site
 #theme: jekyll-theme-lanyon
 theme: minimal-mistakes-jekyll
 #theme: jekyll-theme-hacker
+
+minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
   - jekyll-image-size
