@@ -1,7 +1,7 @@
 ---
 layout: single
-classes: wide
 title: Tutorials
+toc: true
 permalink: /tutorials/
 ---
 
