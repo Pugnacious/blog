@@ -5,12 +5,15 @@ toc: true
 permalink: /tutorials/
 ---
 
-## Chaotica
+## Chaotica Basics
 
 1. [Chaotica: An Introduction][tutorial1]
 2. [Chaotica: Edit the World][tutorial2]
 3. [Chaotica: Linear Latitude][tutorial3]
-4. [Crystalize Xforms][crystalize-xforms]
+
+## Chaotica Advanced
+
+1. [Crystalize Xforms][crystalize-xforms]
 
 
 [tutorial1]: https://blog.pugnacious.site/chaotica/introduction
