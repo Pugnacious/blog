@@ -50,7 +50,7 @@ To start off with, I know there are GUI based methods for doing this, but I much
 
 First, open your command line of choice and navigate to the folder.  On windows it's
 
-    cd %localappdata%\chaotica
+    cd %appdata%\chaotica
 
 Check to see if the user_transforms folder exists and if not create it.  You can simply attempt to make the directory and it will error out if it exists.  If not, it will create the directory.
 
@@ -67,7 +67,7 @@ That will copy all the files into their correct locations.
 
  If you used git to install this, you can use it to update the pack.  To run an update simply open your command prompt and use the following commands
 
-    cd %localappdata%\Chaotica\user_transforms\crystalize_xforms
+    cd %appdata%\Chaotica\user_transforms\crystalize_xforms
     git pull
 
 [crystalize-xforms]: https://git.pugnacious.site/Crystalize/crystalize_xforms
