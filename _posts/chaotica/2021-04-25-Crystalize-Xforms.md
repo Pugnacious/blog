@@ -26,9 +26,9 @@ Installation can be accomplished using git, or using a flat file copy.  I'll cov
 
 User transforms are transforms written in the winter xml format and stored in the user_transforms folder.  This folder is located at
 
-    %localappdata%\Chaotica\user_transforms
+    %appdata%\Chaotica\user_transforms
 
-**NOTE: the %localappdata% environment variable points to C:\Users\<username>\Appdata\Local**
+**NOTE: the %appdata% environment variable points to C:\Users\<username>\Appdata\Roaming**
 
 If this folder doesn't exist, simply create it.
 
