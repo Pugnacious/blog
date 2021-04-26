@@ -18,4 +18,105 @@ This is a collaboration between myself and Crystalize but a huge thanks to the f
 
 > *If I have seen further than others, it is by standing upon the shoulders of giants.  - Isaac Newton*
 
+## Iterator 1
+
+    Transform: hypertile2
+    value: 1
+    hypertile2_p: 6
+    hypertile2_q: 6
+
+    base_weight: 1
+
+## Iterator 2
+
+    Transform: kleinian
+    value: 2.618033988749
+    klein_b: 0
+
+    base_weight: 1
+
+## Math
+
+Insert the formulas or math here on how this is setup
+
+## Iterator 3
+
+    pre_transforms:
+      transform: sineblur
+      value: 1
+      sineblur_power: 1
+
+      transform: smartshape
+      value: 1
+      sshape_power: 12
+      sshape_roudnstr: 0
+      sshape_roundwidth: 1
+      sshape_distortion: 1
+      sshape_compression: 1
+
+      transform: hypersize
+      value: 1
+      hypersize_p: 6
+      hypersize_q: 6
+
+    transform: linear
+    value: 1
+
+    base_weight: 0.1
+
+## Iterator 4
+
+    pre_transforms:
+      transform: sineblur
+      value: 1
+      sineblur_power: 1
+
+      transform: smartshape
+      value: 0.56
+      sshape_power: 6
+      sshape_roudnstr: 0
+      sshape_roundwidth: 1
+      sshape_distortion: 1
+      sshape_compression: 1
+
+      transform: hypershift2
+      value: 1
+      hypersize_p: 6
+      hypersize_q: 6
+
+    transform: linear
+    value: 1
+
+    base_weight: 0.1
+
+## Iterator 5
+
+    pre_transforms:
+      transform: sineblur
+      value: 1
+      sineblur_power: 1
+
+      transform: smartshape
+      value: 0.305
+      sshape_power: 12
+      sshape_roudnstr: 0
+      sshape_roundwidth: 1
+      sshape_distortion: 1
+      sshape_compression: 1
+
+      transform: hypershift2
+      value: 1
+      hypersize_p: 6
+      hypersize_q: 6
+
+      transform: kleinian
+      klein: 1
+      klein_b: 0
+
+    transform: linear
+    value: 1
+
+    base_weight: 0.03    
+
+
 [crystalize]: https://blog.pugnacious.site/chaotica/crystalize/xforms
