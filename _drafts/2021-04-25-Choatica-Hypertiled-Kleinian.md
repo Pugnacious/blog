@@ -18,7 +18,14 @@ This is a collaboration between myself and Crystalize but a huge thanks to the f
 
 > *If I have seen further than others, it is by standing upon the shoulders of giants.  - Isaac Newton*
 
+## Initial Setup
+
+I'm going to start this tutorial in the normal way by opening up chaotica and starting a new blank world.  Then I'm going to go to the World Editor and create my first Iterator.
+
+
 ## Iterator 1
+
+[![Iterator 1](/assets/images/chaotica-hypertiled-kleinian/chaotica_i6PRLLkuvE.png)](/assets/images/chaotica-hypertiled-kleinian/chaotica_i6PRLLkuvE.png)
 
     Transform: hypertile2
     value: 1
@@ -28,6 +35,8 @@ This is a collaboration between myself and Crystalize but a huge thanks to the f
     base_weight: 1
 
 ## Iterator 2
+
+[![Iterator 2](/assets/images/chaotica-hypertiled-kleinian/chaotica_i6PRLLkuvE.png)](/assets/images/chaotica-hypertiled-kleinian/chaotica_i6PRLLkuvE.png)
 
     Transform: kleinian
     value: 2.618033988749
