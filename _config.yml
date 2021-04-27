@@ -41,6 +41,7 @@ theme: minimal-mistakes-jekyll
 #theme: jekyll-theme-hacker
 
 minimal_mistakes_skin: "dark"
+paginate: 1
 plugins:
   - jekyll-feed
   - jekyll-image-size
