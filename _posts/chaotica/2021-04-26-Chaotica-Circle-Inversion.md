@@ -5,6 +5,8 @@ categories: fractal chaotica
 permalink: "/chaotica/circle/inversion"
 author: "Pugnacious"
 excerpt: This tutorial will show you how to create a circle inversion effect.
+toc: true
+toc_label: "Table of Contents"
 ---
 
 ## Getting Started

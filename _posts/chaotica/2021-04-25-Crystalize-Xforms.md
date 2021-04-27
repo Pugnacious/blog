@@ -5,6 +5,7 @@ categories: fractal chaotica
 permalink: "/chaotica/crystalize/xforms"
 author: "Pugnacious"
 toc: true
+toc_label: "Table of Contents"
 excerpt: This is a tutorial on installing the Crystalize Xforms Pack of transforms for Chaotica.
 ---
 

@@ -5,6 +5,7 @@ categories: fractal chaotica
 permalink: "/chaotica/linear-tiles"
 author: "Pugnacious"
 toc: true
+toc_label: "Table of Contents"
 excerpt: This is a tutorial on creating a linear tile with Chatoica.
 ---
 

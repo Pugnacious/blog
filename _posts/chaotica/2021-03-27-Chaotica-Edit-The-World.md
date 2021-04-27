@@ -5,6 +5,7 @@ categories: fractal chaotica
 permalink: "/chaotica/editor"
 author: "Pugnacious"
 toc: true
+toc_label: "Table of Contents"
 excerpt: This is a tutorial on the Chaotica World Editor
 ---
 

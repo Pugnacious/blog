@@ -5,6 +5,7 @@ categories: fractal chaotica
 permalink: "/chaotica/introduction"
 author: "Pugnacious"
 toc: true
+toc_label: "Table of Contents"
 excerpt: "This is a tutorial on Chaotica Basics"
 ---
 
