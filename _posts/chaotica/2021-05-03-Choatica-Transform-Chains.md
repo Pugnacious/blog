@@ -24,7 +24,7 @@ Pre and Post Transform nodes only effect the current iterator and not the rest o
 
 This tutorial will show you how to create this type of image.
 
-LINK
+[![Final Image](/assets/images/chaotica-transform-chains/glynnsim_tutorial.png)](/assets/images/chaotica-transform-chains/glynnsim_tutorial.png)
 
 ## Initial Setup
 
