@@ -59,4 +59,68 @@ Next add two more.  One tile_hlp and the next tile_log.  Feel free to add them o
 
 So, now we ask ourselves, what does this tell us?  It tells us that we can take an interator, and then change how it looks before we hand it off to the next iterator.  This way we can precicely control how it looks before it interacts with other iterators.  
 
-If you think about it, this is incredibly powerful and can be used for a LOT of different things.  Lets go back to the example and take away the last three transforms to get us back to the point where we had a single line of 
+If you think about it, this is incredibly powerful and can be used for a LOT of different things.  Lets go back to the example and take away the last three transforms to get us back to the point where we had a single line of triangles.
+
+[![Line of Triangles](/assets/images/chaotica-transform-chains/screen_1416.png)](/assets/images/chaotica-transform-chains/screen_1416.png)
+
+Once you're back to the single line create a new iterator and set the transform as linear.
+
+[![Iterator 2](/assets/images/chaotica-transform-chains/screen_1419.png)](/assets/images/chaotica-transform-chains/screen_1419.png)
+
+Now go to the pre-affine for the new iterator and make it a bit smaller and rotate it a bit.
+
+[![Iterator 2_rotated](/assets/images/chaotica-transform-chains/screen_1420.png)](/assets/images/chaotica-transform-chains/screen_1420.png)
+[![Iterator 2_editor](/assets/images/chaotica-transform-chains/screen_1421.png)](/assets/images/chaotica-transform-chains/screen_1421.png)
+
+Now it's starting to show the power of this method.  Lets kick our game up a notch and create a glynnsim fill.
+
+## Glynnsim fill
+
+Lets start with a blank slate and create the first iterator.
+
+Set the transform to hex_rand and set it's value to 0.5.
+
+Next, setup a post transform.  There are multiple ways to do this, but I'm going to show you one I like to use.  We're going to take the hex_rand and then fling it out into a single side with polar2, and follow that up with an infinite tile and then send the result to unpolar to bend it into a donut.  
+
+So Setup the first iterator like this:
+
+    Transform: hex_rand
+        value: 0.5
+
+        post_transform: polar2
+        post_transform: crop
+            crop_bottom: -0.35
+            crop_zero: 1
+        post_transform: tile_hlp
+        post_transform: tile_log
+            value: 0.104719755
+            tile_log_spread: 10
+        post_transform: unpolar
+            value: 6.0
+
+You end up with the following.
+
+[![hex_filler](/assets/images/chaotica-transform-chains/screen_1422.png)](/assets/images/chaotica-transform-chains/screen_1422.png)
+
+This method takes a hex rand, spreads it out with polar2, crops out the oddities, and then tiles it and then wraps it around into a donut.  You may be wondering why the value on the tile_log.  Well, anytime you work with foci or unpolar, you want the values to be pi/3 or a multiple of that.  In this case it's (pi/3)/10.
+
+Next we're going to put this into a glynnsim.  So create a new iterator, and set it's transform to glynnsim3.  You can leave it all as the default for now.
+
+[![Glynnsim3](/assets/images/chaotica-transform-chains/screen_1423.png)](/assets/images/chaotica-transform-chains/screen_1423.png)
+
+Now, add a post-affine to iterator 1 and adjust it to make the hex pattern fill as much of the glynnsim3 circle as possible without leaving the two white lines.  If it does, you'll know it.  In my case, I just had to slightly make the post-affine bigger to fill more of the circle.  Feel free to play with the values, or even get crazy and add in some circlecrop2.  The idea is to fill as much or as little of the middle circle as possible.  Glynnsim3 has three zones, the outside, middle and inside.  Once you're ready, the magic can begin.  Go to the pre-affine for the glynnsim iterator and rotate and move it until you're happy with the result.  Mine is shown.
+
+[![Glynnsim3_moved](/assets/images/chaotica-transform-chains/screen_1424.png)](/assets/images/chaotica-transform-chains/screen_1424.png)
+[![Glynnsim3_editor](/assets/images/chaotica-transform-chains/screen_1425.png)](/assets/images/chaotica-transform-chains/screen_1425.png)
+
+And as always, change the shaders, palette, and color curves until you're happy.  This is the final image.
+
+[![Final Image](/assets/images/chaotica-transform-chains/glynnsim_tutorial.png)](/assets/images/chaotica-transform-chains/glynnsim_tutorial.png)
+
+## What have we learned?
+
+We have covered the ability to create basic pre and post transform chains, and how to use them in one instance of creating a fractal.  It's up to you to use this knowledge to make something awesome.  Here are some examples of this being used.
+
+[![Window to Infinity - By Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de5q252-4b605cf9-0e91-40b4-85a6-ca91655e2ae4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M0NGQxNDk4LTFjODktNDE0MS1iZjk4LWQxNDc4MTYyMzY3M1wvZGU1cTI1Mi00YjYwNWNmOS0wZTkxLTQwYjQtODVhNi1jYTkxNjU1ZTJhZTQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.XsUtH-dCHad0jIGpWCk9mqRICoZ1xls_5HNC0d5NZ94)](https://www.deviantart.com/monkeyshack/art/Window-To-Infinity-856140374)
+[![Reactor - By Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de5s1kr-52ede9b3-1079-4d9d-ab64-ad0ece89144e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M0NGQxNDk4LTFjODktNDE0MS1iZjk4LWQxNDc4MTYyMzY3M1wvZGU1czFrci01MmVkZTliMy0xMDc5LTRkOWQtYWI2NC1hZDBlY2U4OTE0NGUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IaPb7YQbPvor8bd40c0VeksnFa5oLeRvfVlWRCKo80w)](https://www.deviantart.com/monkeyshack/art/Reactor-856232955)
+[![Vine Whip - By Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de7jysv-cd33c4dc-6632-4370-879a-488771cabbe1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M0NGQxNDk4LTFjODktNDE0MS1iZjk4LWQxNDc4MTYyMzY3M1wvZGU3anlzdi1jZDMzYzRkYy02NjMyLTQzNzAtODc5YS00ODg3NzFjYWJiZTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ktOjh9X0lMJXNz8gwsPrBEEfp7D_NwXKPXvbbk4yNC4)](https://www.deviantart.com/monkeyshack/art/Vine-Whip-859215343)
