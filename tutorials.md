@@ -15,6 +15,7 @@ permalink: /tutorials/
 ## Chaotica Advanced
 
 1. [Crystalize Xforms][crystalize-xforms]
+2. [Transform Chains][transform-chains]
 
 
 [tutorial1]: https://blog.pugnacious.site/chaotica/introduction
@@ -22,3 +23,4 @@ permalink: /tutorials/
 [tutorial3]: https://blog.pugnacious.site/chaotica/linear-tiles
 [tutorial4]: https://blog.pugnacious.site/chaotica/circle/inversion
 [crystalize-xforms]: https://blog.pugnacious.site/chaotica/crystalize/xforms
+[transform-chains]: https://blog.pugnacious.site/chaotica/transform/chains
