@@ -18,6 +18,7 @@ This tutorial is written with the expectation that you have already read through
 A transform chain is a series of transforms that get executed in top down order instead of the normal way.  I'm going to give some background here so everyone can be on the same page.  
 
 ### Normal Transform Behavior
+
 A normal iterator has pre and post transforms as well as the normal transform nodes.  The normal behavior is to have your transform nodes and the transforms will kind of bounce around between all the iterators based on the weights.  This isn't exactly what happens, but it's the mental image that I choose to assign to how this process happens.  It will start with iterator 1 and the weight says how likely it is to bounce to the next iterator and so forth and so on.  You can use weights to control how the iterators interact, and even choose for two iterators not to interact with each other.  That however is another tutorial.  The scope of this one is to teach how pre and post transforms behave and how to use this to your advantage.
 
 ### Pre and Post Transform Behavior.
