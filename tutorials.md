@@ -10,12 +10,16 @@ permalink: /tutorials/
 1. [Chaotica: An Introduction][tutorial1]
 2. [Chaotica: Edit the World][tutorial2]
 3. [Chaotica: Linear Latitude][tutorial3]
-4. [Chaotica: Circle Inversion][tutorial4]
+
+## Chaotica Intermediate
+
+1. [Chaotica: Circle Inversion][tutorial4]
+2. [Transform Chains][transform-chains]
 
 ## Chaotica Advanced
 
 1. [Crystalize Xforms][crystalize-xforms]
-2. [Transform Chains][transform-chains]
+
 
 
 [tutorial1]: https://blog.pugnacious.site/chaotica/introduction
