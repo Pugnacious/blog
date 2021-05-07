@@ -9,6 +9,10 @@ toc_label: "Table of Contents"
 excerpt: This tutorial will show you how to create a transform chain and what it does.
 ---
 
+## Knowledge Check
+
+This tutorial is written with the expectation that you have already read through most of the basics tutorials on my site.  If you haven't already done so, please do so now to avoid confusion.  Just click on Tutorials on the upper right corner of the site.
+
 ## What is a transform chain?
 
 A transform chain is a series of transforms that get executed in top down order instead of the normal way.  I'm going to give some background here so everyone can be on the same page.  
