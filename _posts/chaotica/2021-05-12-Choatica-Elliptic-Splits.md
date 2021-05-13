@@ -134,3 +134,86 @@ You can leave it here if you want, but it can look downright epic if you choose 
 # Elliptic Splits Method 2
 
 This one was created by Crystalize and all credit for the method goes to him.  I'm going to build the tutorial with my own tweaks and values, but the basis came from his brain.
+
+This iterator creates lines to frame everything.  You're going to build it using the chain method from one of my other tutorials.  This is an intermediate technique and you can find the tutorial on it [HERE][chains] or just click on the tutorials menu on the top right.
+
+## Iterator 1
+
+    pre-transform:
+        transform: square
+        transform: tile_hlp
+        transform: tile_log
+            tile_log_spread: 10
+        transform: polynomial
+            polynomial_lcy: -0.8
+        transform: splits
+            splits_y: 0.9
+
+    transform: linear
+
+The pre-affine shaders and weights can all stay default, or feel free to play with them.
+
+## Iterator 2
+
+    transform: arcsinh
+        value: 0.9
+
+Again, everything else can stay default.
+
+## Iterator 3
+
+### Pre-affine
+
+You'll want to raise the size.  Vales I'm using are X and Y axis of 2
+
+### Transform
+
+This should be splits with a value of 1 and a splits_y of 1
+
+## Recap
+
+Ok, now we're at the point where you should see something like this.
+
+[![Crystalize Elliptic](/assets/images/chaotica-elliptic-splits/chaotica_KqEijUEpvh.png)](/assets/images/chaotica-elliptic-splits/chaotica_KqEijUEpvh.png)
+[![Crystalize Elliptic Editor](/assets/images/chaotica-elliptic-splits/chaotica_t5Erdu3C0g.png)](/assets/images/chaotica-elliptic-splits/chaotica_t5Erdu3C0g.png)
+
+The first iterator creates a square, tiles it left and right, shrinks it, and then splits it in half.  Then the next two iterators create the same elliptic-splits style inside them.
+
+## Tweaking this version
+
+Some of the same tweaks as the previous method can easily be applied.  For instance, we can create a pre-transform on iterator 2 (the one that has arcsinh) and set it to wavesn with the following values
+
+    transform: wavesn
+        value: 1
+        wavesn_freqx: 1.5
+        wavesn_freqy: 1.5
+        wavesn_scalex: 1.1
+        wavesn_scaley: -0.55
+
+
+And we end up with this.
+
+[![Crystalize Elliptic Tweaks](/assets/images/chaotica-elliptic-splits/chaotica_J5hoQITNDr.png)](/assets/images/chaotica-elliptic-splits/chaotica_J5hoQITNDr.png)
+
+Here's a screenshot of the values I used.
+
+[![Tweak Values](/assets/images/chaotica-elliptic-splits/chaotica_EHDKwmp0tB.png)](/assets/images/chaotica-elliptic-splits/chaotica_EHDKwmp0tB.png)
+
+## Final Tweaks and Camera
+
+Finally, we can apply shaders and pick a palette.  Don't forget to tweak the color curves to suit your tastes.  Then we can work on the camera transform.  For this, I picked a sipmle julian2 with default everything.  This is what it looks like.
+
+[![Tweak Values](/assets/images/chaotica-elliptic-splits/chaotica_jK5vh8z2XB.jpg)](/assets/images/chaotica-elliptic-splits/chaotica_jK5vh8z2XB.jpg)
+
+## Final Image
+[![Crystalize Final Image](/assets/images/chaotica-elliptic-splits/Tutorial_Elleptic_Splits_Crystalize.png)](/assets/images/chaotica-elliptic-splits/Tutorial_Elleptic_Splits_Crystalize.png)
+
+# Closing thoughts
+
+Both of these methods can be used in many different ways.  I urge you to experiment and tweak to your heart's content.  There are always multiple ways to do things.  There are even more than I've hinted at here.  If your task is to find them, that's awesome.  I do hope you'll find me on discord or Deviantart and show me the awesome you've made.  I'll leave you with a few images I've made using these techniques.
+
+[![Djinn's Respite - by Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de6klhw-a1b512cd-d153-404d-96a5-8472cdb88c4f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M0NGQxNDk4LTFjODktNDE0MS1iZjk4LWQxNDc4MTYyMzY3M1wvZGU2a2xody1hMWI1MTJjZC1kMTUzLTQwNGQtOTZhNS04NDcyY2RiODhjNGYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I78woANvc2RM4aR1RlvpTGgm5U9XWthTTHsDBf2jdwI)](https://www.deviantart.com/monkeyshack/art/Djinn-s-Respite-857565140)
+[![Ghost Time - by Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de77a83-71fb01cf-7e97-4c9d-922c-e241457ca71b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M0NGQxNDk4LTFjODktNDE0MS1iZjk4LWQxNDc4MTYyMzY3M1wvZGU3N2E4My03MWZiMDFjZi03ZTk3LTRjOWQtOTIyYy1lMjQxNDU3Y2E3MWIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.xS5w5SCm-Iss5T02uJLYt_XoV3VR9vZo8yO9et9GJqk)](https://www.deviantart.com/monkeyshack/art/Ghost-Time-858623619)
+[![Vine Whip - by Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de7jysv-cd33c4dc-6632-4370-879a-488771cabbe1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M0NGQxNDk4LTFjODktNDE0MS1iZjk4LWQxNDc4MTYyMzY3M1wvZGU3anlzdi1jZDMzYzRkYy02NjMyLTQzNzAtODc5YS00ODg3NzFjYWJiZTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ktOjh9X0lMJXNz8gwsPrBEEfp7D_NwXKPXvbbk4yNC4)](https://www.deviantart.com/monkeyshack/art/Vine-Whip-859215343)
+
+[chains]: https://blog.pugnacious.site/chaotica/transform/chains
