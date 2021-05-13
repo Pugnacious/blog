@@ -15,6 +15,7 @@ permalink: /tutorials/
 
 1. [Chaotica: Circle Inversion][tutorial4]
 2. [Transform Chains][transform-chains]
+3. [Chaotica: Elliptic-Splits][esplits]
 
 ## Chaotica Advanced
 
@@ -28,3 +29,4 @@ permalink: /tutorials/
 [tutorial4]: https://blog.pugnacious.site/chaotica/circle/inversion
 [crystalize-xforms]: https://blog.pugnacious.site/chaotica/crystalize/xforms
 [transform-chains]: https://blog.pugnacious.site/chaotica/transform/chains
+[esplits]: https://blog.pugnacious.site/chaotica/elliptic/splits
