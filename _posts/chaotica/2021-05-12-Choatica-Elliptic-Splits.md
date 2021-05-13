@@ -9,6 +9,8 @@ toc_label: "Table of Contents"
 excerpt: This tutorial will show you how to create a Elliptic-Splits form with chaotica.
 ---
 
+[![Intro Image](/assets/images/chaotica-elliptic-splits/Dancing in the Dark.png)](/assets/images/chaotica-elliptic-splits/Dancing in the Dark.png)
+
 ## Credits
 
 This is a collaboration between myself and Crystalize but a huge thanks to the fractal community is also in order.  The first method is mine and based on apophysis.  The second is Crystalize's and is something I thought worth including as it's very well built.  
