@@ -135,7 +135,7 @@ You can leave it here if you want, but it can look downright epic if you choose 
 
 # Elliptic Splits Method 2
 
-This one was created by Crystalize and all credit for the method goes to him.  I'm going to build the tutorial with my own tweaks and values, but the basis came from his brain.
+This one was created by Crystalize and all credit for the method goes to him.  I'm going to build the tutorial with my own tweaks and values, but the basis came from his brain.  This method uses arcsinh instead of elliptic but the effect is very close to the same at the end.  It's not identical, but it's close enough to make some awesome happen.
 
 This iterator creates lines to frame everything.  You're going to build it using the chain method from one of my other tutorials.  This is an intermediate technique and you can find the tutorial on it [HERE][chains] or just click on the tutorials menu on the top right.
 
