@@ -284,4 +284,4 @@ them.
 [chaotica-link]: https://chaoticafractals.com/
 [tutorial2]: https://blog.pugnacious.site/chaotica/editor
 [tutorial3]: https://blog.pugnacious.site/chaotica/linear-tiles
-[apo-chaotica-diff](https://gist.github.com/tararoys/c99097fd9c903a26a21a74598dbcdecf)
+[apo-chaotica-diff]: https://gist.github.com/tararoys/c99097fd9c903a26a21a74598dbcdecf
