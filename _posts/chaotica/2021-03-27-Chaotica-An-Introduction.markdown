@@ -79,6 +79,8 @@ In Apophysis you have Transforms.  In Chaotica, you have Iterators.
 
 *Iterators* are the mechanism that creates repeating fractals.  They contain *Transforms* which bend the image based on their properties.  In apophysis an iterator would be called a transform and a transform would be called a variation.  Just keep in mind that Chaotica iterators = Apophysis Transforms and Chaotica Transforms = Apophysis Variations.
 
+For a full list of differences between the two softwares, see this awesome link from Tararoys: [LINK][apo-chaotica-diff]
+
 The min and max iterators tell the random generator how many or few to use when it creates
 random parameters.  We'll come back to this topic when we get to the practical
 part of the tutorial, so be prepared for it.
@@ -282,3 +284,4 @@ them.
 [chaotica-link]: https://chaoticafractals.com/
 [tutorial2]: https://blog.pugnacious.site/chaotica/editor
 [tutorial3]: https://blog.pugnacious.site/chaotica/linear-tiles
+[apo-chaotica-diff](https://gist.github.com/tararoys/c99097fd9c903a26a21a74598dbcdecf)
