@@ -11,14 +11,17 @@ excerpt: "This is a tutorial on Chaotica Basics"
 
 ## <a name="what-is-it-"></a>What is it?
 Welcome Friends!  I'd like to introduce you to Chaotica.  
-This is a software that's still being developed.  It's similar to [Apophysis][apophysis-link] (or more recently [Apophysis 7x][apophysis-7x-link]) but more geared at this time towards rendering.
+This is a fractal rendering and designing software that's still being developed.  
+
+*The purpose of Chaotica is to make lovely images like this one.*
+
+[![Golden Rings - By Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de0uqlx-27ff5d03-c93c-48cc-9e96-06518ddacdf5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZTB1cWx4LTI3ZmY1ZDAzLWM5M2MtNDhjYy05ZTk2LTA2NTE4ZGRhY2RmNS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.aDcP7AxelTqO8UB70Xa0fJPqN_fumxDTEV0GTv3jpQc)](https://www.deviantart.com/monkeyshack/art/Golden-Rings-847960629)
+
+It's similar to [Apophysis][apophysis-link] (or more recently [Apophysis 7x][apophysis-7x-link]) but more geared at this time towards rendering.
 
 Chaotica: [https://chaoticafractals.com/][chaotica-link]
 
-Chaotica has a free version, but if one wants to render in high resolution or
-for monetary gain, one must buy a license.  I'm going to go out on a limb and
-guess that if you're here, reading this, than you likely know at least something
-about what it is and does.
+Chaotica has a free version, but if one wants to render in high resolution or for monetary gain, one must buy a license.  I'm going to go out on a limb and guess that if you're here, reading this, than you likely know at least something about what it is and does.
 
 Since I started trying to learn Chaotica, I've found the biggest hurdle is
 figuring out what feature does what, and how it's similar or different to
@@ -42,9 +45,16 @@ At first glance, this can seem a bit overwhelming.  Let me start by
 explaining what you're seeing.
 
 The window in the middle is a Parameter Browser.  It let's you create a new
-"World" based on random parameters.  If you've used Apophysis think "flame."  In
-Apophysis you call it a flame, and here it's a world.  It's just a different way
-of thinking about it really.  You can either accept one of the random variables,
+"World" based on random parameters.  
+
+This is probably a great time to illustrate the differences between Apophysis and Chaotica.
+
+*Parameters* are what defines a fractal.  In Chaotica they you have a *chaos* file.  In apophysis you have a *flame* file.  These files contain parameters.
+
+Chaotica uses the term *world* to define a collection of parameters.  
+In Apophysis a collection of parameters is called a *flame*
+
+You can either accept one of the random variables provided by the parameter browser,
 or click that button on the left that says "New random worlds".
 
 The main window in the back is where your world will take shape.  You can safely
@@ -54,7 +64,7 @@ close the parameter browser now and we can focus on the rest of the window.
 
 [![Random World Generator](/assets/images/chaotica-introduction/chaotica_JacS8a4kw1.png)](/assets/images/chaotica-introduction/chaotica_JacS8a4kw1.png)
 
-Since we're on that subject, let me explain that first.  The button, will
+Since we're on the subject of generating random worlds, let me explain that first.  The _New Random Worlds_ button, will
 generate a new set of random for you to play with.  The number next to it,
 conveniently labelled "number," will tell the software how many to give you.
  Every time you hit it, the software will attempt to generate new ones.
@@ -63,8 +73,11 @@ factor at work.
 
 Next we have Min and Max iterators.  Let me explain that.
 
-In Apophysis you have Transforms.  In Chaotica, you have Iterators.  The min and
-max iterators tell the random generator how many or few to use when it creates
+In Apophysis you have Transforms.  In Chaotica, you have Iterators.  
+
+*Iterators* are the mechanism that creates repeating fractals.  They contain *Transforms* which bend the image based on their properties.  In apophysis an iterator would be called a transform and a transform would be called a variation.  Just keep in mind that Chaotica iterators = Apophysis Transforms and Chaotica Transforms = Apophysis Variations.
+
+The min and max iterators tell the random generator how many or few to use when it creates
 random parameters.  We'll come back to this topic when we get to the practical
 part of the tutorial, so be prepared for it.
 
@@ -252,7 +265,6 @@ Next time, we'll cover more advanced editing, how to use the other menus and
 editors and creating a basic fractal.  I'll leave you with a few things that
 Chaotica can render for your viewing pleasure.
 
-[![Golden Rings - By Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de0uqlx-27ff5d03-c93c-48cc-9e96-06518ddacdf5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZTB1cWx4LTI3ZmY1ZDAzLWM5M2MtNDhjYy05ZTk2LTA2NTE4ZGRhY2RmNS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.aDcP7AxelTqO8UB70Xa0fJPqN_fumxDTEV0GTv3jpQc)](https://www.deviantart.com/monkeyshack/art/Golden-Rings-847960629)
 [![Origin of Life - by Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/ddzd45r-74a06af3-caf1-45e1-bdd4-722e6a2677b3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZHpkNDVyLTc0YTA2YWYzLWNhZjEtNDVlMS1iZGQ0LTcyMmU2YTI2NzdiMy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.NTz5BJlVzHgVfCRa85Rhm_4ay6B8VVL55E88f-6t6UY)](https://www.deviantart.com/monkeyshack/art/Origin-of-Life-845458767)
 [![Stuck in a Chessboard - by Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de0rl38-3fbf58b7-9c08-4e05-868a-55429ca6e7e6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZTBybDM4LTNmYmY1OGI3LTljMDgtNGUwNS04NjhhLTU1NDI5Y2E2ZTdlNi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.mLGyQ0w4mXddz6CY5F5C0_JdpusAv7WAPoQ86H-AqXQ)](https://www.deviantart.com/monkeyshack/art/Stuck-In-A-Chessboard-847813508In)
 
