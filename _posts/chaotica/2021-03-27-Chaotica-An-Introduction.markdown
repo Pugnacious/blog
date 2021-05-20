@@ -49,6 +49,8 @@ The window in the middle is a Parameter Browser.  It let's you create a new
 
 This is probably a great time to illustrate the differences between Apophysis and Chaotica.
 
+I got my start in fractals by learning apophysis.  I'm including the differences between the software because I still think in terms of apophysis sometimes and some of the readers may have the same or similar background.
+
 *Parameters* are what defines a fractal.  In Chaotica they you have a *chaos* file.  In apophysis you have a *flame* file.  These files contain parameters.
 
 Chaotica uses the term *world* to define a collection of parameters.  
