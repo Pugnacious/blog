@@ -32,7 +32,7 @@ one goal.
 
 ## <a name="where-to-get-it-"></a>Where to get it?
 First and foremost, snag a copy off the [site][chaotica-link]. I suggest snagging the beta of
-Chaotica 2 off the forum.  It's a bit more feature filled and this guide will be
+Chaotica 2 (version 2.2.2 as of this moment) off the forum.  It's a bit more feature filled and this guide will be
 using that version.
 
 ## <a name="what-does-it-look-like-"></a>What does it look like?
