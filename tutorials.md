@@ -10,6 +10,7 @@ permalink: /tutorials/
 1. [Chaotica: An Introduction][tutorial1]
 2. [Chaotica: Edit the World][tutorial2]
 3. [Chaotica: Linear Latitude][tutorial3]
+4. [Chaotica: Transform Examples][tutorial5]
 
 ## Chaotica Intermediate
 
@@ -30,3 +31,4 @@ permalink: /tutorials/
 [crystalize-xforms]: https://blog.pugnacious.site/chaotica/crystalize/xforms
 [transform-chains]: https://blog.pugnacious.site/chaotica/transform/chains
 [esplits]: https://blog.pugnacious.site/chaotica/elliptic/splits
+[tutorial5]: https://blog.pugnacious.site/chaotica/transform/examples
