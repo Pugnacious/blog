@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Chaotica: Variation Examples"
+title:  "Chaotica: Transform Examples"
 categories: fractal chaotica
 permalink: "/chaotica/transform/examples"
 author: "Pugnacious"
