@@ -35,12 +35,12 @@ Next, create a post-transform and pick polynomial for the transform.  Set the po
 [![Small Square](/assets/images/chaotica-transform-examples/chaotica_tjtEWFCrfR.png)](/assets/images/chaotica-transform-examples/chaotica_tjtEWFCrfR.png)
 [![Small Square Editor](/assets/images/chaotica-transform-examples/chaotica_8BqbH9VCcg.png)](/assets/images/chaotica-transform-examples/chaotica_8BqbH9VCcg.png)
 
-Now we're going to create a second square in the opposite corner.  Create a new post-transform and set it to mirror_x.  This will mirror the X axis.
+Now we're going to create a second square in the opposite corner.  Create a new post-transform and set it to mirror_x.  This will mirror the X axis across the y axis.
 
 [![Mirrored Square](/assets/images/chaotica-transform-examples/chaotica_pRbjXZVQe2.png)](/assets/images/chaotica-transform-examples/chaotica_pRbjXZVQe2.png)
 [![Mirrored Square Editor](/assets/images/chaotica-transform-examples/chaotica_s7AyYmrGmA.png)](/assets/images/chaotica-transform-examples/chaotica_s7AyYmrGmA.png)
 
-Next create a new post-transform and set it to flipy.  This will flip everything across the Y axis.
+Next create a new post-transform and set it to flipy.  This will flip everything top to bottom and uses the Y axis as it's centerline.
 
 [![Flipped Square](/assets/images/chaotica-transform-examples/chaotica_8lEYfiSTLu.png)](/assets/images/chaotica-transform-examples/chaotica_8lEYfiSTLu.png)
 [![Flipped Square Editor](/assets/images/chaotica-transform-examples/chaotica_Wz8FFcVp7Y.png)](/assets/images/chaotica-transform-examples/chaotica_Wz8FFcVp7Y.png)
