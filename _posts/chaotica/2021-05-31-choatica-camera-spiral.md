@@ -42,7 +42,7 @@ On this iterator we're going to set a transform of bipolar.  We're going to then
 
 ## Recap
 
-Ok, so we've created a neat spiral orb thing.  This is literally just something I tossed together using random transforms.  The next part of the tutorial is the main focus.  I'm writing this bit to give you background and to let you know that you can use this on almost anything.  It doesn't have to be a circle, and you can pick whatever looks good to you.  
+Ok, so we've created a neat spiral orb thing.  This is literally just something I tossed together using random transforms.  The next part of the tutorial is the main focus.  I'm writing this bit to give you background and to let you know that you can use this on almost anything.  It doesn't have to be a circle, and you can pick whatever looks good to you.  I would suggest to save a copy of this as it is right now, and come back after the rest of the tutorial and experiment with different ways to wrap this circle.  Keep in mind that none of the following is needed to make it look good.  It's just one way to do it and this method is used to show you options for wrapping other things than a circle into a spiral.
 
 ## The Plan
 
