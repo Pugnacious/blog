@@ -17,6 +17,7 @@ permalink: /tutorials/
 1. [Chaotica: Circle Inversion][tutorial4]
 2. [Chatoica: Transform Chains][transform-chains]
 3. [Chaotica: Elliptic-Splits][esplits]
+4. [Chaotica: Camera Spiral][camspiral]
 
 ## Chaotica Advanced
 
@@ -32,3 +33,4 @@ permalink: /tutorials/
 [transform-chains]: https://blog.pugnacious.site/chaotica/transform/chains
 [esplits]: https://blog.pugnacious.site/chaotica/elliptic/splits
 [tutorial5]: https://blog.pugnacious.site/chaotica/transform/examples
+[camspiral]: https://blog.pugnacious.site/chaotica/camera/spiral
