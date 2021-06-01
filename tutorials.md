@@ -15,7 +15,7 @@ permalink: /tutorials/
 ## Chaotica Intermediate
 
 1. [Chaotica: Circle Inversion][tutorial4]
-2. [Transform Chains][transform-chains]
+2. [Chatoica: Transform Chains][transform-chains]
 3. [Chaotica: Elliptic-Splits][esplits]
 
 ## Chaotica Advanced
