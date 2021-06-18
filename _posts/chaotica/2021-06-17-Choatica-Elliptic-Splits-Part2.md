@@ -133,6 +133,8 @@ Finally, get your palette and shaders where you like, and you'll have some aweso
 
 [![Final Image](/assets/images/chaotica-esplits-part2/Roman Arcana.png)](/assets/images/chaotica-esplits-part2/Roman Arcana.png)
 
+> Keep in mind, it's not about the destination.  It's about the journey and what you learned along the way. -Pugnacious
+
 [camspiral]: https://blog.pugnacious.site/chaotica/camera/spiral
 [esplits]: https://blog.pugnacious.site/chaotica/elliptic/splits
 [chains]: https://blog.pugnacious.site/chaotica/transform/chains
