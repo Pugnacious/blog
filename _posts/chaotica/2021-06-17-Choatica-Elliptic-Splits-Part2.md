@@ -98,7 +98,7 @@ Now the next step is to go back to our iterator and setup a new pre transform.  
 
 ## Final Steps
 
-We have successfully turned our elliptic-splits fractal into a circle. From this point there are a lot of things you can do.  I'll cover three possibilities here.  The main one we're going to cover is sending this to circus, but I would create a save file at this point and explore for later.
+We have successfully turned our elliptic-splits fractal into a circle. From this point there are a lot of things you can do.  I'll cover three possibilities here.  The main one we're going to cover is sending this to circus, but I would create a save file at this point and explore for later.  The next three sections are branches and diverge from this point, so saving here is important for you to swap back to this point.
 
 ### Spiral
 
