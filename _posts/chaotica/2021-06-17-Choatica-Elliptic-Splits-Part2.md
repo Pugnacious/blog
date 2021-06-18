@@ -35,7 +35,7 @@ We're going to use another iterator to wrap this into a circle.
 Similar to other tutorials, we're going to create a circle out of this.  However, for this one we're going to use an iterator instead of a camera setup.
 Start by creating a new iterator and setting it's transform to linear.  We're not going to make it do anything other than wrap the previous set of iterators into a circle, so setting it to linear is like telling the fractal that we're going to take everything and start translating it, but if we don't move the pre-affine, nothing happens beyond what we do in the pre and post transforms.  If you think that's complicated, just set it up and play with it and you should get the general idea.
 
-[![circle main](/assets/images/chaotica-esplits-part2/chaotica_mHL7CPrgB6.png)](/assets/images/chaotica-esplits-part2/chaotica_mHL7CPrgB6.png)
+[![circle main](/assets/images/chaotica-esplits-part2/chaotica_mHL7CPrgB6.jpg)](/assets/images/chaotica-esplits-part2/chaotica_mHL7CPrgB6.jpg)
 [![circle editor](/assets/images/chaotica-esplits-part2/chaotica_fNFeNvcDb6.png)](/assets/images/chaotica-esplits-part2/chaotica_fNFeNvcDb6.png)
 
 Next, start a pre-transform for this iterator and we're going to start by adding a crop transform.  It's going to look a bit weird, but to start off with change the variables like so.
@@ -45,7 +45,7 @@ Next, start a pre-transform for this iterator and we're going to start by adding
         crop_right: 5.0
         crop_zero: 1.0
 
-[![crop main](/assets/images/chaotica-esplits-part2/chaotica_3ek9C2PAlw.png)](/assets/images/chaotica-esplits-part2/chaotica_3ek9C2PAlw.png)
+[![crop main](/assets/images/chaotica-esplits-part2/chaotica_3ek9C2PAlw.jpg)](/assets/images/chaotica-esplits-part2/chaotica_3ek9C2PAlw.jpg)
 [![crop editor](/assets/images/chaotica-esplits-part2/chaotica_FLRLu4cgy5.png)](/assets/images/chaotica-esplits-part2/chaotica_FLRLu4cgy5.png)
 
 You'll notice at this point that we have a lot of white dots scattered all over the place.  The crop transform puts them everywhere.  At this point I'm going to do two things.  I'm going to turn the opacity on all the other iterators to 0 and then I'm going to add a new post transform called dot_remover.  You don't have to use the dot remover.  It simply cleans up the image.  It's one of Crystalize's xforms and it comes with one caveat.  It doesn't work with OpenCL.  That means that if you're going to render this with a GPU, don't use it.  At the time of this tutorial, I'm moving it to the main branch on the code repository, so you may have to download it if you already have his stuff installed. The last thing i'm going to do is drop the value of the dot_remover down to 0.1 to make everything line up later.
@@ -104,7 +104,7 @@ We have successfully turned our elliptic-splits fractal into a circle. From this
 
 The first possibility is spiraling this.  It's covered in the [Camera Spiral][camspiral] Tutorial.  Feel free to explore that path.  It looks a lot like this when you apply it.
 
-[![Spiral](/assets/images/chaotica-esplits-part2/chaotica_9zUzyaPnWt.png)](/assets/images/chaotica-esplits-part2/chaotica_9zUzyaPnWt.png)
+[![Spiral](/assets/images/chaotica-esplits-part2/chaotica_9zUzyaPnWt.jpg)](/assets/images/chaotica-esplits-part2/chaotica_9zUzyaPnWt.jpg)
 [![Spiral Editor](/assets/images/chaotica-esplits-part2/chaotica_HC64mvI8Ma.png)](/assets/images/chaotica-esplits-part2/chaotica_HC64mvI8Ma.png)
 
 ### Glynnsim
@@ -126,7 +126,7 @@ Finally adjust the thickness value to match our ring.  Mine came out to 0.24.  A
 
 The main focus of this tutorial is to use Circus though.  If you've been following along, we can set the weights exactly like the glynnsim weights except with the name changed to Circus. The transform will be circus and set the scale to whatever makes you happy.  I ended up with 0.81 for that value.  Next use the pre-affine to spin, move and size it until you're happy.  Here's my result.
 
-[![Circus main](/assets/images/chaotica-esplits-part2/chaotica_ZqC1yqBG02.png)](/assets/images/chaotica-esplits-part2/chaotica_ZqC1yqBG02.png)
+[![Circus main](/assets/images/chaotica-esplits-part2/chaotica_ZqC1yqBG02.jpg)](/assets/images/chaotica-esplits-part2/chaotica_ZqC1yqBG02.jpg)
 [![Circus Editor](/assets/images/chaotica-esplits-part2/chaotica_WxhJH2ugCh.png)](/assets/images/chaotica-esplits-part2/chaotica_WxhJH2ugCh.png)
 
 Finally, get your palette and shaders where you like, and you'll have some awesome to show off later.  
