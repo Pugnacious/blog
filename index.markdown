@@ -5,7 +5,7 @@
 layout: home
 header:
   image: /assets/images/splash_header.png
-  image_description: "Djinn's Respite by Monkeyshack (myself)"
+  image_description: "Djinn's Respite by PugnaciousOne (myself)"
   author_profile: true
   author:
     name: "Pugnacious"
