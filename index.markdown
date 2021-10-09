@@ -19,3 +19,10 @@ Welcome to my blog.  I will be posting content related to my interests.  Expect 
 Fractals: [https://discord.gg/8XnPuWZHFv](https://discord.gg/8XnPuWZHFv)
 
 Computers and Home Lab: [https://discord.gg/k72sJMFn7H](https://discord.gg/k72sJMFn7H)
+
+
+## Content
+
+For tutorials, please see the link in the top right corner for an indexed list.
+
+Otherwise, see below for all the posts.  (HINT, the indexed list is easier.)
