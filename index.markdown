@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+paginate: 4
 header:
   image: /assets/images/splash_header.png
   image_description: "Djinn's Respite by PugnaciousOne (myself)"
