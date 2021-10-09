@@ -38,6 +38,7 @@ toc_label: "Table of Contents"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-include-cache
   - jekyll-remote-theme
 
