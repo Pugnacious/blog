@@ -1,0 +1,40 @@
+---
+layout: single
+title: Tutorials
+toc: true
+permalink: /tutorials/
+---
+
+## Chaotica Basics
+
+1. [Chaotica: An Introduction][tutorial1]
+2. [Chaotica: Edit the World][tutorial2]
+3. [Chaotica: Linear Latitude][tutorial3]
+4. [Chaotica: Transform Examples][tutorial5]
+
+## Chaotica Intermediate
+
+1. [Chaotica: Circle Inversion][tutorial4]
+2. [Chatoica: Transform Chains][transform-chains]
+3. [Chaotica: Elliptic-Splits][esplits]
+4. [Chaotica: Elliptic-Splits Part 2][esplits2]
+5. [Chaotica: Camera Spiral][camspiral]
+
+## Chaotica Advanced
+
+1. [Crystalize Xforms][crystalize-xforms]
+2. [Chaotica: Generating Transform Previews][previews]
+
+
+
+[tutorial1]: https://blog.pugnacious.site/chaotica/introduction
+[tutorial2]: https://blog.pugnacious.site/chaotica/editor
+[tutorial3]: https://blog.pugnacious.site/chaotica/linear-tiles
+[tutorial4]: https://blog.pugnacious.site/chaotica/circle/inversion
+[crystalize-xforms]: https://blog.pugnacious.site/chaotica/crystalize/xforms
+[transform-chains]: https://blog.pugnacious.site/chaotica/transform/chains
+[esplits]: https://blog.pugnacious.site/chaotica/elliptic/splits
+[tutorial5]: https://blog.pugnacious.site/chaotica/transform/examples
+[camspiral]: https://blog.pugnacious.site/chaotica/camera/spiral
+[esplits2]: https://blog.pugnacious.site/chaotica/elliptic/splits/part2
+[previews]: https://blog.pugnacious.site/chaotica/transform/previews
