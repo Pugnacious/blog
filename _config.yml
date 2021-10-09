@@ -25,9 +25,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   namely the administrator, though other individuals may occasionally
   author information here.  It should be taken as opinion of the author.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.pugnacious.site" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  Pugnacious
+
+layout: single
+toc: true
+toc_label: "Table of Contents"
 
 # Build settings
 #theme: minimal-mistakes-jekyll
@@ -37,6 +41,8 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
+minimal_mistakes_skin: "dark"
+paginate: 1
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
