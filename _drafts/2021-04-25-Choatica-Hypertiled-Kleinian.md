@@ -128,4 +128,4 @@ Insert the formulas or math here on how this is setup
     base_weight: 0.03    
 
 
-[crystalize]: https://blog.pugnacious.site/chaotica/crystalize/xforms
+[crystalize]: https://www.pugnacious.site/chaotica/crystalize/xforms

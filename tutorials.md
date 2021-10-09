@@ -27,14 +27,14 @@ permalink: /tutorials/
 
 
 
-[tutorial1]: https://blog.pugnacious.site/chaotica/introduction
-[tutorial2]: https://blog.pugnacious.site/chaotica/editor
-[tutorial3]: https://blog.pugnacious.site/chaotica/linear-tiles
-[tutorial4]: https://blog.pugnacious.site/chaotica/circle/inversion
-[crystalize-xforms]: https://blog.pugnacious.site/chaotica/crystalize/xforms
-[transform-chains]: https://blog.pugnacious.site/chaotica/transform/chains
-[esplits]: https://blog.pugnacious.site/chaotica/elliptic/splits
-[tutorial5]: https://blog.pugnacious.site/chaotica/transform/examples
-[camspiral]: https://blog.pugnacious.site/chaotica/camera/spiral
-[esplits2]: https://blog.pugnacious.site/chaotica/elliptic/splits/part2
-[previews]: https://blog.pugnacious.site/chaotica/transform/previews
+[tutorial1]: https://www.pugnacious.site/chaotica/introduction
+[tutorial2]: https://www.pugnacious.site/chaotica/editor
+[tutorial3]: https://www.pugnacious.site/chaotica/linear-tiles
+[tutorial4]: https://www.pugnacious.site/chaotica/circle/inversion
+[crystalize-xforms]: https://www.pugnacious.site/chaotica/crystalize/xforms
+[transform-chains]: https://www.pugnacious.site/chaotica/transform/chains
+[esplits]: https://www.pugnacious.site/chaotica/elliptic/splits
+[tutorial5]: https://www.pugnacious.site/chaotica/transform/examples
+[camspiral]: https://www.pugnacious.site/chaotica/camera/spiral
+[esplits2]: https://www.pugnacious.site/chaotica/elliptic/splits/part2
+[previews]: https://www.pugnacious.site/chaotica/transform/previews

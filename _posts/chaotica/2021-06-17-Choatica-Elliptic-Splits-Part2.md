@@ -137,7 +137,7 @@ Finally, get your palette and shaders where you like, and you'll have some aweso
 
 > Keep in mind, it's not about the destination.  It's about the journey and what you learned along the way. -Pugnacious
 
-[camspiral]: https://blog.pugnacious.site/chaotica/camera/spiral
-[esplits]: https://blog.pugnacious.site/chaotica/elliptic/splits
-[chains]: https://blog.pugnacious.site/chaotica/transform/chains
-[xforms]: https://blog.pugnacious.site/chaotica/crystalize/xforms
+[camspiral]: https://www.pugnacious.site/chaotica/camera/spiral
+[esplits]: https://www.pugnacious.site/chaotica/elliptic/splits
+[chains]: https://www.pugnacious.site/chaotica/transform/chains
+[xforms]: https://www.pugnacious.site/chaotica/crystalize/xforms

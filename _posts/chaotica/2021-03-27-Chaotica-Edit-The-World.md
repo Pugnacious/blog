@@ -238,7 +238,7 @@ the world editor.
 2. This tutorial.
 3. [Chaotica: Linear Latitude][tutorial3]
 
-[tutorial1]: https://blog.pugnacious.site/chaotica/introduction
-[tutorial2]: https://blog.pugnacious.site/chaotica/editor
-[tutorial3]: https://blog.pugnacious.site/chaotica/linear-tiles
+[tutorial1]: https://www.pugnacious.site/chaotica/introduction
+[tutorial2]: https://www.pugnacious.site/chaotica/editor
+[tutorial3]: https://www.pugnacious.site/chaotica/linear-tiles
 [chaos-video]: https://youtu.be/kbKtFN71Lfs

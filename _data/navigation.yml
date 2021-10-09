@@ -1,25 +1,25 @@
 # main links
 main:
   - title: "Home"
-    url: https://blog.pugnacious.site/
+    url: https://www.pugnacious.site/
   - title: "About"
-    url: https://blog.pugnacious.site/about/
+    url: https://www.pugnacious.site/about/
   - title: "Tutorials"
-    url: https://blog.pugnacious.site/tutorials/
+    url: https://www.pugnacious.site/tutorials/
     children:
     - title: "Chaotica: An Introduction"
-      url: https://blog.pugnacious.site/chaotica/introduction
+      url: https://www.pugnacious.site/chaotica/introduction
     - title: "Chaotica Edit the World"
-      url: https://blog.pugnacious.site/chaotica/editor
+      url: https://www.pugnacious.site/chaotica/editor
     - title: "Chaotica: Linear Latitude"
-      url: https://blog.pugnacious.site/chaotica/linear-tiles
+      url: https://www.pugnacious.site/chaotica/linear-tiles
     - title: "Chaotica: Circle Inversion"
-      url: https://blog.pugnacious.site/chaotica/circle/inversion
+      url: https://www.pugnacious.site/chaotica/circle/inversion
     - title: "Chaotica: Crystalize Xforms"
-      url: https://blog.pugnacious.site/chaotica/crystalize/xforms
+      url: https://www.pugnacious.site/chaotica/crystalize/xforms
     - title: "Chaotica: Transform Chains"
-      url: https://blog.pugnacious.site/chaotica/transform/chains
+      url: https://www.pugnacious.site/chaotica/transform/chains
     - title: "Chaotica: Transform Examples"
-      url: https://blog.pugnacious.site/chaotica/transform/examples
+      url: https://www.pugnacious.site/chaotica/transform/examples
     - title: "Chaotica: Camera Spiral"
-      url: https://blog.pugnacious.site/chaotica/camera/spiral
+      url: https://www.pugnacious.site/chaotica/camera/spiral

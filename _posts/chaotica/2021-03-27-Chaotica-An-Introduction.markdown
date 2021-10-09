@@ -15,7 +15,7 @@ This is a fractal rendering and designing software that's still being developed.
 
 *The purpose of Chaotica is to make lovely images like this one.*
 
-[![Golden Rings - By Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de0uqlx-27ff5d03-c93c-48cc-9e96-06518ddacdf5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZTB1cWx4LTI3ZmY1ZDAzLWM5M2MtNDhjYy05ZTk2LTA2NTE4ZGRhY2RmNS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.aDcP7AxelTqO8UB70Xa0fJPqN_fumxDTEV0GTv3jpQc)](https://www.deviantart.com/monkeyshack/art/Golden-Rings-847960629)
+[![Golden Rings - By PugnaciousOne (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de0uqlx-27ff5d03-c93c-48cc-9e96-06518ddacdf5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZTB1cWx4LTI3ZmY1ZDAzLWM5M2MtNDhjYy05ZTk2LTA2NTE4ZGRhY2RmNS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.aDcP7AxelTqO8UB70Xa0fJPqN_fumxDTEV0GTv3jpQc)](https://www.deviantart.com/monkeyshack/art/Golden-Rings-847960629)
 
 It's similar to [Apophysis][apophysis-link] (or more recently [Apophysis 7x][apophysis-7x-link]) but more geared at this time towards rendering.
 
@@ -269,8 +269,8 @@ Next time, we'll cover more advanced editing, how to use the other menus and
 editors and creating a basic fractal.  I'll leave you with a few things that
 Chaotica can render for your viewing pleasure.
 
-[![Origin of Life - by Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/ddzd45r-74a06af3-caf1-45e1-bdd4-722e6a2677b3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZHpkNDVyLTc0YTA2YWYzLWNhZjEtNDVlMS1iZGQ0LTcyMmU2YTI2NzdiMy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.NTz5BJlVzHgVfCRa85Rhm_4ay6B8VVL55E88f-6t6UY)](https://www.deviantart.com/monkeyshack/art/Origin-of-Life-845458767)
-[![Stuck in a Chessboard - by Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de0rl38-3fbf58b7-9c08-4e05-868a-55429ca6e7e6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZTBybDM4LTNmYmY1OGI3LTljMDgtNGUwNS04NjhhLTU1NDI5Y2E2ZTdlNi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.mLGyQ0w4mXddz6CY5F5C0_JdpusAv7WAPoQ86H-AqXQ)](https://www.deviantart.com/monkeyshack/art/Stuck-In-A-Chessboard-847813508In)
+[![Origin of Life - by PugnaciousOne (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/ddzd45r-74a06af3-caf1-45e1-bdd4-722e6a2677b3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZHpkNDVyLTc0YTA2YWYzLWNhZjEtNDVlMS1iZGQ0LTcyMmU2YTI2NzdiMy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.NTz5BJlVzHgVfCRa85Rhm_4ay6B8VVL55E88f-6t6UY)](https://www.deviantart.com/monkeyshack/art/Origin-of-Life-845458767)
+[![Stuck in a Chessboard - by PugnaciousOne (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de0rl38-3fbf58b7-9c08-4e05-868a-55429ca6e7e6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZTBybDM4LTNmYmY1OGI3LTljMDgtNGUwNS04NjhhLTU1NDI5Y2E2ZTdlNi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.mLGyQ0w4mXddz6CY5F5C0_JdpusAv7WAPoQ86H-AqXQ)](https://www.deviantart.com/monkeyshack/art/Stuck-In-A-Chessboard-847813508In)
 
 In part 2, we will cover the world and palette editors and the basics of using
 them.
@@ -282,6 +282,6 @@ them.
 [apophysis-link]: https://sourceforge.net/projects/apophysis/
 [apophysis-7x-link]: https://sourceforge.net/projects/apophysis7x/
 [chaotica-link]: https://chaoticafractals.com/
-[tutorial2]: https://blog.pugnacious.site/chaotica/editor
-[tutorial3]: https://blog.pugnacious.site/chaotica/linear-tiles
+[tutorial2]: https://www.pugnacious.site/chaotica/editor
+[tutorial3]: https://www.pugnacious.site/chaotica/linear-tiles
 [apo-chaotica-diff]: https://gist.github.com/tararoys/c99097fd9c903a26a21a74598dbcdecf

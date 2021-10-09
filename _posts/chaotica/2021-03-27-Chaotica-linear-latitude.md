@@ -161,6 +161,6 @@ with a few examples of what I have created with this method.
 [![Hall of Infinite Creation - by Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de0fy7x-7d5ca4ad-82a6-4602-af91-58f4a2523392.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZTBmeTd4LTdkNWNhNGFkLTgyYTYtNDYwMi1hZjkxLTU4ZjRhMjUyMzM5Mi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ybylbP7gM_xlo7C8D23WM6sBF5IbwMH2C3WeUfJJ9I4)](https://www.deviantart.com/monkeyshack/art/Hall-of-Infinite-Creation-847270653)
 [![Hex World - by Monkeyshack (me)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c44d1498-1c89-4141-bf98-d14781623673/de1lz89-91a70a81-7444-4bdf-bc0d-7944787f25ec.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzQ0ZDE0OTgtMWM4OS00MTQxLWJmOTgtZDE0NzgxNjIzNjczXC9kZTFsejg5LTkxYTcwYTgxLTc0NDQtNGJkZi1iYzBkLTc5NDQ3ODdmMjVlYy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.IZ945Du_WCgdzzXqtrewXrZKrYfsdpkctNKP6GZyvX4)](https://www.deviantart.com/monkeyshack/art/Hex-World-849231513)
 
-[tutorial1]: https://blog.pugnacious.site/chaotica/introduction
-[tutorial2]: https://blog.pugnacious.site/chaotica/editor
-[tutorial3]: https://blog.pugnacious.site/chaotica/linear-tiles
+[tutorial1]: https://www.pugnacious.site/chaotica/introduction
+[tutorial2]: https://www.pugnacious.site/chaotica/editor
+[tutorial3]: https://www.pugnacious.site/chaotica/linear-tiles
