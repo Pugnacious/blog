@@ -29,7 +29,7 @@ User transforms are transforms written in the winter xml format and stored in th
 
     %appdata%\Chaotica\user_transforms
 
-**NOTE: the %appdata% environment variable points to C:\Users\ <username>\Appdata\Roaming**
+** NOTE: the %appdata% environment variable points to C:\Users\ <username>\Appdata\Roaming **
 
 If this folder doesn't exist, simply create it.
 
