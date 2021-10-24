@@ -11,7 +11,7 @@ excerpt: >-
   Chaotica.
 ---
 
-# Chaotica: Crystalize Xforms
+# Introduction
 
 This is a tutorial on installing the custom transforms created by Crystalize
 
