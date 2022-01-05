@@ -49,7 +49,7 @@ Next create another post-transform and set it to tile_log. This transform will t
 
 [![tile_log](/assets/images/chaotica-transform-examples/chaotica_uPE8xBdNd4.png)](/assets/images/chaotica-transform-examples/chaotica_uPE8xBdNd4.png) [![tile_log Editor](/assets/images/chaotica-transform-examples/chaotica_4WZyce1Nsn.png)](/assets/images/chaotica-transform-examples/chaotica_4WZyce1Nsn.png)
 
-Now comes the fun part. We're going to create another post-transform, but this time set it to moebius. Moebius is like a linear, but we can do a lot of nifty things with it. it's extremely useful, but in this specific case, we're going to use it to rotate the entire tile 90 degrees. Set the Im_A to 1\. This will make it larger, and rotate it 45 degrees. Next set the Im_D to -1.0\. This will lower the size back to normal, and finish the rotation to a full 90.
+Now comes the fun part. We're going to create another post-transform, but this time set it to mobius. Mobius is like a linear, but we can do a lot of nifty things with it. it's extremely useful, but in this specific case, we're going to use it to rotate the entire tile 90 degrees. Set the Im_A to 1\. This will make it larger, and rotate it 45 degrees. Next set the Im_D to -1.0\. This will lower the size back to normal, and finish the rotation to a full 90.
 
 [![First Moebius](/assets/images/chaotica-transform-examples/chaotica_YgXDimlalG.png)](/assets/images/chaotica-transform-examples/chaotica_YgXDimlalG.png) [![First Moebius Editor](/assets/images/chaotica-transform-examples/chaotica_OZzZuJVZf1.png)](/assets/images/chaotica-transform-examples/chaotica_OZzZuJVZf1.png)
 
