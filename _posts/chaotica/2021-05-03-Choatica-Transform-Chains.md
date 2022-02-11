@@ -49,7 +49,9 @@ Next I'm going to add another post transform and add tile_log with all default v
 
 [![Tile_log](/assets/images/chaotica-transform-chains/screen_1416.png)](/assets/images/chaotica-transform-chains/screen_1416.png)
 
-This will take a transform and make a tile both left and right of it. Next, for the sake of showing how it works, lets make that tile go up and down too.
+This will take a transform and make a tile both left and right of it. If you adjust the tile_log_spread value you can control how "bright" it is throughout the tile.  In this example, I've raised that value so you can see it better.  I've also zoomed out on the camera so you can see the full structure.  
+
+Next, for the sake of showing how it works, lets make that tile go up and down too.
 
 Start by adding another post transform. This time Moebius. Moebius will allow us to tweak things. So now set Im_A to 1 and Im_D to -1\. That will flip it 90 degrees without changing it's size.
 
