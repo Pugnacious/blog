@@ -6,7 +6,7 @@ permalink: /about/
 
 ### Note
 
-This blog expresses the thoughts and sentiments of an individual namely the administrator, though other individuals may occasionally author information here. It should be taken as opinion of the author.
+This blog expresses the thoughts and sentiments of an individual namely the administrator, though other individuals may occasionally author information here. It should be taken as the opinion of the author.
 
 ### Bio
 
