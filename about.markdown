@@ -14,8 +14,7 @@ This blog is written by me.  I go by Pugnacious or PugnaciousOne.
 
 #### Art Gallery
 
-[Deviantart][deviantart]
-[ArtStation][artstation]
+[Deviantart][deviantart] | [ArtStation][artstation]
 
 #### Other Links
 
