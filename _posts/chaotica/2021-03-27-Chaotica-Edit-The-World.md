@@ -141,7 +141,7 @@ Now, I want my top orb to be the original color and the rest to follow the curve
 
 ### Camera Transform
 
-Next, I'm going to add in a camera transform. So, I'll go to the world editor, and hit the Toggle camera transform button. This will unlock the camera transform. By default, this already has a transform added to it. It will be linear. In this instance I'm going to change it to e-julia and I'm also going to rotate the linear pre-affine so that the line of blurs rotates. Don't be afraid to experiment.
+Next, I'm going to add in a camera transform. So, I'll go to the world editor, and hit the Toggle camera transform button. This will unlock the camera transform. By default, this already has a transform added to it. It will be linear. In this instance I'm going to change it to e-julia and I'm also going to rotate the pre-affine of the camera so that the line of blurs rotates. Don't be afraid to experiment.
 
 [![Camera Transform](/assets/images/chaotica-editor/chaotica_2021-03-28_18-05-03.png)](/assets/images/chaotica-editor/chaotica_2021-03-28_18-05-03.png)
 
