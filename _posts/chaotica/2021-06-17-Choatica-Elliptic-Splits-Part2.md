@@ -89,7 +89,7 @@ One way to think of it is like this. When you create a pre or pre transform chai
 
 ## Back to the fractal
 
-Now the next step is to go back to our iterator and setup a new pre transform. This one will be moebius with Im_B set to 1.84\. Have no fear, this is just going to move the whole thing down to compensate for the unpolar, which we're going to add next. Go ahead and do that, and you should have something a lot like this.
+Now the next step is to go back to our iterator and setup a new pre transform. This one will be mobius with Im_B set to 1.84\. Have no fear, this is just going to move the whole thing down to compensate for the unpolar, which we're going to add next. Go ahead and do that, and you should have something a lot like this.
 
 > Some of you have asked how I got this number. There's no complex math involved in this. It can definitely be calculated, but my personal method is to do small tweaks to the values until it's a close approximation to what I want, and then zoom in and tweak the numbers by very tiny amounts until I get the right value. You can usually tell it's right when everything lines up and doesn't overlap. Or if you're going for a look with overlaps, go for it. The idea is to make yourself happy with what you're creating.
 

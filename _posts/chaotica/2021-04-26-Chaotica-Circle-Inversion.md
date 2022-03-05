@@ -77,7 +77,7 @@ Variables:
     spher: 1
 ```
 
-What this does is crops the image into a circle, then the spherical inverts it inside out, and then the spher creates a copy of the outside on the inside of the circle. You can adjust the value of the spherical transform to put a gap between the two parts, or even throw in some moebius or anything else in the chain to vary the effect.
+What this does is crops the image into a circle, then the spherical inverts it inside out, and then the spher creates a copy of the outside on the inside of the circle. You can adjust the value of the spherical transform to put a gap between the two parts, or even throw in some mobius or anything else in the chain to vary the effect.
 
 This is after applying the camera transform.
 

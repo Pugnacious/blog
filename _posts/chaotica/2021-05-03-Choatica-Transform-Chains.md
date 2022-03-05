@@ -53,9 +53,9 @@ This will take a transform and make a tile both left and right of it. If you adj
 
 Next, for the sake of showing how it works, lets make that tile go up and down too.
 
-Start by adding another post transform. This time Moebius. Moebius will allow us to tweak things. So now set Im_A to 1 and Im_D to -1\. That will flip it 90 degrees without changing it's size.
+Start by adding another post transform. This time mobius. mobius will allow us to tweak things. So now set Im_A to 1 and Im_D to -1\. That will flip it 90 degrees without changing it's size.
 
-[![Moebius](/assets/images/chaotica-transform-chains/screen_1417.png)](/assets/images/chaotica-transform-chains/screen_1417.png)
+[![mobius](/assets/images/chaotica-transform-chains/screen_1417.png)](/assets/images/chaotica-transform-chains/screen_1417.png)
 
 Next add two more. One tile_hlp and the next tile_log. Feel free to add them out of order to see what will happen. The entire benefit is that they are executed in a top down way.
 

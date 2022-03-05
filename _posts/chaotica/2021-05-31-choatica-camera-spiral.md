@@ -27,7 +27,7 @@ On this iterator, we're going to add a transform and set it to julian2 with a ju
 
 ## Iterator 2
 
-On this iterator we're going to set the transform to moebius, spiral it using a value of Im_D of -2 and we're going to go to the shader node and set it's opacity value to 0.
+On this iterator we're going to set the transform to mobius, spiral it using a value of Im_D of -2 and we're going to go to the shader node and set it's opacity value to 0.
 
 [![Iterator2](/assets/images/chaotica-camera-spiral/chaotica_H4nn9ljVx2.png)](/assets/images/chaotica-camera-spiral/chaotica_H4nn9ljVx2.png) [![Iterator2 Editor](/assets/images/chaotica-camera-spiral/chaotica_DprPAZjZlA.png)](/assets/images/chaotica-camera-spiral/chaotica_DprPAZjZlA.png)
 
@@ -61,11 +61,11 @@ This will mirror the image using the x axis as it's center.
 
 [![mirrorx](/assets/images/chaotica-camera-spiral/chaotica_bDD3LdegrY.png)](/assets/images/chaotica-camera-spiral/chaotica_bDD3LdegrY.png) [![mirrorx Editor](/assets/images/chaotica-camera-spiral/chaotica_DsTiQzMzZr.png)](/assets/images/chaotica-camera-spiral/chaotica_DsTiQzMzZr.png)
 
-### moebius
+### mobius
 
-Now we're going to use moebius to flip this 90 degrees. Set the value of Im_A to 1 and Im_D to -1.
+Now we're going to use mobius to flip this 90 degrees. Set the value of Im_A to 1 and Im_D to -1.
 
-[![moebius](/assets/images/chaotica-camera-spiral/chaotica_8qEmNfJIeU.png)](/assets/images/chaotica-camera-spiral/chaotica_8qEmNfJIeU.png) [![moebius Editor](/assets/images/chaotica-camera-spiral/chaotica_d7pjZwasYO.png)](/assets/images/chaotica-camera-spiral/chaotica_d7pjZwasYO.png)
+[![mobius](/assets/images/chaotica-camera-spiral/chaotica_8qEmNfJIeU.png)](/assets/images/chaotica-camera-spiral/chaotica_8qEmNfJIeU.png) [![mobius Editor](/assets/images/chaotica-camera-spiral/chaotica_d7pjZwasYO.png)](/assets/images/chaotica-camera-spiral/chaotica_d7pjZwasYO.png)
 
 ### crop
 
@@ -109,4 +109,4 @@ Next simply give it a shader and palette scheme that you're happy with. This is 
 
 [![Gravity Wave](/assets/images/chaotica-camera-spiral/Gravity Wave.png)](/assets/images/chaotica-camera-spiral/Gravity Wave.png)
 
-Feel free to tweak things and play with things. Hopefully you see how this type of thing can lend itself to some really amazing images. Some things to try would be to send the whole thing to an ejulia or moebius or julian2 or even a bipolar. Feel free to play around. The possibilities are endless. Happy Fractaling!
+Feel free to tweak things and play with things. Hopefully you see how this type of thing can lend itself to some really amazing images. Some things to try would be to send the whole thing to an ejulia or mobius or julian2 or even a bipolar. Feel free to play around. The possibilities are endless. Happy Fractaling!
