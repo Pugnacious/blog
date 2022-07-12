@@ -7,8 +7,7 @@ author: Pugnacious
 toc: true
 toc_label: Table of Contents
 excerpt: >-
-  This is a tutorial on installing the Crystalize Xforms Pack of transforms for
-  Chaotica.
+  This is a tutorial on installing the Crystalize Xforms Pack of transforms for Chaotica.
 ---
 
 # Introduction
