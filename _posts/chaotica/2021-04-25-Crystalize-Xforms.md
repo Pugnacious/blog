@@ -37,6 +37,8 @@ User transforms are transforms written in the winter xml format and stored in th
 
 If this folder doesn't exist, simply create it.
 
+**ANOTHER NOTE: the linux file path is ~/.glare_technologies/Chaotica/user_transforms**
+
 This folder will accept subdirectories and you can create them at will to organize your files. Please keep in mind that organizing files in this way will have no impact on how the software lists them. They are listed by name in a case sensitive manner regardless of how their folders are structured.
 
 ## Flat File Copy
