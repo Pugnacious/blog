@@ -32,7 +32,7 @@ First, I'm going to set up the base structure.  Just to keep things organized, w
 
 #### Opening Blurs
 
-First, I'm going to open the software and create a new world.  Next I'm going to create two iterators.  I'll set the first up with square as the transform and the second the same as the first, but with a post-affine of y=-1 in order to move the second one up by 1 unit.
+First, I'm going to open Chaotica and create a new world.  Next I'm going to create two iterators.  I'll set the first up with square as the transform and the second the same as the first, but with a post-affine of y=-1 in order to move the second one up by 1 unit.
 
 [![Opening Blurs](/assets/images/chaotica-intermediate-linear-tiles/chaotica_uczLCgtQDu.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_uczLCgtQDu.png) [![Opening Blurs Editor](/assets/images/chaotica-intermediate-linear-tiles/chaotica_ZwakeYbLlP.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_ZwakeYbLlP.png)
 
