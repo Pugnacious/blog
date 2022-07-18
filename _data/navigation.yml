@@ -1,0 +1,25 @@
+# main links
+main:
+  - title: "Home"
+    url: https://www.pugnacious.site/
+  - title: "About"
+    url: https://www.pugnacious.site/about/
+  - title: "Tutorials"
+    url: https://www.pugnacious.site/tutorials/
+    children:
+    - title: "Chaotica: An Introduction"
+      url: https://www.pugnacious.site/chaotica/introduction
+    - title: "Chaotica Edit the World"
+      url: https://www.pugnacious.site/chaotica/editor
+    - title: "Chaotica: Linear Latitude"
+      url: https://www.pugnacious.site/chaotica/linear-tiles
+    - title: "Chaotica: Circle Inversion"
+      url: https://www.pugnacious.site/chaotica/circle/inversion
+    - title: "Chaotica: Crystalize Xforms"
+      url: https://www.pugnacious.site/chaotica/crystalize/xforms
+    - title: "Chaotica: Transform Chains"
+      url: https://www.pugnacious.site/chaotica/transform/chains
+    - title: "Chaotica: Transform Examples"
+      url: https://www.pugnacious.site/chaotica/transform/examples
+    - title: "Chaotica: Camera Spiral"
+      url: https://www.pugnacious.site/chaotica/camera/spiral
