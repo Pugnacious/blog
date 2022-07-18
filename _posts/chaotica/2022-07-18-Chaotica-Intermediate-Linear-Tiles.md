@@ -182,7 +182,7 @@ That being said, there are many ways to do this.  You can tile it as far as your
 
 One variable you can use is send the foci on the camera to e-julia.  It turns it from what you just saw, to this.
 
-[![Final Result ejulia](/assets/images/chaotica-intermediate-linear-tiles/intermediate_linear_tile_tutorial_ejulia.jpg)](/assets/images/chaotica-intermediate-linear-tiles/intermediate_linear_tile_tutorial_ejulia.jpg)
+[![Final Result ejulia](/assets/images/chaotica-intermediate-linear-tiles/intermediate_linear_tile_tutorial_ejulia.png)](/assets/images/chaotica-intermediate-linear-tiles/intermediate_linear_tile_tutorial_ejulia.png)
 
 ### Examples
 
