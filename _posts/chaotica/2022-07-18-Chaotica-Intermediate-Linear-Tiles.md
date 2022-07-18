@@ -28,7 +28,7 @@ First, you decide what you want to tile.  Usually my personal method is to start
 
 ### Creating a Tile
 
-First, I'm going to set up the base structure.  Just to keep things organized we will create two squares and stack them on top of each other and then once we have the right size setup, we can start modifying them and filling them out with interesting constructions.  So I can see everything, I'm going to change the camera sensor width to something like 6.  That way everything is in view.  Feel free to adjust as needed.
+First, I'm going to set up the base structure.  Just to keep things organized, we will create two squares and stack them on top of each other and then once we have the right size setup, we can start modifying them and filling them out with interesting constructions.  So I can see everything, I'm going to change the camera sensor width to something like 6.  That way everything is in view.  Feel free to adjust as needed.
 
 #### Opening Blurs
 
