@@ -180,6 +180,10 @@ Now, keep in mind that I may be totally wrong on the math on this one.  If I'm w
 
 That being said, there are many ways to do this.  You can tile it as far as your imagination can take you and beyond.  Keep playing with the variables and before you know it, I'll be learning from you.  That's the hope anyway.
 
+One variable you can use is send the foci on the camera to e-julia.  It turns it from what you just saw, to this.
+
+[![Final Result ejulia](/assets/images/chaotica-intermediate-linear-tiles/intermediate_linear_tile_tutorial_ejulia.jpg)](/assets/images/chaotica-intermediate-linear-tiles/intermediate_linear_tile_tutorial_ejulia.jpg)
+
 ### Examples
 
 At this point though, where you take the fractal is up to you. I'll leave you with a few examples of what I have created with this method.
