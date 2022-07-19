@@ -52,7 +52,7 @@ Now, I'm going to add a post-transform to the bottom square and I'll make it a p
 
 Now let's fill it with something.  First I'm going to create a new iterator.  Next, I'll set the transform to something neat.  Hex_rand seems fun.  It's super large and overlaps, but we'll take care of that.  I'm going to then turn on the post-transform and toss in a mobius.  That way I can adjust sizing, rotation and warping later if needed. 
 
-Next another post-transform of crop to crop out anything that goes over our size.  This isn't strictly needed if you perfectly control the size of the fill, but in this case I'm going to use it.  I'm going to set the values on the crop to positive and negative 0.45 to match the other crop.  Next I'm going to change the cropmode to 1 so it doesn't double up on that white line and make it look all weird.
+Next another post-transform of crop to crop out anything that goes over our size.  This isn't strictly needed if you perfectly control the size of the fill, but in this case I'm going to use it.  I'm going to set the values on the crop to positive and negative 0.45 to match the other crop.  Next I'm going to change the crop_zero variable to 1 so it doesn't double up on that white line and make it look all weird.
 
 *I'm going to list here the reasons I did it this way.*
 
