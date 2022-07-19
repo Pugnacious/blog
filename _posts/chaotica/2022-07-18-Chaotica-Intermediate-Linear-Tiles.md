@@ -52,7 +52,7 @@ Now, I'm going to add a post-transform to the bottom square and I'll make it a p
 
 Now let's fill it with something.  First I'm going to create a new iterator.  Next, I'll set the transform to something neat.  Hex_rand seems fun.  It's super large and overlaps, but we'll take care of that.  I'm going to then turn on the post-transform and toss in a mobius.  That way I can adjust sizing, rotation and warping later if needed. 
 
-Next another post-transform of crop to crop out anything that goes over our size.  This isn't strictly needed if you perfectly control the size of the fill, but in this case I'm going to use it.  I'm going to set the values on the crop to positive and negative 0.45 to match the other crop.  Next I'm going to change the crop_zero variable to 1 so it doesn't double up on that white line and make it look all weird.
+Next another post-transform of crop to crop out anything that goes over our size.  This isn't strictly needed if you perfectly control the size of the fill, but in this case I'm going to use it.  I'm going to set the values on the crop to positive and negative 0.45 to match the other crop.  Next I'm going to change the crop_scatter_area variable to 0 so it doesn't put a ton of noise in there.
 
 *I'm going to list here the reasons I did it this way.*
 
@@ -62,13 +62,11 @@ Next another post-transform of crop to crop out anything that goes over our size
 
 *This is yet another example of the incredibly important chain methods that Chaotica is capable of.  The ability to basically program an iterator using pre and post transform chains is incredibly mind blowing to me.*
 
-Next I'm going to add an optional post-transform in this chain.  I'm going to use the custom transform by Crystalize called dot_remover.  It removes that incredibly annoying white dot that most crops leave behind.  You don't have to use this, but I will in this case.
-
 Lastly, I'm going to go back to the mobius and change its size down some so I can have more of the hexes inside the crop area.  I could do all kinds of things with the mobius and that might be a good area to play with later.  
 
 Sorry for the wall of text.  Here's what I ended up with.
 
-[![Square Fill 1](/assets/images/chaotica-intermediate-linear-tiles/chaotica_XX2lIVa1Ap.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_XX2lIVa1Ap.png) [![First Fill Crop](/assets/images/chaotica-intermediate-linear-tiles/chaotica_7WefbViWi0.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_7WefbViWi0.png) [![First Fill Mobius](/assets/images/chaotica-intermediate-linear-tiles/chaotica_hytLnwVIMf.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_hytLnwVIMf.png)
+[![Square Fill 1](/assets/images/chaotica-intermediate-linear-tiles/chaotica_XX2lIVa1Ap.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_XX2lIVa1Ap.png) [![First Fill Crop](/assets/images/chaotica-intermediate-linear-tiles/chaotica_SymEybwEPI.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_SymEybwEPI.png) [![First Fill Mobius](/assets/images/chaotica-intermediate-linear-tiles/chaotica_hytLnwVIMf.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_hytLnwVIMf.png)
 
 #### Top Square Fill
 
@@ -122,7 +120,7 @@ Now after going into all the shader nodes and setting the opacity on everything 
 
 We still have a bit of a bright spot in the middle because of the weights on the linears.  Let's adjust that now so it looks more uniform.
 
-I'm going to look at the weights on the linears and set their base weight to somewhere in the realm of 4.  This is a little brighter and more filled out.  You can edit this however you like, and you'll notice that when you change the base weight on one of the linears, it lights up the section that the particular iterator controls more than the others.  You can use this to control the coloring or "lighting" later on.
+I'm going to look at the weights on the linears and set their base weight to somewhere in the realm of 4.  This is a little brighter and more filled out.  You can edit this however you like(I suggest doing so until you're happy), and you'll notice that when you change the base weight on one of the linears, it lights up the section that the particular iterator controls more than the others.  You can use this to control the coloring or "lighting" later on.
 
 Next, I'm going to go back to the shader nodes and set this up for direct coloring.  I want to control the color of each section and take the blending off.  That way It all looks uniform.  You might like to leave the blending, or you might like to mash the random shader button.  That's fine and do whatever makes you happy.  However, in this example, I'm showing how to directly color an entire linear tile so please bear with me.
 
@@ -150,7 +148,7 @@ Unpolar is simple.  You set it on the camera or an iterator like any other trans
 
 [![Basic Unpolar](/assets/images/chaotica-intermediate-linear-tiles/chaotica_7Vk0tYuE16.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_7Vk0tYuE16.png)
 
-Now you may notice that even though it's lined up right, it's still...a little boring.  Let's divide the linear value by 2.  It ends up being 0.52359877559.  Set that, and it's definitely looking a bit more interesting.  Next, I'm going to adjust the coloring some more to compensate for the added complexity.
+Now you may notice that even though it's lined up right, it's still...a little boring.  Let's divide the linear value by 2.  To do this, i'm going to create a pre-transform on the camera and set it to linear.  Set it to 0.5, which is half.  After you set that, and it's definitely looking a bit more interesting.  Next, I'm going to adjust the coloring some more to compensate for the added complexity.
 
 [![Basic Unpolar](/assets/images/chaotica-intermediate-linear-tiles/chaotica_roqwl5YH3P.jpg)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_roqwl5YH3P.jpg)
 
@@ -162,19 +160,19 @@ Next, foci is a bit more complex.  When you're using a basic foci, you can use t
 
 Looks pretty awesome right?  Well, it can look even better.
 
-Now...let's apply a diagonal roll to this.  It's basically turning it 45 degrees and then adjusting it so it overlaps perfectly.  If you're interested, feel free to dig into the math.  I'm going to provide a calculator I wrote here for your use.  This is specifically tailored to figuring out foci diagonal rolling in chaotica.
+Now...let's apply a diagonal roll to this.  It's basically turning it 45 degrees(Based on the sizing) and then adjusting it so it overlaps perfectly.  If you're interested, feel free to dig into the math.  I suggest Pillemaster's [Tutorial][pillemaster] as it's incredibly detailed.  I'm going to provide a calculator I wrote here for your use.  This is specifically tailored to figuring out foci diagonal rolling in chaotica.
 
 [Calculator][foci-calculator]
 
 If I plug the values of the x and y tile into this, it gives me the values to set the linear, the pre-affine and the angles to make it overlap perfectly.
 
-The interesting part about this tutorial is that you would think this is a 1x2 tile.  It's not, however.  It's actually a 2x2 tile when you factor in the overlaps.  So when I plug in those values, this is what I get.
+This is a 1x2 tile, so when I plug in those values, this is what I get.
 
-[![Diagonal Rolling](/assets/images/chaotica-intermediate-linear-tiles/firefox_SibpININdi.png)](/assets/images/chaotica-intermediate-linear-tiles/firefox_SibpININdi.png)
+[![Diagonal Rolling](/assets/images/chaotica-intermediate-linear-tiles/firefox_oAdJls2w3o.png)](/assets/images/chaotica-intermediate-linear-tiles/firefox_oAdJls2w3o.png)
 
 And this is what it looks like with the following values on the pre-affine.
 
-[![Final Result](/assets/images/chaotica-intermediate-linear-tiles/chaotica_hf6NIOAWuz.jpg)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_hf6NIOAWuz.jpg) [![Final Editor](/assets/images/chaotica-intermediate-linear-tiles/chaotica_Fdv3C8Pk5v.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_Fdv3C8Pk5v.png)
+[![Final Result](/assets/images/chaotica-intermediate-linear-tiles/chaotica_sb9diglmkY.jpg)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_sb9diglmkY.jpg) [![Final Editor](/assets/images/chaotica-intermediate-linear-tiles/chaotica_Fu1MigwjRT.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_Fu1MigwjRT.png)
 
 ### Finishing up
 
@@ -196,3 +194,4 @@ At this point though, where you take the fractal is up to you. I'll leave you wi
 
 [tutorial-link]: https://www.pugnacious.site/tutorials
 [foci-calculator]: https://docs.google.com/spreadsheets/d/1akfY6-lx3esmaQHTGy4xn43-QEKsRGOyfqzFAjrPlSU/edit?usp=sharing
+[pillemaster]: https://www.deviantart.com/pillemaster/art/Foci-and-Unpolar-Tutorial-301184325
