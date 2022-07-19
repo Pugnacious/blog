@@ -26,6 +26,8 @@ In this tutorial, we're going to create a more advanced linear tile and then exp
 
 First, you decide what you want to tile.  Usually my personal method is to start with a broad idea of what I want to accomplish and then get more detailed as time goes on.  To start with, let's create a tile that's a bit different than a standard 1x1.  Lets try a 1x2 tile instead.
 
+*It's been asked for me to provide this information, so here it is.  My development usually occurs at 1280x720 resolution so even the free version of Chaotica can load the file.*
+
 ### Creating a Tile
 
 First, I'm going to set up the base structure.  Just to keep things organized, we will create two squares and stack them on top of each other and then once we have the right size setup, we can start modifying them and filling them out with interesting constructions.  So I can see everything, I'm going to change the camera sensor width to something like 6.  That way everything is in view.  Feel free to adjust as needed.
@@ -36,7 +38,7 @@ First, I'm going to open Chaotica and create a new world.  Next I'm going to cre
 
 [![Opening Blurs](/assets/images/chaotica-intermediate-linear-tiles/chaotica_uczLCgtQDu.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_uczLCgtQDu.png) [![Opening Blurs Editor](/assets/images/chaotica-intermediate-linear-tiles/chaotica_ZwakeYbLlP.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_ZwakeYbLlP.png)
 
-#### First Square
+#### Bottom Square
 
 Now I'm going to take the bottom square and do some modification.  I think it would look awesome if I cropped out the middle and then put another iterator in there with maybe a loonie or possibly a hemisphere.  So let's do that.
 
@@ -44,9 +46,9 @@ First, I'm going to take the first two iterators and rename them so I can keep t
 
 Now, I'm going to add a post-transform to the bottom square and I'll make it a post-smartcrop.  I'll set the power on the post_smartcrop to -4.  This will match the square but instead of cropping the outside, it will crop the inside due to the negative.  Then I'll drop the radius to 0.45 so it will leave a bit of a border.
 
-[![First Square](/assets/images/chaotica-intermediate-linear-tiles/chaotica_nd2SkrqUXy.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_nd2SkrqUXy.png) [![Post Smartcrop](/assets/images/chaotica-intermediate-linear-tiles/chaotica_7by5ZkD0lg.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_7by5ZkD0lg.png)
+[![Bottom Square](/assets/images/chaotica-intermediate-linear-tiles/chaotica_nd2SkrqUXy.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_nd2SkrqUXy.png) [![Post Smartcrop](/assets/images/chaotica-intermediate-linear-tiles/chaotica_7by5ZkD0lg.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_7by5ZkD0lg.png)
 
-#### First Square Fill
+#### Bottom Square Fill
 
 Now let's fill it with something.  First I'm going to create a new iterator.  Next, I'll set the transform to something neat.  Hex_rand seems fun.  It's super large and overlaps, but we'll take care of that.  I'm going to then turn on the post-transform and toss in a mobius.  That way I can adjust sizing, rotation and warping later if needed. 
 
@@ -68,7 +70,7 @@ Sorry for the wall of text.  Here's what I ended up with.
 
 [![Square Fill 1](/assets/images/chaotica-intermediate-linear-tiles/chaotica_XX2lIVa1Ap.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_XX2lIVa1Ap.png) [![First Fill Crop](/assets/images/chaotica-intermediate-linear-tiles/chaotica_7WefbViWi0.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_7WefbViWi0.png) [![First Fill Mobius](/assets/images/chaotica-intermediate-linear-tiles/chaotica_hytLnwVIMf.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_hytLnwVIMf.png)
 
-#### Second Square Fill
+#### Top Square Fill
 
 Now let's do something entirely different for the second one.  I'm thinking something exotic like an octogon cut-out with a sphere inside it.
 
@@ -76,7 +78,7 @@ First, I'm going to go back to that top square iterator (glad I named it) and ad
 
 [![Square Crop 2](/assets/images/chaotica-intermediate-linear-tiles/chaotica_0Xy2PBGJ7k.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_0Xy2PBGJ7k.png) [![post_smartcrop 2](/assets/images/chaotica-intermediate-linear-tiles/chaotica_lmok7IMPZj.png)](/assets/images/chaotica-intermediate-linear-tiles/chaotica_lmok7IMPZj.png)
 
-Next I'm going to create a new iterator, and shift the post-affine up to match the one it's supposed to fill.  That means the post-affine will be set to -1.0 on the y axis.
+Next I'm going to create a new iterator, and shift the post-affine up to match the top square it's supposed to fill.  That means the post-affine will be set to -1.0 on the y axis.  I'm going to set the transform to hemisphere so we can get a good coverage and have a pseudo-3d effect.
 
 Lastly, I'm going to create a post-transform of mobius and set its size to 0.45 to match the crop.
 
@@ -84,7 +86,7 @@ Lastly, I'm going to create a post-transform of mobius and set its size to 0.45 
 
 ### Setting Up the Tiled Plane
 
-Now is a great time to see how this is going to look when it's tiled.  I'm going to create four more iterators, set them all to have a transform of linear, and then set the pre-affine to each linear direction.  For the y values instead of +/-1 they are going to be +/-2 because this is taller than standard.
+Now is a great time to see how this is going to look when it's tiled.  I'm going to create four more iterators, set them all to have a transform of linear, and then set the pre-affine to each linear direction.  (If you've been through my previous linear tutorial, this will be familiar to you.  If not, one of the iterators gets the coordinates (1,0) and the next gets (-1,0) and then the next two get (0,2) and the last (0,-2).  It's just moving things around so it tiles.) For the y values instead of +/-1 they are going to be +/-2 because this is taller than standard.
 
 Here's what it looks like after creating them.
 
@@ -102,7 +104,7 @@ There are three main types of transform.  Keep in mind that this is my own inter
 
 ##### Blurs
 
-Blurs are transforms that create points.  If you've been through my previous tutorials, you may have seen the link I posted, or even watched the video on the chaos game.  That's basically what blurs are.  They create points, which get displayed as "solid" color by the software.  Examples of blurs are square, hex_rand, circleblur, gaussian_blur etc...
+Blurs are transforms that distribute points.  If you've been through my previous tutorials, you may have seen the link I posted, or even watched the video on the chaos game.  That's basically what blurs are.  They distribute points, which get displayed as "solid" color by the software.  Examples of blurs are square, hex_rand, circleblur, gaussian_blur etc...
 
 ##### Modifiers
 
@@ -140,7 +142,7 @@ Next, let's get you an idea of how unpolar and foci work.  These are interesting
 
 Imagine taking the 2d plane you have and wrapping it into a cylinder like wrapping paper and stare down the inside at the pattern.  That's unpolar.  Now imagine taking that cylinder with the pattern on the inside and wrap it into a U shape where your view is inside the U bend and you're looking down both lengths of it at the same time.  That's foci. 
 
-Now back to the practical.  Using them.
+Now back to the practical.  Using them.  For the last part, I'm going to adjust the camera sensor width to around 3 to get the best views.  Like always, adjust as you like.
 
 #### Unpolar
 
