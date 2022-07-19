@@ -108,11 +108,11 @@ Blurs are transforms that distribute points.  If you've been through my previous
 
 ##### Modifiers
 
-Modifiers are transforms that act as rules.  They take the points created by blurs and then change or translate them in some way according to the rules they contain.  An example of this is bipolar or hemisphere. 
+Modifiers are transforms that act as rules.  They take the points distributed by blurs and then change or translate them in some way according to the rules they contain.  An example of this is bipolar or hemisphere. 
 
 ##### Hybrids
 
-These both create points and tranform or translate.  There are some transforms that do both.  They can create points, or they can modify other points, or they can do both at the same time.  I'll leave these to you to discover.  It gives you a reason to learn what they all do and how they interact.
+These both distribute points and tranform or translate.  There are some transforms that do both.  They can distribute points, or they can modify other points, or they can do both at the same time.  I'll leave these to you to discover.  It gives you a reason to learn what they all do and how they interact.
 
 ### Back on topic.
 
