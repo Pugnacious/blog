@@ -41,7 +41,7 @@ This is the size of the pixels.  I find that 0.025 is a good size for me, but yo
 
 #### blur_pixelize_scale
 
-This will control the scale of the pixels.  The previous value controls how big the pixels are intitally, this value controls the individual pixel scale.  Think of it like the size is how many pixels there are per inch, and the scale is how big each one is and how big of a gap there is between pixels.  Personally, I like a little gap in between them.  That's just my tate though.  I set my value to 0.75, but you can set it to 1 and have no gap between the pixels.  Make sure you play with the values until you're happy.  
+This will control the scale of the pixels.  The previous value controls how big the pixels are initially while this value controls the individual pixel scale.  Think of it like the size is how many pixels there are per inch, and the scale is how big each one is and how big of a gap there is between pixels.  Personally, I like a little gap in between them.  That's just my tate though.  I set my value to 0.75, but you can set it to 1 and have no gap between the pixels.  Make sure you play with the values until you're happy.  
 
 ### My Settings
 
