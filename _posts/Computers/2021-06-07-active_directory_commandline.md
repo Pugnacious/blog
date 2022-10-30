@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Comamnd Line Active Directory Management
+title: Command Line Active Directory Management
 categories: computer activedirectory
 permalink: /computers/ad_management
 author: Pugnacious
