@@ -20,6 +20,7 @@ permalink: /tutorials/
 4. [Chaotica: Elliptic-Splits Part 2][esplits2]
 5. [Chaotica: Camera Spiral][camspiral]
 6. [Chaotica: Intermediate Linear Tiles][intermediate-linear-tile]
+7. [Chaotica: Pixel Style][pixel-style]
 
 ## Chaotica Advanced
 
@@ -40,3 +41,4 @@ permalink: /tutorials/
 [esplits2]: https://www.pugnacious.site/chaotica/elliptic/splits/part2
 [previews]: https://www.pugnacious.site/chaotica/transform/previews
 [intermediate-linear-tile]: https://www.pugnacious.site/chaotica/intermediate-linear-tiles
+[pixel-style]: https://www.pugnacious.site/chaotica/pixel-style
