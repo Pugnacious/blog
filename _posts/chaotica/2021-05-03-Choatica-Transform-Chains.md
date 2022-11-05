@@ -63,7 +63,7 @@ Next add two more. One tile_hlp and the next tile_log. Feel free to add them out
 
 ## What does this mean?
 
-So, now we ask ourselves, what does this tell us? It tells us that we can take an interator, and then change how it looks before we hand it off to the next iterator. This way we can precicely control how it looks before it interacts with other iterators.
+So, now we ask ourselves, what does this tell us? It tells us that we can take an iterator, and then change how it looks before we hand it off to the next iterator. This way we can precisely control how it looks before it interacts with other iterators.
 
 If you think about it, this is incredibly powerful and can be used for a LOT of different things. Lets go back to the example and take away the last three transforms to get us back to the point where we had a single line of triangles.
 
