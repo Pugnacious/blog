@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Chaotica: Linear Latitude'
+title: "Chaotica: Linear Latitude"
 categories: fractal chaotica
 permalink: /chaotica/linear-tiles
 author: Pugnacious
