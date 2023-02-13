@@ -1,0 +1,276 @@
+Jess/Far — 09/05/2018 11:39 PM
+This is not a discussion channel! It is an archive of useful discussions:
+
+-Draves/Reckase paper on the fractal flame algorithm: https://flam3.com/flame_draves.pdf
+
+-Crash course in affine transforms: https://www.reddit.com/r/FractalPorn/comments/1bdmln/seasteading_11871920_oc_os/c971mhr/
+
+-Structured IFS tutorial collection: https://www.deviantart.com/tatasz/art/Structured-IFS-tutorial-collection-535705942
+
+-Demonstration of relative tile positioning: https://discordapp.com/channels/190110978292187138/190110978292187138/481213671729659905
+
+-Prints and rendering tips: https://discordapp.com/channels/190110978292187138/190110978292187138/486715448243519490
+
+-Using a greyscale render as a mask: https://discordapp.com/channels/190110978292187138/190110978292187138/486976877316145159
+
+-Discussion and examples of render discrepancies in Apo 7X 15C and 15D (aka The Multithreading Bug) https://discordapp.com/channels/190110978292187138/190110978292187138/477966274832367666
+
+-Explanation of color speed: https://discordapp.com/channels/190110978292187138/190110978292187138/501610120158117898
+
+-Xaos basics: https://sta.sh/0at81g8lwrn
+
+-Multiple Loop Fractals: https://sta.sh/01wv8n6qnf30 (aka independent xaos loops)
+
+-Another explanation of how fractals are colored, using chaotica instead of apo: https://discordapp.com/channels/190110978292187138/190110978292187138/530472210243256332
+
+-Senzune explains how to make fractals like https://www.deviantart.com/senzune/art/Jupe-785607235: https://discordapp.com/channels/190110978292187138/190110978292187138/546059720914370577 & https://discordapp.com/channels/190110978292187138/190110978292187138/546064220958228490
+
+Everything under the sun: https://www.deviantart.com/fractal-resources/gallery/ 
+technochroma — 09/30/2018 4:35 PM
+The whats and hows of the plugin Falloff3, including maps and examples of blur types etc.
+Attachment file type: document
+Falloff3.docx
+854.47 KB
+Jess/Far — 10/16/2018 6:06 AM
+An older apo 7x version, for those who want it: https://www.dropbox.com/s/24x5s2lkc3uqixx/older%20apo%207x.zip?dl=0
+Dropbox
+older apo 7x.zip
+Shared with Dropbox
+Image
+izuix — 10/31/2018 8:36 PM
+http://www.julius-horsthuis.com/tutorials/
+Julius Horsthuis
+Tutorials
+Image
+dark-beam — 11/16/2018 11:22 PM
+My plugin collection https://onedrive.live.com/?cid=41bf40151839dff1&id=41BF40151839DFF1%21105&ithint=folder,&authkey=!AAbkc2sRaZtpyyk
+Jess/Far — 01/03/2019 9:08 PM
+https://www.youtube.com/watch?v=kbKtFN71Lfs
+https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
+YouTube
+Numberphile
+Chaos Game - Numberphile
+Image
+YouTube
+Essence of linear algebra - YouTube
+A geometric understanding of matrices, determinants, eigen-stuffs and more.
+Image
+Lots of gradients courtesy of tatasz. Do not share outside this chat: https://discordapp.com/channels/190110978292187138/190110978292187138/527181227271127051 
+Toan Lish — 02/05/2019 10:55 PM
+-How foci works: https://discordapp.com/channels/190110978292187138/190110978292187138/542455424843120640
+Jess/Far — 02/13/2019 2:05 AM
+/*
+    Apophysis Plugin
+    (C) 2007 Joel Faber
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+Expand
+apoplugin.h
+13 KB
+Synki | ACCOUNT BROKEN — 02/15/2019 9:00 PM
+Attachment file type: archive
+Apophysis_Plugin_Repository_x64_2018a.zip
+1.13 MB
+Attachment file type: archive
+Apophysis_Plugin_Repository_x86_2018a.zip
+4.09 MB
+Attachment file type: spreadsheet
+Dragon_Values.xlsx
+77.76 KB
+Attachment file type: spreadsheet
+Hypertile_Values.xlsx
+9.58 KB
+Attachment file type: spreadsheet
+Jacobi_Values.xlsx
+11.34 KB
+Attachment file type: unknown
+Hypertile_with_controlled_overlaps.flame
+4.27 KB
+Attachment file type: unknown
+Mobius_Dragons_up_to_46_iterations.flame
+2.74 MB
+Synki | ACCOUNT BROKEN — 02/19/2019 4:09 PM
+Attachment file type: unknown
+Overlapping_Bipolar_Foci.flame
+3.71 KB
+Jess/Far — 03/04/2019 3:38 AM
+video demo/explanation, download for tool itself is in the description: https://www.youtube.com/watch?v=GniEpxHCxmY Thanks @AutoHintBot! 
+YouTube
+Matthew Wegner
+Harmony: A Chaotica Render Automation Tool
+Image
+Jess/Far — 03/15/2019 6:34 PM
+Demonstrations of many variations: https://www.deviantart.com/platinus/gallery/40721914/Variation-Preview-Guide 
+DeviantArt
+Variation Preview Guide by Platinus on DeviantArt
+Variation Preview Guide by Platinus on DeviantArt
+"How to find out what a transform does" by tatasz: https://www.deviantart.com/tatasz/journal/How-to-find-out-what-a-transform-does-486206135 
+DeviantArt
+tatasz
+How to find out what a transform does
+Not really a tutorial this time, just some exploration ideas. There is no extensive guide to all transforms and plugins. So how do people figure what they do? The way is to experiment, and there ar...
+How to find out what a transform does
+Jasper / FractalSauce — 05/04/2019 12:18 AM
+https://www.dropbox.com/s/n0yfghiqnnp576b/x32_plugins.zip?dl=0
+Dropbox
+x32_plugins.zip
+Shared with Dropbox
+Image
+https://www.dropbox.com/s/lkqy1fhmzb2gtn5/x64_plugins.zip?dl=0
+Dropbox
+x64_plugins.zip
+Shared with Dropbox
+Image
+technochroma — 05/04/2019 4:54 AM
+Attachment file type: archive
+Apophysis.7X16.x86_amd64.zip
+5.94 MB
+one minute while I get you ye olde 15C it needs to be 7Zed I think
+Attachment file type: archive
+Apophysis.7X15C.x86_amd64.7z
+6.47 MB
+bezo97 | Zotya — 05/16/2019 4:19 PM
+How much does a fractal need tweaking so I can call it my own?
+ https://discordapp.com/channels/190110978292187138/190110978292187138/578564091887747082
+Jess/Far — 05/19/2019 2:52 AM
+Test pattern for investigating plugins/variations: https://pastebin.com/PwQJJ3f5 
+Pastebin
+Image
+Jess/Far — 06/18/2019 9:03 PM
+https://web.archive.org/web/20160705121332/https://boxtail.deviantart.com/art/How-to-put-something-into-hypertile-tutorial-602178590
+How to put something into hypertile - tutorial
+Useful blurring tutorials Blurring Techniques - Part 1Some methods to add cool blurs to your fractal, requested by BoxTail and written in collaboration with him The parameters are for learning purp...
+How to put something into hypertile - tutorial
+Jess/Far — 02/10/2020 6:27 PM
+Tool for auto calculation of GlynnSim3's values of radius and thickness when the outer and inner radii are known: 
+Attachment file type: spreadsheet
+GlynnSim3_Values.xlsx
+9.32 KB
+bezo97 | Zotya — 03/30/2020 1:18 PM
+Nice looking shapes in mb3d https://discordapp.com/channels/190110978292187138/190110978292187138/694125835904352276
+bezo97 | Zotya — 04/04/2020 12:42 AM
+Lots of JWF params by @chronologicaldot https://github.com/chronologicaldot/FRACTALLOOT
+GitHub
+chronologicaldot/FRACTALLOOT
+Tons of fractal parameters for JWildfire. Contribute to chronologicaldot/FRACTALLOOT development by creating an account on GitHub.
+Image
+bezo97 | Zotya — 04/08/2020 1:27 PM
+Tiling explanation by @Yamen https://discordapp.com/channels/190110978292187138/322728966513360916/697382450472681493
+Krzysiek (Buddhi) — 04/12/2020 2:25 PM
+Fractal Forums:
+New forum: https://fractalforums.org/index.php
+Old forum (archive): http://www.fractalforums.com/index.php
+
+Old FractalForums is the biggest source of fractal discussions, developments, discoveries,...
+Fractalforums
+Fractalforums - Index
+the largest resource for fractal art, fractal research and fractal programming online - learn to create fractals
+Welcome to Fractal Forums - Index
+Welcome to Fractal Forums - Index
+Facebook group about Mandelbulber: https://www.facebook.com/groups/mandelbulber/?ref=bookmarks
+Facebook group about Mandelbulb3D: https://www.facebook.com/groups/amandelbulbmaniac/
+lyciüm — 04/19/2020 3:57 PM
+Russian book about conformal transforms
+Attachment file type: unknown
+-_-_2002.djvu
+4.24 MB
+lyciüm — 04/19/2020 4:12 PM
+Иванов В.И., Попов В.Ю. - Конформные отображения и их приложения-УРСС, МГУ (2002) is the proper filename
+bezo97 | Zotya — 05/07/2020 12:21 PM
+My fractals look like whispy point clouds. What is the technique for getting more solid images? https://discordapp.com/channels/190110978292187138/190110978292187138/707786639199567954
+Jess/Far — 05/08/2020 5:34 AM
+Discussion of sublimation vs. direct-to-garment printing on fabric: https://discordapp.com/channels/190110978292187138/190110978292187138/708148197192630343
+bezo97 | Zotya — 06/29/2020 10:10 PM
+Softwares and techniques for rendering print-sized fractals https://discordapp.com/channels/190110978292187138/190110978292187138/727249881831571527
+bezo97 | Zotya — 07/30/2020 10:06 AM
+Fractorium animations tutorial by @Yamen https://vimeo.com/442958987
+Vimeo
+Complicated Reality
+How To Animate using Fractorium
+Image
+bezo97 | Zotya — 08/01/2020 11:44 AM
+Chaotica tutorials by @PugnaciousOne https://www.pugnacious.site/tutorials 
+Pugnacious Blog
+Tutorials
+This blog expresses the thoughts and sentiments of an individual namely the administrator, though other individuals may occasionally author information here. It should be taken as opinion of the author.
+bezo97 | Zotya — 10/01/2020 7:52 PM
+Licensing your artwork:
+https://discordapp.com/channels/190110978292187138/190110978292187138/761251093262368778 
+bezo97 | Zotya — 10/13/2020 9:07 AM
+Flame Fractal Variations Guide (2014) by rsidwell:
+https://www.deviantart.com/rsidwell/art/Flame-Fractal-Variations-1-0-499434645 
+bezo97 | Zotya — 12/05/2020 10:02 AM
+mb3d animations and keyframes discussion: https://discordapp.com/channels/190110978292187138/190110978292187138/784627800920555520
+technochroma — 03/05/2021 11:38 PM
+2020-2021 Channel Archives: Link is publicly available to view, and you can search any of the html files' text content with a quick ctrl-F (find) out of your preferred browser. Currently in html (for actual channel text) and additional assets (such as images, etc) stored separately in folders. https://drive.google.com/drive/folders/1mUyThhRlzZPzF9PMSzh1_2F7ItBeWAST?usp=sharing 
+bezo97 | Zotya — 05/19/2021 7:53 PM
+Mandelbulber: Exporting a 3D mesh
+https://www.youtube.com/watch?v=oRcqIhRatNk
+bezo97 | Zotya — 06/30/2021 10:16 PM
+fractal artists on artstation: https://docs.google.com/spreadsheets/d/12wowsUqAYUE-3X2zjrI6qbikXkm6puHo8-OVnLy1A0Q/view 
+Add yourself to the list: https://docs.google.com/forms/d/1jR4FgE7uhUBuKCoZLg5ZCvmczT7ravht5FcqknDqR1w/viewform 
+bezo97 | Zotya — 07/12/2021 7:19 PM
+Distance Estimator Compendium by @jb https://jbaker.graphics/writings/DEC.html
+technochroma — 10/08/2021 5:44 PM
+Some helpful beginner's resources for Apophysis/Chaotica:
+
+Intro to Fractal Art - Tutorials and Resources
+https://www.deviantart.com/technochroma/art/Intro-to-Fractal-Art-Tutorials-and-Resources-855341098
+
+Gradients for Chaotica and Apophysis: A Quick List
+https://www.deviantart.com/technochroma/art/Gradients-for-Chaotica-and-Apophysis-A-Quick-List-855909306
+
+Fantastic and Formative Fractal Tutorials
+https://www.deviantart.com/technochroma/journal/Fantastic-and-Formative-Fractal-Tutorials-598368189
+
+Apophysis Plugin Archive, 64-bit
+https://www.deviantart.com/technochroma/art/Apophysis-Plugin-Archive-64-bit-855333528
+
+Apophysis Plugin Archive, 32-bit
+https://www.deviantart.com/technochroma/art/Apophysis-Plugin-Archive-32-bit-855329051 
+technochroma — 10/09/2021 8:51 PM
+ChaosHelper, a free app for managing, editing & creating Chaotica gradients: https://www.deviantart.com/triptychaos/journal/ChaosHelper-1-1-0-Has-Arrived-514357252
+ApoMap, a free app for managing, editing & creating Apophysis gradients: https://share.pugnacious.site/$/Gwyeu 
+bezo97 | Zotya — 12/24/2021 1:28 PM
+param pack by OutsideFate for UltraFractal https://www.deviantart.com/outsidefate/art/OutsideFates-Parameter-Pack-Volume-2-901668792
+OutsideFates Parameter Pack Volume 2 by OutsideFate on DeviantArt
+OutsideFates Parameter Pack Volume 2 by OutsideFate on DeviantArt
+lyciüm — 02/18/2022 1:32 AM
+Historical and tutorial articles on the Mandelbulb by its creator, Daniel White:
+
+The unravelling of the real 3D Mandelbrot: https://www.skytopia.com/project/fractal/mandelbulb.html
+The Mystery of the REAL, 3D Mandelbrot Fractal: https://www.skytopia.com/project/fractal/mandelbrot.html
+technochroma — 03/02/2022 6:10 AM
+Using Mandelbulb3d/Mandelbulber to create 3d-printed fractals.
+Text/image Step-by-step: https://www.instructables.com/Create-a-3D-printed-3D-fractal/ 
+Video: https://www.youtube.com/watch?v=crQC_SmY-hA
+
+Some of the decimating/destructive post-processing steps you can actually skip; 3d printers have seen leaps and bounds in the last couple years as far as detail is involved. But good to follow from start to finish a couple times until you get a feel for what your printer is capable of.
+
+I generally shoot for a million polys/faces as a good standard. Going lower increases the speed but sacrifices detail (unless you have a simple shape to begin with). 
+technochroma — 03/06/2022 3:08 AM
+Latest Mandelbulb3d version 1.99.34 "Mandelbulb3Dv199sr34.zip (27,502 KB)" hosted by Thargor6 on Overwhale: https://mb3d.overwhale.com/
+Latest add-in MB3D plugins are "new fmlas 2o15.zip (86.55 KB)" by DarkBeam: https://www.fractalforums.com/mandelbulb-3d/custom-formulas-and-transforms-release-t17106/
+Attachment file type: archive
+new_fmlas_2o15.zip
+86.55 KB
+The official Mandelbulb3D site
+mb3d.overwhale.com Official site of the free Mandelbulb3D software
+Custom formulas & transforms - Release
+Custom formulas & transforms - Release
+bezo97 | Zotya — 03/08/2022 12:08 AM
+Tutorial: Smooth panning animation - Great way to show off large fractal art renders https://complicatedreality.com/blog/ean8/how-to-make-a-smooth-video-tour-of-a-large-art-render-in-blender
+Complicated Reality - How to make a smooth video tour of a large ar...
+Use Blender to animate smooth camera pans over a large digital render for a pleasant "Ken Burns effect".
+Image
+bezo97 | Zotya — 08/02/2022 10:57 PM
+Tutorial: Basic star field and nebula in IFSRenderer: https://github.com/bezo97/IFSRenderer/wiki/Starfield-with-Nebula by @rychveldir
+GitHub
+Starfield with Nebula · bezo97/IFSRenderer Wiki
+3D IFS fractal renderer and editor. Contribute to bezo97/IFSRenderer development by creating an account on GitHub.
+Starfield with Nebula · bezo97/IFSRenderer Wiki
+bezo97 | Zotya — 10/07/2022 4:09 PM
+UltraFractal Param packs & Gradient packs by @Leichenengel https://www.deviantart.com/leichenengel/gallery/7234882/fractal-resources
+bezo97 | Zotya — 02/08/2023 11:43 AM
+Apophysis plugin development - starter project for Visual Studio: https://app.box.com/s/15hwygrfq8rwuqjnnclgl7yar9p2vxrc by @dark-beam and @bezo97 | Zotya
