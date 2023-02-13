@@ -1,0 +1,46 @@
+	<transform_def name="pixel_flow">
+		<!-- Transform by bezo97 -->
+		<node name="input_params">
+			<real name="pixel_flow">1.0</real>
+			<real name="pixel_flow_angle">90.0</real>
+			<real name="pixel_flow_length">0.1</real>
+			<real name="pixel_flow_width">200.0</real>
+			<real name="pixel_flow_power">10.0</real>
+			<int name="pixel_flow_seed">42</int>
+		</node>
+
+		<node name="internal_params">
+			<real name="weight" />
+			<real name="dirx" />
+			<real name="diry" />
+			<real name="length" />
+			<real name="width" />
+			<real name="power" />
+			<int name="seed" />
+		</node>
+
+		<int name="num_unit_randoms">1</int>
+
+		<string name="winter_init_function">
+			<![CDATA[
+				let
+					a_rad = pixel_flow_angle * 0.0174532925
+					dirx = cos(a_rad)
+					diry = sin(a_rad)
+				in
+					pixel_flow_init_result(pixel_flow, dirx, diry, pixel_flow_length, pixel_flow_width, pixel_flow_power, pixel_flow_seed)
+			]]><!--angle: deg to rad-->
+		</string>
+
+		<string name="winter_eval_function">
+			<![CDATA[
+			let
+				block = floor(p_in * width)
+				vblock = block + vec2(2.0, 2.0) - 4.0 * vec2(hash_shadertoy(block.x * seed + 1, 0, seed), hash_shadertoy(0, block.y * seed + 1, seed))
+				fLen = hash_shadertoy(vblock.x, vblock.y, seed * 2)
+				fade = pow(unit_rnd_0, power) * fLen
+			in
+			  vec2(dirx, diry) * length * fade * weight
+			]]>
+		</string>
+	</transform_def>

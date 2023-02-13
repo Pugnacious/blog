@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<user_transforms>
+
+	<transform_def name="vignette">
+		<!-- Transform by bezo97 -->
+		<node name="input_params">
+			<real name="vignette">1.0</real>
+			<real name="vignette_posx">0.0</real>
+			<real name="vignette_posy">0.0</real>
+			<real name="vignette_inner_radius">0.5</real>
+			<real name="vignette_fade_radius">0.5</real>
+			<real name="vignette_power">4.0</real>
+			<real name="vignette_blur">1.0</real>
+		</node>
+
+		<node name="internal_params">
+			<real name="weight" />
+			<real name="posx" />
+			<real name="posy" />
+			<real name="r_inner" />
+			<real name="r_fade" />
+			<real name="power" />
+			<real name="blur_amount" />
+
+			<real name="r_inner_abs" />
+			<real name="r_fade_abs" />
+			<real name="power_helper" />
+		</node>
+
+		<int name="num_unit_randoms">3</int>
+
+		<string name="winter_init_function">
+			<![CDATA[
+			let
+				ari = abs(vignette_inner_radius)
+				arf = abs(vignette_fade_radius)
+				ph = 1.0 / abs(vignette_power)
+			in
+				vignette_init_result(vignette, vignette_posx, vignette_posy, vignette_inner_radius, vignette_fade_radius, vignette_power, vignette_blur, ari, arf, ph)
+			]]>
+		</string>
+
+		<string name="winter_eval_function">
+			<![CDATA[
+			let
+				center = vec2(posx, posy)
+				dist = length(p_in - center)
+				vign =
+					if dist < r_inner_abs then
+						if r_inner < 0.0 then
+							vec2(0.0, 0.0)
+						else
+							p_in
+					else
+						let
+							dist_norm = (dist - r_inner_abs) / r_fade_abs
+							faded = 1.0 - pow(unit_rnd_0, power_helper)
+							blur_r = pow(dist_norm * unit_rnd_1, 2.0)
+							blur_a = unit_rnd_2 * twopi()
+							blurring = blur_amount * blur_r * vec2(cos(blur_a), sin(blur_a))
+							reset =
+								if r_fade > 0.0 then
+									if faded < dist_norm then
+										vec2(0.0, 0.0)
+									else
+										p_in + blurring
+								else
+									if ((1.0 - faded) > dist_norm) then
+										vec2(0.0, 0.0)
+									else
+										p_in + blurring
+						in
+							reset
+			in
+				vign * weight
+			]]>
+		</string>
+	</transform_def>
+	
+</user_transforms>
