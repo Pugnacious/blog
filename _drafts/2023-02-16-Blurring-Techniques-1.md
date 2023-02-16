@@ -5,10 +5,18 @@ categories: fractal chaotica
 permalink: "/chaotica/"
 author: "technochroma" "Pugnacious" 
 ---
-Source: assets\files\incoming_collection_of_older_content\blur_1_-_tatasz.pdf
+Source git: assets\files\incoming_collection_of_older_content\blur_1_-_tatasz.pdf
+Source web: 
 
 ## Blurring Techniques - Part 1 by tatasz on DeviantArt
-Effects and Fillers
+Effects and Fillers category
+
+technochroma's note: please note that as with all drafts, this is just inspo/draft material and does not represent a final version. 
+The final version will be totally rewritten by Pugnacious to 1) convert to Chaotica format, and 2) preserve only the fractal technique.
+Text will be redrafted and images replaced to honor the wishes of all original creators and fractal pioneers,
+and we will provide a link to your original source material as a reference.
+
+---
 
 Some methods to add cool blurs to your fractal, requested by Nobody and written in collaboration with him 
 The parameters are for learning purpose only. Please tweak a lot and credit back.
