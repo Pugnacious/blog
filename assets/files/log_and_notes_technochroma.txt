@@ -1,0 +1,47 @@
+Hi Pugs,
+
+My current working flow for the _drafts folder:
+
+1) Choose tutorial file
+2) Create folder in _drafts *for .md file only*
+3) Draft header
+4) Transcribe or paste text
+5) Update links to resources like original tut for credit, inspo, params, etc 
+6) Update this document periodically to reflect work.
+7) Upon completion of any draft, update Completed section below and inform Pugnacious that draft is ready to be rewritten into Chaotica format.
+
+---
+
+In progress:
+
+None yet
+
+---
+
+Completed:
+
+None yet
+
+---
+
+Updated 2/16/2023 6am technochroma
+
+notes_technochroma
+2023-02-13-Formative-Fractal-Tutorials
+	- finished gathering all raw material. some still stored on kat's local due to github storage limit
+
+Removed:
+
+some high filesize tutorials to accommodate github storage limit of 1gb
+some gradients " "
+some UF resources " "
+
+Added:
+
+value calculators
+plugins
+Senzune's collection of everything
+fractal apps (old versions of apo)
+dev asset (plugin drafter)
+params (example params for tutorials)
+---
