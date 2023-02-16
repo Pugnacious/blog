@@ -14,13 +14,23 @@ My current working flow for the _drafts folder:
 
 In progress:
 
-None yet
+1) Historical Fractal Tutorials
+2023-02-16-Historical-Fractal-Tutorials.md
+Source: technochroma
 
 ---
 
 Completed:
 
-None yet
+1) 2023-02-16-Blurring-Techniques-1.md
+Source blog: assets\files\incoming_collection_of_older_content\blur_1_-_tatasz.pdf
+Source internet: tatasz, https://www.deviantart.com/tatasz
+https://www.deviantart.com/tatasz/gallery/330790/resources
+Senzune fractal resources provided in discord
+
+
+2) 
+
 
 ---
 
