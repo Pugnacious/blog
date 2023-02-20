@@ -6,7 +6,8 @@ permalink: "/chaotica/"
 author: "technochroma" "Pugnacious" 
 ---
 Source git: assets\files\incoming_collection_of_older_content\blur_1_-_tatasz.pdf
-Source web: 
+Source web: Senzune
+Original author: tatasz
 
 ## Blurring Techniques - Part 1 by tatasz on DeviantArt
 Effects and Fillers category
@@ -18,9 +19,19 @@ and we will provide a link to your original source material as a reference.
 
 ---
 
+
+
+## Credits
+
+This is a collaboration between myself and technochroma, but a huge thanks to the fractal community is also in order.
+
+> *If I have seen further than others, it is by standing upon the shoulders of giants.  - Isaac Newton*
 Some methods to add cool blurs to your fractal, requested by Nobody and written in collaboration with him 
 The parameters are for learning purpose only. Please tweak a lot and credit back.
 
+---
+
+The following is a tutorial to create a [fractal type] of the [fractal category]. 
 Part of Structured IFS tutorial collection.
 
 ## Starting Parameters

@@ -1,4 +1,6 @@
-Hi Pugs,
+Log and notes: technochroma
+
+---
 
 My current working flow for the _drafts folder:
 
@@ -14,32 +16,32 @@ My current working flow for the _drafts folder:
 
 In progress:
 
-1) Historical Fractal Tutorials
+1. Historical Fractal Tutorials
 2023-02-16-Historical-Fractal-Tutorials.md
-Source: technochroma
+	- finished gathering all raw material. some still stored on kat's local due to github storage limit
+    Source: technochroma
+
+2. log_and_notes_technochroma.txt
 
 ---
 
 Completed:
 
-1) 2023-02-16-Blurring-Techniques-1.md
-Source blog: assets\files\incoming_collection_of_older_content\blur_1_-_tatasz.pdf
-Source internet: tatasz, https://www.deviantart.com/tatasz
-http://fav.me/d9jkrvu
+1. 2023-02-16-Blurring-Techniques-1.md
+Source on blog: assets\files\incoming_collection_of_older_content\blur_1_-_tatasz.pdf
+Source on internet: tatasz, https://www.deviantart.com/tatasz
+http://fav.me/d9jkrvu (fav.me link broken)
+provided secondhand from Senzune fractal resources. provided in discord
 
-also, Senzune fractal resources. provided in discord
+2. 2023-02-17-Blurring-Techniques-2.md
+Source on blog: assets\files\incoming_collection_of_older_content\blur_2_-_tatasz.pdf
+Source on internet: tatasz, https://www.deviantart.com/tatasz
+https://www.deviantart.com/tatasz/art/Blurring-Techniques-Part-2-577609043
+provided secondhand from Senzune fractal resources. provided in discord
 
-
-2) 
 
 
 ---
-
-Updated 2/16/2023 6am technochroma
-
-notes_technochroma
-2023-02-13-Formative-Fractal-Tutorials
-	- finished gathering all raw material. some still stored on kat's local due to github storage limit
 
 Removed:
 
@@ -55,4 +57,5 @@ Senzune's collection of everything
 fractal apps (old versions of apo)
 dev asset (plugin drafter)
 params (example params for tutorials)
+
 ---
