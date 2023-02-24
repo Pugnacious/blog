@@ -45,9 +45,10 @@ provided secondhand from Senzune fractal resources. provided in discord
 
 Removed:
 
-some high filesize tutorials to accommodate github storage limit of 1gb
-some gradients " "
-some UF resources " "
+to accommodate github storage limit of 1gb:
+   all but current wip tutorials
+   some gradients " "
+   some UF resources " "
 
 Added:
 
