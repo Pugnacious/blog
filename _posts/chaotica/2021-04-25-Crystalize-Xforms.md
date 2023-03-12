@@ -76,7 +76,7 @@ Then we change to that directory and clone the github repo
 
 ```
 cd user_transforms
-git clone https://git.pugnacious.site/Crystalize/crystalize_xforms.git
+git clone https://github.com/TheCrystalize/XForms.git
 ```
 
 That will copy all the files into their correct locations.
@@ -112,5 +112,5 @@ cd %appdata%\Chaotica\user_transforms\crystalize_xforms
 git pull
 ```
 
-[crystalize-xforms]: https://git.pugnacious.site/Crystalize/crystalize_xforms
-[crystalize-xforms-git]: https://git.pugnacious.site/Crystalize/crystalize_xforms.git
+[crystalize-xforms]: https://github.com/TheCrystalize/XForms
+[crystalize-xforms-git]: https://github.com/TheCrystalize/XForms.git
