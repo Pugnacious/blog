@@ -1,0 +1,13 @@
+All these files were originally shared by Georg Kiehne (Xyrus-02), thanks to him!
+
+Unfortunately, he left DA and this very useful project is now "hard" to find but
+it's a lot less troubleful to compile using VS instead of GCC, especially when you use C++ features
+like complex numbers, or anything you need in a modern code... So enjoy.
+-DarkBeam
+
+Some of the files were modified so that the project acts as a starting point for new plugin development.
+See Visual Studio's Task List to complete all TODOs before releasing the plugin.
+Need help? Meet us at the fractal chats Discord server: https://discord.gg/zEbYqtp
+-bezo97
+
+2018
