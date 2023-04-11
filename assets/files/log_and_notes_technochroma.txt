@@ -25,7 +25,9 @@ In progress:
 
 ---
 
-Completed:
+Created drafts:
+
+
 
 1. 2023-02-16-Blurring-Techniques-1.md
 Source on blog: assets\files\incoming_collection_of_older_content\blur_1_-_tatasz.pdf
@@ -39,7 +41,7 @@ Source on internet: tatasz, https://www.deviantart.com/tatasz
 https://www.deviantart.com/tatasz/art/Blurring-Techniques-Part-2-577609043
 provided secondhand from Senzune fractal resources. provided in discord
 
-
+3. 
 
 ---
 
