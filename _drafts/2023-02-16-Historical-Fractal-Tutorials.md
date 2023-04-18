@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Historical Fractal Tutorials</title>
+</head>
+<body>
 ---
 layout: single
 title:  "Historical Fractal Tutorials"
@@ -170,3 +177,6 @@ Have Fun!
 chroma
 
 [crystalize]: https://www.pugnacious.site/chaotica/crystalize/xforms
+
+</body>
+</html>
