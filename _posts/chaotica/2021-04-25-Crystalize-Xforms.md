@@ -83,7 +83,7 @@ That will copy all the files into their correct locations.
 
 ## Winter Library
 
-With the most recent update, the winter library needs to be modified to add functions. Some of the newer transforms will not work without this update.
+With the most recent update, the winter library doesn't need to be modified to add functions. You only need this for the development branch.
 
 ### Update Process
 
