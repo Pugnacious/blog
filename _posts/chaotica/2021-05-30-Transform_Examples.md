@@ -51,6 +51,8 @@ Next create another post-transform and set it to tile_log. This transform will t
 
 Now comes the fun part. We're going to create another post-transform, but this time set it to mobius. Mobius is like a linear, but we can do a lot of nifty things with it. it's extremely useful, but in this specific case, we're going to use it to rotate the entire tile 90 degrees. Set the Im_A to 1\. This will make it larger, and rotate it 45 degrees. Next set the Im_D to -1.0\. This will lower the size back to normal, and finish the rotation to a full 90.
 
+For more information on Mobius, check the calculator here:  [Desmos Calculator][desmos]
+
 [![First mobius](/assets/images/chaotica-transform-examples/chaotica_YgXDimlalG.png)](/assets/images/chaotica-transform-examples/chaotica_YgXDimlalG.png) [![First mobius Editor](/assets/images/chaotica-transform-examples/chaotica_OZzZuJVZf1.png)](/assets/images/chaotica-transform-examples/chaotica_OZzZuJVZf1.png)
 
 Next, create two more post-transforms. Can you guess what they will be? We're creating a checkerboard, so we have to tile it the rest of the way. It will be a tile_hlp and then a tile_log. This will complete the checkerboard pattern.
@@ -66,3 +68,4 @@ Ok, now we know how to create a checkerboard pattern with a single iterator. The
 Next, turn on the camera transform. It will default to linear. Start by picking any transform. This setup is ideal for seeing how transforms behave and testing variables. Try bipolar. All you have to do to see what something does is change the camera transform and the image will shift to show you. Simple right? Play, learn and have fun!
 
 [![Camera Transform](/assets/images/chaotica-transform-examples/chaotica_tL0BibWOEe.png)](/assets/images/chaotica-transform-examples/chaotica_tL0BibWOEe.png) [![Camera Transform Editor](/assets/images/chaotica-transform-examples/chaotica_kNklAnJkuS.png)](/assets/images/chaotica-transform-examples/chaotica_kNklAnJkuS.png)
+[desmos]: https://www.desmos.com/calculator/dniytt9jrt
