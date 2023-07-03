@@ -68,4 +68,4 @@ Ok, now we know how to create a checkerboard pattern with a single iterator. The
 Next, turn on the camera transform. It will default to linear. Start by picking any transform. This setup is ideal for seeing how transforms behave and testing variables. Try bipolar. All you have to do to see what something does is change the camera transform and the image will shift to show you. Simple right? Play, learn and have fun!
 
 [![Camera Transform](/assets/images/chaotica-transform-examples/chaotica_tL0BibWOEe.png)](/assets/images/chaotica-transform-examples/chaotica_tL0BibWOEe.png) [![Camera Transform Editor](/assets/images/chaotica-transform-examples/chaotica_kNklAnJkuS.png)](/assets/images/chaotica-transform-examples/chaotica_kNklAnJkuS.png)
-[desmos1]: https://www.desmos.com/calculator/dniytt9jrt
+[desmos1]: (https://www.desmos.com/calculator/dniytt9jrt)
