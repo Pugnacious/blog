@@ -17,9 +17,7 @@ Welcome to my blog.  I will be posting content related to my interests.  Expect 
 
 ## Discord Servers
 
-Fractals: [https://discord.gg/8XnPuWZHFv](https://discord.gg/8XnPuWZHFv)
-
-Computers and Home Lab: [https://discord.gg/k72sJMFn7H](https://discord.gg/k72sJMFn7H)
+Fractals: [https://discord.gg/beKyJ8HSk5](https://discord.gg/beKyJ8HSk5)
 
 ## Art Portfolio
 
