@@ -220,7 +220,7 @@ Here's a screenshot of the values I used.
 
 ## Final Tweaks and Camera
 
-Finally, we can apply shaders and pick a palette. Don't forget to tweak the color curves to suit your tastes. Then we can work on the camera transform. For this, I picked a sipmle julian2 with default everything. This is what it looks like.
+Finally, we can apply shaders and pick a palette. Don't forget to tweak the color curves to suit your tastes. Then we can work on the camera transform. For this, I picked a simple julian2 with default everything. This is what it looks like.
 
 [![Tweak Values](/assets/images/chaotica-elliptic-splits/chaotica_jK5vh8z2XB.jpg)](/assets/images/chaotica-elliptic-splits/chaotica_jK5vh8z2XB.jpg)
 
