@@ -12,18 +12,18 @@ The following is a tutorial to create a hypertiled kleinian.  This uses the cust
 
 [Crystalize Xforms][crystalize]
 
-### Credits
+## Credits
 
 This is a collaboration between myself and Crystalize but a huge thanks to the fractal community is also in order.
 
 > *If I have seen further than others, it is by standing upon the shoulders of giants.  - Isaac Newton*
 
-### Initial Setup
+## Initial Setup
 
 I'm going to start this tutorial in the normal way by opening up chaotica and starting a new blank world.  Then I'm going to go to the World Editor and create my first Iterator.
 
 
-#### Iterator 1
+## Iterator 1
 
 [![Iterator 1](/assets/images/chaotica-hypertiled-kleinian/chaotica_i6PRLLkuvE.png)](/assets/images/chaotica-hypertiled-kleinian/chaotica_i6PRLLkuvE.png)
 
@@ -34,24 +34,21 @@ I'm going to start this tutorial in the normal way by opening up chaotica and st
 
     base_weight: 1
 
-#### Iterator 2
+## Iterator 2
 
 [![Iterator 2](/assets/images/chaotica-hypertiled-kleinian/chaotica_i6PRLLkuvE.png)](/assets/images/chaotica-hypertiled-kleinian/chaotica_i6PRLLkuvE.png)
 
     Transform: kleinian
-    value: 2.618033988749 (This value is Phi^2 where Phi refers to the golden ratio)
+    value: 2.618033988749
     klein_b: 0
 
     base_weight: 1
 
-#### Math
+## Math
 
 Insert the formulas or math here on how this is setup
 
-phi = (1+sqrt(5))/2 = 1.618033988749
-phi^2 = 2.618033988749
-
-#### Iterator 3
+## Iterator 3
 
     pre_transforms:
       transform: sineblur
@@ -76,7 +73,7 @@ phi^2 = 2.618033988749
 
     base_weight: 0.1
 
-#### Iterator 4
+## Iterator 4
 
     pre_transforms:
       transform: sineblur
@@ -101,7 +98,7 @@ phi^2 = 2.618033988749
 
     base_weight: 0.1
 
-#### Iterator 5
+## Iterator 5
 
     pre_transforms:
       transform: sineblur
