@@ -39,7 +39,7 @@ I'm going to start this tutorial in the normal way by opening up chaotica and st
 [![Iterator 2](/assets/images/chaotica-hypertiled-kleinian/chaotica_i6PRLLkuvE.png)](/assets/images/chaotica-hypertiled-kleinian/chaotica_i6PRLLkuvE.png)
 
     Transform: kleinian
-    value: 2.618033988749
+    value: 2.618033988749 (This value is Phi^2 where Phi refers to the golden ratio)
     klein_b: 0
 
     base_weight: 1
@@ -47,6 +47,9 @@ I'm going to start this tutorial in the normal way by opening up chaotica and st
 ## Math
 
 Insert the formulas or math here on how this is setup
+
+phi = (1+sqrt(5))/2 = 1.618033988749
+phi^2 = 2.618033988749
 
 ## Iterator 3
 
