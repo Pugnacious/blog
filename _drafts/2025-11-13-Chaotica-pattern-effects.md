@@ -25,3 +25,9 @@ This is a collaboration between myself and Toan but a huge thanks to the fractal
 ## Checkerboard Strip
 
 ## Hex Strip
+
+## strip to circle
+
+## other types of patterns
+
+## splits and patterns
