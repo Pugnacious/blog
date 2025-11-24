@@ -81,7 +81,7 @@ Next we're going to go to the Splits iterator and only allow it to go to Arcsinh
 
 Finally we're going to go to the Circle Iterator and allow it to go to outline for now.
 
-[![Splits Weights](/assets/images/chaotica-esplits-part2/chaotica_DYcybJfn9j.png)](/assets/images/chaotica-esplits-part2/chaotica_DYcybJfn9j.png)
+[![Splits Weights](/assets/images/chaotica-esplits-part2/chaotica_XyxZASl7DR.png)](/assets/images/chaotica-esplits-part2/chaotica_XyxZASl7DR.png)
 
 ## Weights Background
 
