@@ -14,7 +14,7 @@ The following is a tutorial to create a hypertiled kleinian.  This uses the cust
 
 ## Credits
 
-This is a collaboration between myself and Crystalize but a huge thanks to the fractal community is also in order.
+This is a collaboration between myself, Crystalize, and Toan Lish but a huge thanks to the fractal community is also in order.
 
 > *If I have seen further than others, it is by standing upon the shoulders of giants.  - Isaac Newton*
 
