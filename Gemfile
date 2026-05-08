@@ -38,7 +38,7 @@ gem "github-pages-health-check", group: :jekyll_plugins
 gem "jekyll", group: :jekyll_plugins
 gem "jekyll-avatar", group: :jekyll_plugins
 gem "jekyll-coffeescript", group: :jekyll_plugins
-gem "jekyll-commonmark-ghpages", group: :jekyll_plugins
+#gem "jekyll-commonmark-ghpages", group: :jekyll_plugins
 gem "jekyll-default-layout", group: :jekyll_plugins
 gem "jekyll-feed", group: :jekyll_plugins
 gem "jekyll-gist", group: :jekyll_plugins
