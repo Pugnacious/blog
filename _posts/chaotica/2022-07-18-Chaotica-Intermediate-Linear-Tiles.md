@@ -192,6 +192,6 @@ At this point though, where you take the fractal is up to you. I'll leave you wi
 
 
 
-[tutorial-link]: https://www.pugnacious.site/tutorials
+[tutorial-link]: https://www.pug.fyi/tutorials
 [foci-calculator]: https://docs.google.com/spreadsheets/d/1akfY6-lx3esmaQHTGy4xn43-QEKsRGOyfqzFAjrPlSU/edit?usp=sharing
 [pillemaster]: https://www.deviantart.com/pillemaster/art/Foci-and-Unpolar-Tutorial-301184325

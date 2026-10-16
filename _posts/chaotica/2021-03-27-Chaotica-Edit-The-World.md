@@ -158,6 +158,6 @@ For the next tutorial, I'll cover how to design a linear tile in Chaotica using 
 3. [Chaotica: Linear Latitude][tutorial3]
 
 [chaos-video]: https://youtu.be/kbKtFN71Lfs
-[tutorial1]: https://www.pugnacious.site/chaotica/introduction
-[tutorial2]: https://www.pugnacious.site/chaotica/editor
-[tutorial3]: https://www.pugnacious.site/chaotica/linear-tiles
+[tutorial1]: https://www.pug.fyi/chaotica/introduction
+[tutorial2]: https://www.pug.fyi/chaotica/editor
+[tutorial3]: https://www.pug.fyi/chaotica/linear-tiles

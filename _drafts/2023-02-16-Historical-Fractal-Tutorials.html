@@ -55,7 +55,7 @@ Timeless, formative tutorials. Who can forget Spherical Plants or the Julian Set
 
     Recently developed techniques currently being explored by the fractal community, much of which can be found in the Structured IFS Tutorial Collection by tatasz.
     
-<a href="https://www.pugnacious.site/tutorials/">Tutorials</a> by :devPugnaciousOne:
+<a href="https://www.pug.fyi/tutorials/">Tutorials</a> by :devPugnaciousOne:
 <a href="https://www.deviantart.com/boxtail/art/Double-modulus-tutorial-725187368">Double modulus tutorial</a> by ToistoToisto, :devBoxTail:
 <a href="https://www.deviantart.com/esherymack/art/Putting-a-Gnarl-into-bTransform-700182897">Putting a Gnarl into bTransform</a> by :devEsherymack:
 <a href="https://www.deviantart.com/esherymack/art/Wire-Gnarls-An-Apo-Chaotica-Trick-697685060">Wire Gnarls, an Apo Chaotica Trick</a> by :devEsherymack:
@@ -176,7 +176,7 @@ Have Fun!
 
 chroma
 
-[crystalize]: https://www.pugnacious.site/chaotica/crystalize/xforms
+[crystalize]: https://www.pug.fyi/chaotica/crystalize/xforms
 
 </body>
 </html>

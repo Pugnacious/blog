@@ -191,5 +191,5 @@ In part 2, we will cover the world and palette editors and the basics of using t
 [apophysis-7x-link]: https://sourceforge.net/projects/apophysis7x/
 [apophysis-link]: https://sourceforge.net/projects/apophysis/
 [chaotica-link]: https://chaoticafractals.com/
-[tutorial2]: https://www.pugnacious.site/chaotica/editor
-[tutorial3]: https://www.pugnacious.site/chaotica/linear-tiles
+[tutorial2]: https://www.pug.fyi/chaotica/editor
+[tutorial3]: https://www.pug.fyi/chaotica/linear-tiles

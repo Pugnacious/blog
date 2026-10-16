@@ -67,4 +67,4 @@ The ratio of expression between the two iterators shifted.  Now one of them weig
 
 ### Differences and Benefits.
 
-[tutorial-link]: https://www.pugnacious.site/tutorials
+[tutorial-link]: https://www.pug.fyi/tutorials

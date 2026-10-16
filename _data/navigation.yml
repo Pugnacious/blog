@@ -1,27 +1,27 @@
 # main links
 main:
   - title: "Home"
-    url: https://www.pugnacious.site/
+    url: https://www.pug.fyi/
   - title: "About"
-    url: https://www.pugnacious.site/about/
+    url: https://www.pug.fyi/about/
   - title: "Tutorials"
-    url: https://www.pugnacious.site/tutorials/
+    url: https://www.pug.fyi/tutorials/
     children:
     - title: "Chaotica: An Introduction"
-      url: https://www.pugnacious.site/chaotica/introduction
+      url: https://www.pug.fyi/chaotica/introduction
     - title: "Chaotica Edit the World"
-      url: https://www.pugnacious.site/chaotica/editor
+      url: https://www.pug.fyi/chaotica/editor
     - title: "Chaotica: Linear Latitude"
-      url: https://www.pugnacious.site/chaotica/linear-tiles
+      url: https://www.pug.fyi/chaotica/linear-tiles
     - title: "Chaotica: Circle Inversion"
-      url: https://www.pugnacious.site/chaotica/circle/inversion
+      url: https://www.pug.fyi/chaotica/circle/inversion
     - title: "Chaotica: Crystalize Xforms"
-      url: https://www.pugnacious.site/chaotica/crystalize/xforms
+      url: https://www.pug.fyi/chaotica/crystalize/xforms
     - title: "Chaotica: Transform Chains"
-      url: https://www.pugnacious.site/chaotica/transform/chains
+      url: https://www.pug.fyi/chaotica/transform/chains
     - title: "Chaotica: Transform Examples"
-      url: https://www.pugnacious.site/chaotica/transform/examples
+      url: https://www.pug.fyi/chaotica/transform/examples
     - title: "Chaotica: Camera Spiral"
-      url: https://www.pugnacious.site/chaotica/camera/spiral
+      url: https://www.pug.fyi/chaotica/camera/spiral
     - title: "Chaotica: Pixel Style"
-      url: https://www.pugnacious.site/chaotica/pixel-style
+      url: https://www.pug.fyi/chaotica/pixel-style

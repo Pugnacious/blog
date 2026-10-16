@@ -29,16 +29,16 @@ permalink: /tutorials/
 
 
 
-[tutorial1]: https://www.pugnacious.site/chaotica/introduction
-[tutorial2]: https://www.pugnacious.site/chaotica/editor
-[tutorial3]: https://www.pugnacious.site/chaotica/linear-tiles
-[tutorial4]: https://www.pugnacious.site/chaotica/circle/inversion
-[crystalize-xforms]: https://www.pugnacious.site/chaotica/crystalize/xforms
-[transform-chains]: https://www.pugnacious.site/chaotica/transform/chains
-[esplits]: https://www.pugnacious.site/chaotica/elliptic/splits
-[tutorial5]: https://www.pugnacious.site/chaotica/transform/examples
-[camspiral]: https://www.pugnacious.site/chaotica/camera/spiral
-[esplits2]: https://www.pugnacious.site/chaotica/elliptic/splits/part2
-[previews]: https://www.pugnacious.site/chaotica/transform/previews
-[intermediate-linear-tile]: https://www.pugnacious.site/chaotica/intermediate-linear-tiles
-[pixel-style]: https://www.pugnacious.site/chaotica/pixel-style
+[tutorial1]: https://www.pug.fyi/chaotica/introduction
+[tutorial2]: https://www.pug.fyi/chaotica/editor
+[tutorial3]: https://www.pug.fyi/chaotica/linear-tiles
+[tutorial4]: https://www.pug.fyi/chaotica/circle/inversion
+[crystalize-xforms]: https://www.pug.fyi/chaotica/crystalize/xforms
+[transform-chains]: https://www.pug.fyi/chaotica/transform/chains
+[esplits]: https://www.pug.fyi/chaotica/elliptic/splits
+[tutorial5]: https://www.pug.fyi/chaotica/transform/examples
+[camspiral]: https://www.pug.fyi/chaotica/camera/spiral
+[esplits2]: https://www.pug.fyi/chaotica/elliptic/splits/part2
+[previews]: https://www.pug.fyi/chaotica/transform/previews
+[intermediate-linear-tile]: https://www.pug.fyi/chaotica/intermediate-linear-tiles
+[pixel-style]: https://www.pug.fyi/chaotica/pixel-style

@@ -131,4 +131,4 @@ phi^2 = 2.618033988749
     base_weight: 0.03    
 
 
-[crystalize]: https://www.pugnacious.site/chaotica/crystalize/xforms
+[crystalize]: https://www.pug.fyi/chaotica/crystalize/xforms
