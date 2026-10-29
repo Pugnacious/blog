@@ -39,6 +39,6 @@ This will give you a verbose output and give you all the details on what's using
 
 Using the information provided by the breakdown, determine where the problem is coming from.  If you have a docker container that's significantly bigger than it should be, it's likely that you've mapped your volume to inside the container or something like that.  If that's the case, fix it by modifying the container.  If It's logs eating all the space, correct that by fixing the container or containers that are creating all the logs.  If you're like me however, you may have a lot of images that aren't associated with containers.  We all tend to update and not think about it.  Over time there can be leftovers, or maybe images that linger after you deleted the containers.  This command will clear any image not assoicated with at least one container.
 
-`docker images prune -a`
+`docker image prune -a`
 
 I managed to recover about 60gb of space.  Good luck and I hope you have a great day.
