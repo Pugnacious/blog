@@ -39,7 +39,6 @@ Here's the three mining head's and the recommended modules.
 #### Note:
 Load a Helix 2 on Cargo Grid for larger rocks, that way you can swap it out as needed.
 
-
 ### Medium (Medium mass, medium-high resistance (Stileron and friends) 
 A Sabir and the Helix should be able to pop any of the Stileron rocks in space if you are by yourself. The Helix and Hofstede together can break any of the stileron rocks you find. The Arbor 
   - Helix 2 
