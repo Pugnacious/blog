@@ -55,7 +55,7 @@ A Sabir and the Helix should be able to pop any of the Stileron rocks in space i
 
 ### The Fragiles (Ouratite, Beryl, the like)
 Some of these rocks are going to require careful positioning, smaller ouratite nodes will need you to be on the low power laser and close to max range to not shatter. Moving modules around may also be required, such as removing a focus I and replacing it with a deluge for some of the ouratite rocks that would otherwise be 100% resistance)
-  - Hofstede S1
+  - Hofstede S2
     * Focus III
     * Focus III
   - Arbor MH2
