@@ -20,6 +20,10 @@ Grab yourself an 8-SCU box and put it on your Mole's cargo grid. You Want to fil
   - Optional: Okunis/Boremax/Stalwart/Waveshift. These can make life easier
   - You should also have several Focus III, Torrent III, Surge, Stampede, Reiger C3 modules available to swap out as needed.
 
+## Process
+
+To use these builds, you need to get an idea of how they behave.  Take for instance the Medium build.  You can mine pretty much any Stilleron rock with it.  You may have to toss a Sabir on it for the big ones though.  You have to get an idea of the minimum and maximum power of the laser heads and how big of a rock they can pop before it's too much.  In that build, if the arbor can't mine it, go to the hofstede.  If that can't mine it, go to the helix, and if that can't mine it, toss a gadget on and it will mine the rock.
+
 ## Builds
 ### Big Breaker (High mass, high resistance (Savrilium and Gold))
 
