@@ -6,7 +6,7 @@ permalink: "/sc-mole-builds/"
 author: "Pugnacious,Cynteara"
 ---
 
-# Mole
+# Also Known as "How to make Mole Mine"
 This is a small guide on various builds for the Mole in Star Citizen.
 
 ## Prep Work
